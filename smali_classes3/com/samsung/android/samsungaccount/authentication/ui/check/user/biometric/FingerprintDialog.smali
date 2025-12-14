@@ -882,17 +882,17 @@
 
 # virtual methods
 .method public cancelFingerprintIdentify()V
-    .locals 1
+    .locals 2
 
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mIsFingerprintCanceled:Z
 
-    iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mFingerprintApi:Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;
+    iget-object v1, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mFingerprintApi:Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;
 
-    if-eqz v0, :cond_0
+    if-eqz v1, :cond_0
 
-    invoke-virtual {v0}, Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;->cancelAuthentication()V
+    invoke-virtual {v1}, Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;->cancelAuthentication()V
 
     :cond_0
     const-string p0, "FingerprintDialog"
