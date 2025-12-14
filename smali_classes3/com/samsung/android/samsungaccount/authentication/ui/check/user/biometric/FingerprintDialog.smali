@@ -942,8 +942,6 @@
 
     goto :goto_0
 
-    goto :goto_0
-
     :cond_0
     invoke-super {p0}, Landroid/app/Dialog;->dismiss()V
 

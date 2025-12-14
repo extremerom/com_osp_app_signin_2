@@ -262,17 +262,17 @@
 
     move-result-object p0
 
-    if-eqz p0, :cond_1
+    if-eqz p0, :cond_0
 
     array-length v0, p0
 
-    if-lez v0, :cond_1
+    if-lez v0, :cond_0
 
     const/4 v0, 0x0
 
     aget-object p0, p0, v0
 
-    if-eqz p0, :cond_1
+    if-eqz p0, :cond_0
 
     iget-object p0, p0, Landroid/accounts/Account;->name:Ljava/lang/String;
 
@@ -281,11 +281,6 @@
     goto :goto_0
 
     :cond_0
-    const-string p0, ""
-
-    goto :goto_0
-
-    :cond_1
     const-string p0, ""
 
     :goto_0
