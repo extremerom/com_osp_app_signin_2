@@ -90,45 +90,27 @@
 
     invoke-static {p4}, Lcom/samsung/android/samsungaccount/utils/log/SALog;->d(Ljava/lang/String;)V
 
-    invoke-static {}, Lcom/samsung/android/samsungaccount/utils/base/AccountManagerUtil;->getInstance()Lcom/samsung/android/samsungaccount/utils/base/AccountManagerUtil;
-
-    move-result-object p4
-
-    iget-object p5, p0, Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService$Authenticator;->this$0:Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService;
-
-    invoke-virtual {p4, p5}, Lcom/samsung/android/samsungaccount/utils/base/AccountManagerUtil;->isSamsungAccountSignedIn(Landroid/content/Context;)Z
-
-    move-result p4
-
-    if-eqz p4, :cond_0
-
-    iget-object p1, p0, Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService$Authenticator;->this$0:Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService;
-
-    invoke-static {p1}, Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService;->b(Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService;)Landroid/os/Handler;
-
-    move-result-object p1
-
-    new-instance p2, Lgi;
-
-    const/4 p4, 0x7
-
-    invoke-direct {p2, p0, p4}, Lgi;-><init>(Ljava/lang/Object;I)V
-
-    invoke-virtual {p1, p2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-
-    const-string p0, "errorCode"
-
-    const/4 p1, -0x1
-
-    invoke-virtual {p3, p0, p1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
-
-    const-string p0, "errorMessage"
-
-    const-string p1, "Error!"
-
-    invoke-virtual {p3, p0, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-object p3
+    # Bypass account exists check - allow adding account even if one already exists
+    # invoke-static {}, Lcom/samsung/android/samsungaccount/utils/base/AccountManagerUtil;->getInstance()Lcom/samsung/android/samsungaccount/utils/base/AccountManagerUtil;
+    # move-result-object p4
+    # iget-object p5, p0, Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService$Authenticator;->this$0:Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService;
+    # invoke-virtual {p4, p5}, Lcom/samsung/android/samsungaccount/utils/base/AccountManagerUtil;->isSamsungAccountSignedIn(Landroid/content/Context;)Z
+    # move-result p4
+    # if-eqz p4, :cond_0
+    # iget-object p1, p0, Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService$Authenticator;->this$0:Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService;
+    # invoke-static {p1}, Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService;->b(Lcom/samsung/android/samsungaccount/authentication/service/OspAuthenticationService;)Landroid/os/Handler;
+    # move-result-object p1
+    # new-instance p2, Lgi;
+    # const/4 p4, 0x7
+    # invoke-direct {p2, p0, p4}, Lgi;-><init>(Ljava/lang/Object;I)V
+    # invoke-virtual {p1, p2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    # const-string p0, "errorCode"
+    # const/4 p1, -0x1
+    # invoke-virtual {p3, p0, p1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+    # const-string p0, "errorMessage"
+    # const-string p1, "Error!"
+    # invoke-virtual {p3, p0, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    # return-object p3
 
     :cond_0
     new-instance p0, Landroid/content/Intent;

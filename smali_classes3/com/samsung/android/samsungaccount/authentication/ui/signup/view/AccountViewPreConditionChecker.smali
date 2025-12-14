@@ -683,62 +683,39 @@
     return v1
 
     :cond_0
-    iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->data:Lcom/samsung/android/samsungaccount/authentication/ui/signup/viewmodel/AccountViewData;
-
-    invoke-virtual {v0}, Lcom/samsung/android/samsungaccount/authentication/ui/signin/viewmodel/SignInIntentData;->getSettingMode()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v3, "ADD_ACCOUNT"
-
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_2
-
-    iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->data:Lcom/samsung/android/samsungaccount/authentication/ui/signup/viewmodel/AccountViewData;
-
-    invoke-virtual {v0}, Lcom/samsung/android/samsungaccount/authentication/ui/signin/viewmodel/SignInIntentData;->getSettingMode()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v3, "TIPS_WIDGET"
-
-    invoke-static {v3, v0}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    goto :goto_0
+    # Bypass ADD_ACCOUNT and TIPS_WIDGET check - allow proceeding even when account exists
+    # iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->data:Lcom/samsung/android/samsungaccount/authentication/ui/signup/viewmodel/AccountViewData;
+    # invoke-virtual {v0}, Lcom/samsung/android/samsungaccount/authentication/ui/signin/viewmodel/SignInIntentData;->getSettingMode()Ljava/lang/String;
+    # move-result-object v0
+    # const-string v3, "ADD_ACCOUNT"
+    # invoke-static {v3, v0}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+    # move-result v0
+    # if-nez v0, :cond_2
+    # iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->data:Lcom/samsung/android/samsungaccount/authentication/ui/signup/viewmodel/AccountViewData;
+    # invoke-virtual {v0}, Lcom/samsung/android/samsungaccount/authentication/ui/signin/viewmodel/SignInIntentData;->getSettingMode()Ljava/lang/String;
+    # move-result-object v0
+    # const-string v3, "TIPS_WIDGET"
+    # invoke-static {v3, v0}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+    # move-result v0
+    # if-eqz v0, :cond_1
+    # goto :goto_0
 
     :cond_1
     return v2
 
-    :cond_2
-    :goto_0
-    iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->view:Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;
-
-    const v3, 0x7f1205df
-
-    const v4, 0x7f1205e8
-
-    invoke-static {v3, v4}, Lcom/samsung/android/samsungaccount/utils/ui/BrandNameUtil;->getBrandResId(II)I
-
-    move-result v3
-
-    invoke-virtual {v0, v3}, Lcom/samsung/android/samsungaccount/authentication/ui/signin/view/BaseSignInView;->showToast(I)V
-
-    iget-object p0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->view:Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;
-
-    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v2, v0}, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;->setFinishResultThenFinish(ILandroid/content/Intent;)V
-
-    return v1
+    # :cond_2
+    # :goto_0
+    # iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->view:Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;
+    # const v3, 0x7f1205df
+    # const v4, 0x7f1205e8
+    # invoke-static {v3, v4}, Lcom/samsung/android/samsungaccount/utils/ui/BrandNameUtil;->getBrandResId(II)I
+    # move-result v3
+    # invoke-virtual {v0, v3}, Lcom/samsung/android/samsungaccount/authentication/ui/signin/view/BaseSignInView;->showToast(I)V
+    # iget-object p0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->view:Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;
+    # invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    # move-result-object v0
+    # invoke-virtual {p0, v2, v0}, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;->setFinishResultThenFinish(ILandroid/content/Intent;)V
+    # return v1
 .end method
 
 .method public final getContextualNotiLaunchInfo()Lcom/samsung/android/samsungaccount/authentication/util/ContextualNotiLaunchInfo;
