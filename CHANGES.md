@@ -35,7 +35,28 @@ The application had multiple checks that prevented adding or signing in with a S
 
 **Effect**: When an account already exists, the app no longer blocks ADD_ACCOUNT or TIPS_WIDGET operations.
 
-**Note**: This file also had a pre-existing patch in the `isAccountExist()` method (lines 790-793) that always returns false.
+**Note**: This file also had a pre-existing patch in the `isAccountExist()` method (lines 771-774) that always returns false.
+
+### 3. Fix for Control Flow Labels (December 14, 2025)
+
+**Issue Found**: The previous implementation had commented out the control flow labels `:cond_2` and `:goto_0` along with the error handling code. The label `:cond_1` existed but was isolated. This would cause issues because other code paths still reference these labels.
+
+**Fix Applied**: 
+- Uncommented the labels `:cond_2` and `:goto_0` 
+- Grouped all three labels (`:cond_1`, `:cond_2`, `:goto_0`) together
+- Made all labels point to the same location that returns `v2` (false/0)
+- This ensures proper control flow while still bypassing the account check
+
+**Technical Details**:
+```smali
+:cond_1
+:cond_2
+:goto_0
+# All paths now lead here and return false (v2=0) to allow sign-in to proceed
+return v2
+```
+
+This fix ensures that any conditional jumps to these labels work correctly, while still achieving the goal of bypassing the account existence check.
 
 ## Technical Details
 

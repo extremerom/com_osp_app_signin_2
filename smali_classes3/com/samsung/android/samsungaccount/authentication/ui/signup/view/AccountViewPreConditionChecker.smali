@@ -684,6 +684,8 @@
 
     :cond_0
     # Bypass ADD_ACCOUNT and TIPS_WIDGET check - allow proceeding even when account exists
+    # The original code checked for ADD_ACCOUNT and TIPS_WIDGET modes and showed an error
+    # Now we skip the check and always return false to allow the sign-in to proceed
     # iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->data:Lcom/samsung/android/samsungaccount/authentication/ui/signup/viewmodel/AccountViewData;
     # invoke-virtual {v0}, Lcom/samsung/android/samsungaccount/authentication/ui/signin/viewmodel/SignInIntentData;->getSettingMode()Ljava/lang/String;
     # move-result-object v0
@@ -701,10 +703,12 @@
     # goto :goto_0
 
     :cond_1
+    :cond_2
+    :goto_0
+    # All paths now lead here and return false (v2=0) to allow sign-in to proceed
     return v2
 
-    # :cond_2
-    # :goto_0
+    # Original error handling code - now bypassed
     # iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->view:Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;
     # const v3, 0x7f1205df
     # const v4, 0x7f1205e8
