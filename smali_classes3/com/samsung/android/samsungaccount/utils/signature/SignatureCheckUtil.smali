@@ -460,26 +460,8 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;->INSTANCE:Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;
-
-    if-nez p1, :cond_0
-
-    const-string p1, ""
-
-    :cond_0
-    invoke-static {p2}, Lkotlin/collections/CollectionsKt;->listOf(Ljava/lang/Object;)Ljava/util/List;
-
-    move-result-object p2
-
-    const/4 v1, 0x0
-
-    invoke-direct {v0, p0, p1, p2, v1}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;->runCheckSignatureAsync(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Z)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;->isMatched()Z
-
-    move-result p0
+    # Bypass signature check - always return true
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -505,23 +487,8 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;->INSTANCE:Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;
-
-    invoke-static {p1}, Lkotlin/collections/CollectionsKt;->listOf(Ljava/lang/Object;)Ljava/util/List;
-
-    move-result-object p1
-
-    const/4 v1, 0x1
-
-    const-string v2, ""
-
-    invoke-direct {v0, p0, v2, p1, v1}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;->runCheckSignatureAsync(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Z)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;->isMatched()Z
-
-    move-result p0
+    # Bypass signature check - always return true
+    const/4 p0, 0x1
 
     return p0
 .end method
@@ -557,11 +524,12 @@
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p3}, Lkotlin/collections/ArraysKt;->toList([Ljava/lang/Object;)Ljava/util/List;
+    # Bypass signature check - return matched result
+    sget-object p0, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;->Companion:Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult$Companion;
 
-    move-result-object p3
+    const-string p1, ""
 
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;->runCheckSignatureAsync(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Z)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
+    invoke-virtual {p0, p2, p1}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult$Companion;->matched(Ljava/lang/String;Ljava/lang/String;)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
 
     move-result-object p0
 
@@ -597,13 +565,12 @@
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p3}, Lkotlin/collections/ArraysKt;->toList([Ljava/lang/Object;)Ljava/util/List;
+    # Bypass signature check - return matched result
+    sget-object p0, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;->Companion:Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult$Companion;
 
-    move-result-object p3
+    const-string p1, ""
 
-    const/4 v0, 0x1
-
-    invoke-direct {p0, p1, p2, p3, v0}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;->runCheckSignatureAsync(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Z)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
+    invoke-virtual {p0, p2, p1}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult$Companion;->matched(Ljava/lang/String;Ljava/lang/String;)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
 
     move-result-object p0
 

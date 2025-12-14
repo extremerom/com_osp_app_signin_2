@@ -70,7 +70,7 @@
 
 .field public static final CONSENT_URL_STG1:Ljava/lang/String; = "apis.samsungconsentdev.com"
 
-.field public static final DEBUG:Z = false
+.field public static final DEBUG:Z = true
 
 .field public static final FIND_MY_MOBILE_URL:Ljava/lang/String; = "up.samsungdive.com"
 
@@ -116,7 +116,7 @@
 
 .field public static final TIME_STAMP:J = 0x19a80e95a3cL
 
-.field public static final USER_DEBUG:Z = false
+.field public static final USER_DEBUG:Z = true
 
 .field public static final VERSION_CODE:I = 0x5c66310c
 

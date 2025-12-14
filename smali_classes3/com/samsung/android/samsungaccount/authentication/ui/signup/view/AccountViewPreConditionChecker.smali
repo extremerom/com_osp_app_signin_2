@@ -787,74 +787,9 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->data:Lcom/samsung/android/samsungaccount/authentication/ui/signup/viewmodel/AccountViewData;
-
-    invoke-virtual {v0}, Lcom/samsung/android/samsungaccount/authentication/ui/signup/viewmodel/AccountViewData;->isManagedAccount()Z
-
-    move-result v0
-
+    # Bypass account exists check - always return false (account doesn't exist)
     const/4 v1, 0x0
 
-    if-eqz v0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    if-eqz p1, :cond_2
-
-    if-nez p2, :cond_2
-
-    iget-object p1, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->view:Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;
-
-    invoke-virtual {p1}, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;->isRecreatedByCalleeAfterUiModeChanged()Z
-
-    move-result p1
-
-    const/4 p2, 0x1
-
-    if-nez p1, :cond_1
-
-    iget-object p1, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->view:Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;
-
-    const v0, 0x7f1205df
-
-    const v1, 0x7f1205e8
-
-    invoke-static {v0, v1}, Lcom/samsung/android/samsungaccount/utils/ui/BrandNameUtil;->getBrandResId(II)I
-
-    move-result v0
-
-    invoke-virtual {p1, v0}, Lcom/samsung/android/samsungaccount/authentication/ui/signin/view/BaseSignInView;->showToast(I)V
-
-    move v1, p2
-
-    :cond_1
-    new-instance p1, Landroid/content/Intent;
-
-    invoke-direct {p1}, Landroid/content/Intent;-><init>()V
-
-    const-string v0, "error_message"
-
-    const-string v2, "Samsung account already exists"
-
-    invoke-virtual {p1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    move-result-object p1
-
-    const-string v0, "putExtra(...)"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->view:Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;
-
-    invoke-virtual {v0, p2, p1}, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;->setResultWithLog(ILandroid/content/Intent;)V
-
-    iget-object p0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker;->view:Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;
-
-    invoke-virtual {p0}, Lcom/samsung/android/samsungaccount/authentication/ui/signup/view/AccountView;->finish()V
-
-    :cond_2
-    :goto_0
     return v1
 .end method
 
