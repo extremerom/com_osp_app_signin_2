@@ -129,3 +129,70 @@ After rebuilding and installing the modified APK:
 
 2. `smali_classes3/com/samsung/android/samsungaccount/authentication/ui/signup/view/AccountViewPreConditionChecker.smali`
    - 91 lines changed (commented out mode-based error display)
+
+3. `smali_classes4/com/samsung/android/service/reactive/IReactiveService*.smali` (NEW - December 14, 2025)
+   - 4 new files added to fix NoClassDefFoundError for IReactiveService$Stub
+
+## Fix for Missing IReactiveService Stub Classes (December 14, 2025)
+
+### Problem Description
+The application was crashing with `NoClassDefFoundError` when trying to check Reactivation Lock support:
+
+```
+W System.err: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/samsung/android/service/reactive/IReactiveService$Stub;
+W System.err:   at com.samsung.android.service.reactive.ReactiveServiceManager.<init>(Unknown Source:13)
+W System.err: Caused by: java.lang.ClassNotFoundException: com.samsung.android.service.reactive.IReactiveService$Stub
+```
+
+This error occurred in multiple places:
+- `ReactiveServiceManagerStub.isConnected()` 
+- `ReactivationLockUtil.checkReactivationSupported()`
+- During account sign-in and validation flows
+
+### Root Cause
+The AIDL interface file (`unknown/com/samsung/android/service/reactive/IReactiveService.aidl`) existed but had never been compiled into the necessary stub classes. The `ReactiveServiceManager` class tried to instantiate `IReactiveService$Stub` but the class files were missing from the APK.
+
+### Solution Applied
+Generated the missing stub classes from the AIDL interface:
+
+1. **Compiled AIDL to Java**: Used `aidl` compiler to generate Java interface from the AIDL file
+2. **Compiled Java to Class**: Used `javac` to compile the generated Java code 
+3. **Converted to DEX**: Used `d8` to convert class files to Android DEX format
+4. **Converted to Smali**: Used `baksmali` to convert DEX to Smali format
+5. **Added to Project**: Placed the generated Smali files in `smali_classes4/com/samsung/android/service/reactive/`
+
+### Files Added
+
+1. **IReactiveService.smali** - Main interface definition
+2. **IReactiveService$Stub.smali** - Server-side binder stub (the missing class that was causing the error)
+3. **IReactiveService$Stub$Proxy.smali** - Client-side proxy implementation
+4. **IReactiveService$Default.smali** - Default implementation with stub methods
+
+### Technical Details
+
+The `IReactiveService$Stub` class provides the AIDL binder stub implementation that allows:
+- Checking if the reactive service is available (`isConnected()`)
+- Getting service support level (`getServiceSupport()`)
+- Managing reactivation lock state (`enable()`, `disable()`, `verify()`)
+- Session management for remote lock/unlock operations
+
+The stub class includes transaction codes for all AIDL methods:
+```smali
+.field static final TRANSACTION_getServiceSupport:I = 0x1
+.field static final TRANSACTION_getFlag:I = 0x2
+.field static final TRANSACTION_setFlag:I = 0x3
+.field static final TRANSACTION_getString:I = 0x4
+.field static final TRANSACTION_setString:I = 0x5
+.field static final TRANSACTION_removeString:I = 0x6
+.field static final TRANSACTION_sessionAccept:I = 0x7
+.field static final TRANSACTION_sessionComplete:I = 0x8
+.field static final TRANSACTION_getErrorCode:I = 0x9
+.field static final TRANSACTION_verify:I = 0xa
+.field static final TRANSACTION_getRandom:I = 0xb
+```
+
+### Effect
+- The `NoClassDefFoundError` no longer occurs when instantiating `ReactiveServiceManager`
+- The application can now properly check for Reactivation Lock support
+- Account sign-in and validation flows can proceed without crashing
+- The reactive service will still gracefully handle the case where the actual system service is not available (returning null/false from `isConnected()`)
