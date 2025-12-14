@@ -21,15 +21,8 @@
 .method public static isENG()Z
     .locals 2
 
-    const-string v0, "user"
-
-    sget-object v1, Landroid/os/Build;->TYPE:Ljava/lang/String;
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v0
-
-    xor-int/lit8 v0, v0, 0x1
+    # Always return true to enable developer mode
+    const/4 v0, 0x1
 
     return v0
 .end method
