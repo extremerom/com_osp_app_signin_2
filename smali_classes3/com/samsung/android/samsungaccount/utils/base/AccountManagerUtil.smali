@@ -988,7 +988,7 @@
 
 # virtual methods
 .method public addSamsungAccount(Ljava/lang/String;Z)Z
-    .locals 5
+    .locals 7
     .param p1    # Ljava/lang/String;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -1018,6 +1018,30 @@
     invoke-static {v2, p2, v3}, Lo4;->A(Ljava/lang/String;ZLjava/lang/String;)V
 
     :try_start_0
+    const-string v2, "com.osp.app.signin"
+
+    invoke-virtual {v0, v2}, Landroid/accounts/AccountManager;->getAccountsByType(Ljava/lang/String;)[Landroid/accounts/Account;
+
+    move-result-object v2
+
+    array-length v4, v2
+
+    if-lez v4, :cond_2
+
+    const/4 v5, 0x0
+
+    :goto_1
+    if-ge v5, v4, :cond_2
+
+    aget-object v6, v2, v5
+
+    invoke-virtual {v0, v6}, Landroid/accounts/AccountManager;->removeAccountExplicitly(Landroid/accounts/Account;)Z
+
+    add-int/lit8 v5, v5, 0x1
+
+    goto :goto_1
+
+    :cond_2
     new-instance v2, Landroid/accounts/Account;
 
     sget-object v4, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
