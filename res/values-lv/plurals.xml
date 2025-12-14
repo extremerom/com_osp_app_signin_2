@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">%d ierīces</item>
+        <item quantity="one">%d ierīce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ierīces</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">"Uz jūsu ierīci ir nosūtīts pārāk daudz verifikācijas kodu, tāpēc jūsu kontam tika bloķēta verifkācijas ar Galaxy ierīci.
+
+Izmantojiet citu verifikācijas metodi vai mēģiniet vēlreiz pēc %d minūtēm."</item>
+        <item quantity="one">"Uz jūsu ierīci ir nosūtīts pārāk daudz verifikācijas kodu, tāpēc jūsu kontam tika bloķēta verifkācijas ar Galaxy ierīci.
+
+Izmantojiet citu verifikācijas metodi vai mēģiniet vēlreiz pēc %d minūtes."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Uz jūsu ierīci ir nosūtīts pārāk daudz verifikācijas kodu, tāpēc jūsu kontam tika bloķēta verifkācijas ar Galaxy ierīci.
+
+Izmantojiet citu verifikācijas metodi vai mēģiniet vēlreiz pēc %d minūtēm."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">%1$s un vēl %2$d</item>
+        <item quantity="one">%1$s un vēl %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s un vēl %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">Kontaktpersonu %1$s nevar uzaicināt vairāk kā %2$d reizes 30 dienu laikā.</item>
+        <item quantity="one">Kontaktpersonu %1$s nevar uzaicināt vairāk kā %2$d reizi 30 dienu laikā.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kontaktpersonu %1$s nevar uzaicināt vairāk kā %2$d reizes 30 dienu laikā.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">Bērnu kontus var izveidot tikai personām, kas jaunākas par %d.</item>
+        <item quantity="one">Bērnu kontus var izveidot tikai personām, kas jaunākas par %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bērnu kontus var izveidot tikai personām, kas jaunākas par %d.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">Lai izmantotu %2$s, jums ir jābūt vismaz %1$d gadus vecam.</item>
+        <item quantity="one">Lai izmantotu %2$s, jums ir jābūt vismaz %1$d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai izmantotu %2$s, jums ir jābūt vismaz %1$d gadus vecam.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">Personām, kas jaunākas par %d gadiem, nevar būt konta jūsu valstī vai reģionā.</item>
+        <item quantity="one">Personām, kas jaunākas par %d gadu, nevar būt konta jūsu valstī vai reģionā.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Personām, kas jaunākas par %d gadiem, nevar būt konta jūsu valstī vai reģionā.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">Vecums %d</item>
+        <item quantity="one">Vecums %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vecums %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">Uzgaidiet %d minūtes pirms pieprasījuma nosūtīšanas.</item>
+        <item quantity="one">Uzgaidiet %d minūti pirms pieprasījuma nosūtīšanas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Uzgaidiet %d minūtes pirms pieprasījuma nosūtīšanas.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmju.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">Atbildēs ir jābūt vismaz %d rakstzīmēm.</item>
+        <item quantity="one">Atbildēs ir jābūt vismaz %d rakstzīmei.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atbildēs ir jābūt vismaz %d rakstzīmēm.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">Tagad, kad esi sasniedzis %d gadu vecumu, vari pārslēgties uz parasto Samsung account kontu. Pēc tam varēsi izmantot jebkuras programmas un ierīces bez vecāku atļaujas, un vecāku kontrole vairs netiks piemērota.</item>
+        <item quantity="one">Tagad, kad esi sasniedzis %d gada vecumu, vari pārslēgties uz parasto Samsung account kontu. Pēc tam varēsi izmantot jebkuras programmas un ierīces bez vecāku atļaujas, un vecāku kontrole vairs netiks piemērota.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tagad, kad esi sasniedzis %d gadu vecumu, vari pārslēgties uz parasto Samsung account kontu. Pēc tam varēsi izmantot jebkuras programmas un ierīces bez vecāku atļaujas, un vecāku kontrole vairs netiks piemērota.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">Man ir vairāk nekā %d</item>
+        <item quantity="one">Man ir vairāk nekā %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Man ir vairāk nekā %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">Man vēl nav %d</item>
+        <item quantity="one">Man vēl nav %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Man vēl nav %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">Pārāk daudz reižu ir ievadīts neeksistējošs ID. Mēģiniet vēlreiz pēc %d minūtēm.</item>
+        <item quantity="one">Pārāk daudz reižu ir ievadīts neeksistējošs ID. Mēģiniet vēlreiz pēc %d minūtes.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pārāk daudz reižu ir ievadīts neeksistējošs ID. Mēģiniet vēlreiz pēc %d minūtēm.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">%d dalībnieki</item>
+        <item quantity="one">%d dalībnieks</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dalībnieki</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">Pievienoties ģimenes grupai var uzaicināt ne vairāk kā %d personas.</item>
+        <item quantity="one">Pievienoties ģimenes grupai var uzaicināt ne vairāk kā %d personu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pievienoties ģimenes grupai var uzaicināt ne vairāk kā %d personas.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">Bērnam %1$s drīz būs %2$d gadi</item>
+        <item quantity="one">Bērnam %1$s drīz būs %2$d gads</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bērnam %1$s drīz būs %2$d gadi</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">Uzaicinātas %d personas</item>
+        <item quantity="one">Uzaicināta %d persona</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Uzaicinātas %d personas</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">%1$s un vēl %2$d citi numuri</item>
+        <item quantity="one">%1$s un vēl %2$d cits numurs</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s un vēl %2$d citi numuri</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">%d nepārbaudīti notikumi</item>
+        <item quantity="one">%d nepārbaudīts notikums</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d nepārbaudīti notikumi</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">%1$s un vēl %2$d citi konti</item>
+        <item quantity="one">%1$s un vēl %2$d cits konts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s un vēl %2$d citi konti</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">%1$s uzaicināja jūs savā ģimenes grupā. Lai pievienotos, pieskarieties ziņā iekļautajai saitei. Ja pievienosities, jūsu vārds, e-pasta adrese un Samsung account konta ID tiks kopīgoti ar citiem ģimenes locekļiem. Uzaicinājuma derīguma termiņš beigsies pēc %2$d dienām.</item>
+        <item quantity="one">%1$s uzaicināja jūs savā ģimenes grupā. Lai pievienotos, pieskarieties ziņā iekļautajai saitei. Ja pievienosities, jūsu vārds, e-pasta adrese un Samsung account konta ID tiks kopīgoti ar citiem ģimenes locekļiem. Uzaicinājuma derīguma termiņš beigsies pēc %2$d dienas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s uzaicināja jūs savā ģimenes grupā. Lai pievienotos, pieskarieties ziņā iekļautajai saitei. Ja pievienosities, jūsu vārds, e-pasta adrese un Samsung account konta ID tiks kopīgoti ar citiem ģimenes locekļiem. Uzaicinājuma derīguma termiņš beigsies pēc %2$d dienām.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">%d ieteikumi</item>
+        <item quantity="one">%d ieteikums</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ieteikumi</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">Nepareizais kods tika ievadīts pārāk daudz reižu. Uzgaidiet %d minūtes, pēc tam mēģiniet vēlreiz.</item>
+        <item quantity="one">Nepareizais kods tika ievadīts pārāk daudz reižu. Uzgaidiet %d minūti, pēc tam mēģiniet vēlreiz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nepareizais kods tika ievadīts pārāk daudz reižu. Uzgaidiet %d minūtes, pēc tam mēģiniet vēlreiz.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">Nepareizais kods tika ievadīts pārāk daudz reižu. Uzgaidiet %d sekundes, pēc tam mēģiniet vēlreiz.</item>
+        <item quantity="one">Nepareizais kods tika ievadīts pārāk daudz reižu. Uzgaidiet %d sekundi, pēc tam mēģiniet vēlreiz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nepareizais kods tika ievadīts pārāk daudz reižu. Uzgaidiet %d sekundes, pēc tam mēģiniet vēlreiz.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">Miega ilgums: %d stundas</item>
+        <item quantity="one">Miega ilgums: %d stunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Miega ilgums: %d stundas</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">Miega ilgums: %d minūtes</item>
+        <item quantity="one">Miega ilgums: %d minūte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Miega ilgums: %d minūtes</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="create_qr_button_width">296.0dp</dimen>
+    <dimen name="help_basic_button_width">296.0dp</dimen>
+    <dimen name="sa_child_email_button_min_width">296.0dp</dimen>
+    <dimen name="sesl_picker_dialog_width">340.0dp</dimen>
+</resources>

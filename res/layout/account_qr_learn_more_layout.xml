@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/account_qr_learn_more_layout_0" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" style="@style/ToolbarStyle" />
+    <ScrollView android:id="@id/inner_view_scroll" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:paddingHorizontal="@dimen/common_description_spacing">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="18.0dp">
+            <TextView android:textSize="@dimen/common_description_text_size" android:textColor="@color/description_text_color" android:id="@id/main_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_qr_description_text" style="@style/FontRegular" />
+            <TextView android:textSize="@dimen/common_description_text_size" android:textColor="@color/description_text_color" android:id="@id/privacy_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_learn_more_line_spacing" android:text="@string/sa_qr_description_privacy_text" style="@style/FontRegular" />
+            <TextView android:textSize="@dimen/common_description_text_size" android:textColor="@color/description_sub_text_color" android:id="@id/sub_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_learn_more_line_spacing" style="@style/FontRegular" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

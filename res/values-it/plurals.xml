@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dispositivo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dispositivi</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nuova notifica</item>
+        <item quantity="other">%d nuove notifiche</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Sono stati inviati troppi codici di verifica allo smartphone, pertanto è stata bloccata la verifica del dispositivo Galaxy per l’account.
+
+Usate un altro metodo di verifica o riprovate tra %d minuto."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Sono stati inviati troppi codici di verifica allo smartphone, pertanto è stata bloccata la verifica del dispositivo Galaxy per l’account.
+
+Usate un altro metodo di verifica o riprovate tra %d minuti."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s e %2$d altro dispositivo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s e altri %2$d dispositivi</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile invitare %1$s più di %2$d volta in 30 giorni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Impossibile invitare %1$s più di %2$d volte in 30 giorni.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Potete creare account per bambini solo per persone di età inferiore a %d anno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Potete creare account per bambini solo per persone di età inferiore a %d anni.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Per utilizzare %2$s, occorre avere almeno %1$d anno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Per utilizzare %2$s occorre avere almeno %1$d anni.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Le persone di età inferiore a %d anno non possono avere un account nel tuo Paese o nella tua regione.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Le persone di età inferiore a %d anni non possono avere un account nel tuo Paese o nella tua regione.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anno</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anni</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Attendete %d minuto prima di inviare la richiesta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Attendete %d minuti prima di inviare la richiesta.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile inserire più di %d carattere.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Impossibile inserire più di %d caratteri.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Le risposte devono contenere almeno %d carattere.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Le risposte devono contenere almeno %d caratteri.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ora che avete compiuto %d anno, potete passare a un normale Samsung account. In tal caso, potrete utilizzare qualsiasi applicazione o dispositivo senza l’autorizzazione di un genitore e il controllo genitori non sarà più applicabile.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ora che avete compiuto %d anni, potete passare a un normale Samsung account. In tal caso, potrete utilizzare qualsiasi applicazione o dispositivo senza l’autorizzazione di un genitore e il controllo genitori non sarà più applicabile.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ho più di %d anno</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ho più di %d anni</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ho meno di %d anno</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ho meno di %d anni</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È stato inserito troppe volte un ID inesistente. Riprovate tra %d minuto.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">È stato inserito troppe volte un ID inesistente. Riprovate tra %d minuti.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d membro</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d membri</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile invitare più di %d persona in un gruppo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Impossibile invitare più di %d persone in un gruppo.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s compirà %2$d anno a breve</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s compirà %2$d anni a breve</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d persona invitata</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d persone invitate</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s e %2$d altro numero</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s e altri %2$d numeri</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d evento non verificato</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d eventi non verificati</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s e %2$d altro account</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s e altri %2$d account</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s vi ha invitato nel suo gruppo. Toccate il collegamento nel messaggio sottostante per partecipare. Così facendo, il vostro nome, indirizzo e-mail e ID del Samsung account verranno condivisi con gli altri membri della famiglia. L’invito scade tra %2$d giorno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s vi ha invitato nel suo gruppo. Toccate il collegamento nel messaggio sottostante per partecipare. Così facendo, il vostro nome, indirizzo e-mail e ID del Samsung account verranno condivisi con gli altri membri della famiglia. L’invito scade tra %2$d giorni.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d suggerimento</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d suggerimenti</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Avete inserito il codice errato troppe volte. Attendete %d minuto e riprovate.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Avete inserito il codice errato troppe volte. Attendete %d minuti e riprovate.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Avete inserito il codice errato troppe volte. Attendete %d secondo e riprovate.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Avete inserito il codice errato troppe volte. Attendete %d secondi e riprovate.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durata sonno: %d ora</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Durata sonno: %d ore</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durata sonno: %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Durata sonno: %d minuti</item>
+    </plurals>
+</resources>

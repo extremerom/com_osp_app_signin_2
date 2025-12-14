@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_code_entries">
+        <item>NONE</item>
+        <item>Korea KR</item>
+        <item>United States US</item>
+        <item>China CN</item>
+        <item>Albania RS</item>
+        <item>Andorra ES</item>
+        <item>Austria AT</item>
+        <item>Belgium LU</item>
+        <item>Bosnia and He.. RS</item>
+        <item>Bulgaria BG</item>
+        <item>Croatia SI</item>
+        <item>Cyprus GR</item>
+        <item>Czech Republic CZ</item>
+        <item>Denmark SE</item>
+        <item>Estonia LV</item>
+        <item>Finland SE</item>
+        <item>France FR</item>
+        <item>Germany DE</item>
+        <item>Greece GR</item>
+        <item>Hungary HU</item>
+        <item>Iceland SE</item>
+        <item>Italy IT</item>
+        <item>Kosovo RS</item>
+        <item>Latvia LV</item>
+        <item>Lithuania LV</item>
+        <item>Luxembourg LU</item>
+        <item>Macedonia RS</item>
+        <item>Montenegro RS</item>
+        <item>Netherlands NL</item>
+        <item>Norway SE</item>
+        <item>Poland PL</item>
+        <item>Portugal PT</item>
+        <item>Romania RO</item>
+        <item>Serbia RS</item>
+        <item>Slovakia SK</item>
+        <item>Slovenia SI</item>
+        <item>Spain ES</item>
+        <item>Sweden SE</item>
+        <item>Switzerland CH</item>
+        <item>United Kingdom GB</item>
+    </string-array>
+    <string-array name="country_code_entryValues">
+        <item>NONE</item>
+        <item>KR</item>
+        <item>US</item>
+        <item>CN</item>
+        <item>RS</item>
+        <item>ES</item>
+        <item>AT</item>
+        <item>LU</item>
+        <item>RS</item>
+        <item>BG</item>
+        <item>SI</item>
+        <item>GR</item>
+        <item>CZ</item>
+        <item>SE</item>
+        <item>LV</item>
+        <item>SE</item>
+        <item>FR</item>
+        <item>DE</item>
+        <item>GR</item>
+        <item>HU</item>
+        <item>SE</item>
+        <item>IT</item>
+        <item>RS</item>
+        <item>LV</item>
+        <item>LV</item>
+        <item>LU</item>
+        <item>RS</item>
+        <item>RS</item>
+        <item>NL</item>
+        <item>SE</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>RS</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>ES</item>
+        <item>SE</item>
+        <item>CH</item>
+        <item>GB</item>
+    </string-array>
+    <integer-array name="place_category">
+        <item>@integer/category_home</item>
+        <item>@integer/category_work</item>
+        <item>@integer/category_school</item>
+        <item>@integer/category_car</item>
+        <item>@integer/category_other</item>
+    </integer-array>
+    <integer-array name="place_category_on_child_account">
+        <item>@integer/category_home</item>
+        <item>@integer/category_school</item>
+        <item>@integer/category_other</item>
+    </integer-array>
+    <string-array name="place_list">
+        <item>@string/location_home</item>
+        <item>@string/location_work</item>
+        <item>@string/location_school</item>
+        <item>@string/location_car</item>
+        <item>@string/location_other</item>
+    </string-array>
+    <string-array name="place_list_on_child_account">
+        <item>@string/location_home</item>
+        <item>@string/location_school</item>
+        <item>@string/location_other</item>
+    </string-array>
+    <string-array name="predefined_place_list">
+        <item>@string/location_home</item>
+        <item>@string/location_work</item>
+        <item>@string/location_school</item>
+        <item>@string/location_car</item>
+    </string-array>
+    <string-array name="server_list">
+        <item>NONE</item>
+        <item>DEV</item>
+        <item>STG1</item>
+        <item>STG2</item>
+    </string-array>
+</resources>

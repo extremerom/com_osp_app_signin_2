@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pajisje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pajisje</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Janë dërguar shumë kode verifikimi te pajisja jote, prandaj e bllokuam verifikimin e pajisjes Galaxy për llogarinë tënde.
+
+Përdor një mënyrë tjetër verifikimi, ose provo sërish pas %d minute."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Janë dërguar shumë kode verifikimi te pajisja jote, prandaj e bllokuam verifikimin e pajisjes Galaxy për llogarinë tënde.
+
+Përdor një mënyrë tjetër verifikimi, ose provo sërish pas %d minutash."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s dhe %2$d tjetër</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s dhe %2$d të tjera</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund ta ftosh %1$s më shumë se %2$d herë në 30 ditë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S’mund ta ftosh %1$s më shumë se %2$d herë në 30 ditë.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Llogaritë për fëmijë mund të krijohen vetëm për persona nën %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Llogaritë për fëmijë mund të krijohen vetëm për persona nën %d.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duhet të jesh së paku %1$d vjeç, për të përdorur %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Duhet të jesh së paku %1$d vjeç për të përdorur %2$s.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Personat nën %d vjeç nuk mund të kenë llogari në shtetin ose rajonin tënd.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Personat nën %d vjeç nuk mund të kenë llogari në shtetin ose rajonin tënd.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mosha %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mosha %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Prit %d minutë para se të dërgosh kërkesën.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Prit %d minuta para se të dërgosh kërkesën.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të futësh më shumë se %d shenjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S’mund të futësh më shumë se %d shenja.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Përgjigjet duhet të përmbajnë së paku %d shkronjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Përgjigjet duhet të përmbajnë së paku %d shkronja.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tani që ti ke mbushur %d vjeç, mund të kalosh te një Samsung account e rregullt. Nëse e bën, do të mund të përdorësh çdo app dhe pajisje që të pëlqen pa qenë nevoja të marrësh leje nga prindërit, dhe kontrollet prindërore nuk do të zbatohen më.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tani që ti ke mbushur %d vjeç, mund të kalosh te një Samsung account e rregullt. Nëse e bën, do të mund të përdorësh çdo app dhe pajisje që të pëlqen pa qenë nevoja të marrësh leje nga prindërit, dhe kontrollet prindërore nuk do të zbatohen më.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jam mbi %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jam mbi %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jam nën %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Jam nën %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Është futur shumë herë një ID e paqenë. Provo sërish për %d minutë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Është futur shumë herë një ID e paqenë. Provo sërish për %d minuta.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anëtar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anëtarë</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të ftosh më shumë se %d person te një grup familjar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S’mund të ftosh më shumë se %d persona te një grup familjar.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s po bëhet %2$d vjeç</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s po bëhet %2$d vjeç</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U ftua %d person</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">U ftuan %d persona</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s dhe %2$d numër tjetër</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s dhe %2$d numra të tjerë</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ngjarje e paverifikuar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ngjarje të paverifikuara</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s dhe %2$d llogari tjetër</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s dhe %2$d llogari të tjera</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s të ka ftuar në grupin e vet familjar. Trokit mbi linkun në mesazhin më poshtë, për t’u bashkuar. Po të bashkohesh, emri yt, emaili dhe ID-ja e Samsung account do të bashkëndahen me anëtarët e tjerë të familjes. Ftesa skadon pas %2$d dite.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s të ka ftuar në grupin e vet familjar. Trokit mbi linkun në mesazhin më poshtë, për t’u bashkuar. Po të bashkohesh, emri yt, emaili dhe ID-ja e Samsung account do të bashkëndahen me anëtarët e tjerë të familjes. Ftesa skadon pas %2$d ditësh.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sugjerim</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sugjerime</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Është futur shumë herë një kod i gabuar. Prit %d minutë, pastaj provo sërish.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Është futur shumë herë një kod i gabuar. Prit %d minuta, pastaj provo sërish.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Është futur shumë herë një kod i gabuar. Prit %d sekondë, pastaj provo sërish.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Është futur shumë herë një kod i gabuar. Prit %d sekonda, pastaj provo sërish.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Koha e gjumit: %d orë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Koha e gjumit: %d orë</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Koha e gjumit: %d minutë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Koha e gjumit: %d minuta</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="120.0dp" android:width="120.0dp" android:viewportWidth="120.0" android:viewportHeight="120.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffff" android:pathData="M60,20.63C38.25,20.63 20.63,38.25 20.63,60C20.63,81.75 38.25,99.38 60,99.38C81.75,99.38 99.38,81.75 99.38,60C99.38,38.25 81.75,20.63 60,20.63ZM60,22.5C80.71,22.5 97.5,39.29 97.5,60C97.5,80.71 80.71,97.5 60,97.5C39.29,97.5 22.5,80.71 22.5,60C22.5,39.29 39.29,22.5 60,22.5Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.15" android:fillType="nonZero" />
+    <path android:fillColor="@color/profile_image_delete_icon_bg" android:pathData="M60,60m-37.5,0a37.5,37.5 0,1 1,75 0a37.5,37.5 0,1 1,-75 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#db332a" android:pathData="M35.39,62.34L84.61,62.34C85.9,62.34 86.95,61.29 86.95,60C86.95,58.71 85.9,57.66 84.61,57.66L35.39,57.66C34.1,57.66 33.05,58.71 33.05,60C33.05,61.29 34.1,62.34 35.39,62.34Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

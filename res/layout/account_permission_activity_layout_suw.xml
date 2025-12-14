@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/account_permission_activity_layout_suw_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/included_required_permissions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" app:layout_constraintBottom_toTopOf="@id/included_optional_permissions" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/required_permissions" />
+    <include android:id="@id/included_optional_permissions" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/included_required_permissions" layout="@layout/optional_permissions" />
+</androidx.constraintlayout.widget.ConstraintLayout>

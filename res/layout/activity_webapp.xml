@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/carta_primary_color_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.account.web.WebAppView android:id="@id/web" android:background="@color/carta_primary_color_background" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/view_web_no_network" />
+    <include layout="@layout/view_web_progress" />
+    <include layout="@layout/view_web_server_error" />
+</FrameLayout>

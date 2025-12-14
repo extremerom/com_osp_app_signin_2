@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dp" android:width="48.0dp" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$chrome_on_mac_icon__0" android:pathData="M23.997,12L44.778,11.999A23.994,23.994 75,0 0,3.214 12.003l10.39,17.997 0.01,-0.003a11.985,11.985 75,0 1,10.383 -17.998Z" />
+    <path android:fillColor="@drawable/$chrome_on_mac_icon__1" android:pathData="M34.394,29.997L24.004,47.995A23.994,23.994 105,0 0,44.783 11.997l-20.781,-0 -0.003,0.01a11.985,11.985 105,0 1,10.395 17.991Z" />
+    <path android:fillColor="@drawable/$chrome_on_mac_icon__2" android:pathData="M13.609,30.003L3.218,12.006A23.994,23.994 0,0 0,24.003 48l10.391,-17.997 -0.007,-0.007a11.985,11.985 0,0 1,-20.778 0.007Z" />
+    <path android:fillColor="#fff" android:pathData="M24,24m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path android:fillColor="#1a73e8" android:pathData="M24,24m-9.5,0a9.5,9.5 0,1 1,19 0a9.5,9.5 0,1 1,-19 0" />
+</vector>

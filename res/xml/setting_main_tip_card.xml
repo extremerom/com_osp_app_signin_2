@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="TwoFactorTipCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.samsungaccount.setting.ui.main.TipCardPreference android:layout="@layout/preference_setting_tip_card" android:key="TwoFactorSetUp" app:action_1_button_text="@string/button_not_now" app:action_2_button_text="@string/sa_2factor_get_started" app:description="@string/sa_tip_card_description_setup_two_factor" app:title="@string/sa_tip_card_title_setup_two_factor" />
+    <com.samsung.android.samsungaccount.setting.ui.main.TipCardPreference android:layout="@layout/preference_setting_tip_card" android:key="RecoveryMethod" app:action_1_button_text="@string/button_not_now" app:action_2_button_text="@string/sa_tip_card_add_recovery_method_positive_button" app:description="@string/sa_tip_card_add_recovery_method_description" />
+</androidx.preference.PreferenceScreen>

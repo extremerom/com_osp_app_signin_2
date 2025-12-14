@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d சாதனம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d சாதனங்கள்</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"பல சரிபார்ப்பு குறியீடுகள் அனுப்பப்பட்டதால், உங்கள் கணக்கிற்கான உரை மற்றும் குரல் அழைப்பு சரிபார்த்தல் முறையைத் தடை செய்துள்ளோம்.
+
+வேறொரு சரிபார்ப்பு முறையை முயலவும் அல்லது %d நிமிடத்தில் மீண்டும் முயலவும்."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"பல சரிபார்ப்பு குறியீடுகள் அனுப்பப்பட்டதால், உங்கள் கணக்கிற்கான உரை மற்றும் குரல் அழைப்பு சரிபார்த்தல் முறையைத் தடை செய்துள்ளோம்.
+
+வேறொரு சரிபார்ப்பு முறையை முயலவும் அல்லது %d நிமிடங்களில் மீண்டும் முயலவும்."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, மேலும் %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s, மேலும் %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">30 நாட்களில் %2$d முறைக்கு மேல் %1$s-ஐ அழைக்க இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">30 நாட்களில் %2$d முறைகளுக்கு மேல் %1$s-ஐ அழைக்க இயலாது.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d வயதிற்குட்பட்டவர்களுக்கு மட்டுமே குழந்தை கணக்குகளை உருவாக்க இயலும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d வயதிற்குட்பட்டவர்களுக்கு மட்டுமே குழந்தை கணக்குகளை உருவாக்க இயலும்.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ஐப் பயன்படுத்த, நீங்கள் குறைந்தது %1$d வயதுடையவராக இருக்க வேண்டும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s-ஐப் பயன்படுத்த, நீங்கள் குறைந்தது %1$d வயதுடையவராக இருக்க வேண்டும்.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d வயதிற்குட்பட்டவர்கள் உங்கள் நாடு அல்லது பகுதியில் கணக்கு வைத்திருக்க இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d வயதிற்குட்பட்டவர்கள் உங்கள் நாடு அல்லது பகுதியில் கணக்கு வைத்திருக்க இயலாது.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">வயது %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">வயது %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">கோரிக்கையை அனுப்புவதற்கு முன்பு %d நிமிடம் காத்திருக்கவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">கோரிக்கையை அனுப்புவதற்கு முன்பு %d நிமிடங்கள் காத்திருக்கவும்.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d எழுத்துக்கு மேல் உள்ளிட இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d எழுத்துகளுக்கு மேல் உள்ளிட இயலாது.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">பதில்கள் குறைந்தது %d எழுத்தைக் கொண்டிருக்க வேண்டும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">பதில்கள் குறைந்தது %d எழுத்துகளைக் கொண்டிருக்க வேண்டும்.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">இப்போது உங்களுக்கு %d வயதாகியிருப்பதால், வழக்கமான Samsung account-க்கு மாறலாம். அவ்வாறு செய்தால், உங்கள் பெற்றோரின் அனுமதியின்றி நீங்கள் விரும்பும் பயன்பாடுகள் மற்றும் சாதனங்களைப் பயன்படுத்தலாம், மேலும் பெற்றோர் கட்டுப்பாடுகள் இனிமேல் பொருந்தாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">இப்போது உங்களுக்கு %d வயதாகியிருப்பதால், வழக்கமான Samsung account-க்கு மாறலாம். அவ்வாறு செய்தால், உங்கள் பெற்றோரின் அனுமதியின்றி நீங்கள் விரும்பும் பயன்பாடுகள் மற்றும் சாதனங்களைப் பயன்படுத்தலாம், மேலும் பெற்றோர் கட்டுப்பாடுகள் இனிமேல் பொருந்தாது.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d வயதை பூர்த்தியடைந்தேன்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d வயதை பூர்த்தியடைந்தேன்</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">நான் %d-க்கும் குறைவான வயதுடையவர்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">நான் %d-க்கும் குறைவான வயதுடையவர்</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">நடப்பில் இல்லாத ID பலமுறை உள்ளிடப்பட்டுள்ளது. %d நிமிடத்தில் மீண்டும் முயலவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">நடப்பில் இல்லாத ID பலமுறை உள்ளிடப்பட்டுள்ளது. %d நிமிடங்களில் மீண்டும் முயலவும்.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உறுப்பினர்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d உறுப்பினர்கள்</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">குடும்ப குழுவில் %d நபருக்கு மேல் அழைப்பு விடுக்க இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">குடும்ப குழுவில் %d நபர்களுக்கு மேல் அழைப்பு விடுக்க இயலாது.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s விரைவில் %2$d வயதை எட்டவுள்ளார்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s விரைவில் %2$d வயதை எட்டவுள்ளார்</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நபர் அழைக்கப்பட்டார்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d நபர்கள் அழைக்கப்பட்டனர்</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s மற்றும் %2$d மற்ற எண்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s மற்றும் %2$d மற்ற எண்கள்</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d சரிபார்க்கப்படாத நிகழ்வு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d சரிபார்க்கப்படாத நிகழ்வுகள்</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s மற்றும் %2$d மற்ற கணக்கு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s மற்றும் %2$d மற்ற கணக்குகள்</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s உங்களை அவரது குடும்ப குழுவிற்கு அழைத்துள்ளார். சேருவதற்கு, கீழே காட்டப்பட்ட தகவலில் உள்ள இணைப்பின் மீது டேப் செய்யவும். நீங்கள் சேர்ந்தால், குடும்பத்தின் மற்ற உறுப்பினர்களுடன் உங்கள் பெயர், மின்னஞ்சல் மற்றும் Samsung account ID பகிரப்படும். அழைப்பு %2$d நாளில் காலாவதியாகிவிடும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s உங்களை அவரது குடும்ப குழுவிற்கு அழைத்துள்ளார். சேருவதற்கு, கீழே காட்டப்பட்ட தகவலில் உள்ள இணைப்பின் மீது டேப் செய்யவும். நீங்கள் சேர்ந்தால், குடும்பத்தின் மற்ற உறுப்பினர்களுடன் உங்கள் பெயர், மின்னஞ்சல் மற்றும் Samsung account ID பகிரப்படும். அழைப்பு %2$d நாட்களில் காலாவதியாகிவிடும்.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d பரிந்துரை</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d பரிந்துரைகள்</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">தவறான குறியீடு பல முறை உள்ளிடப்பட்டுள்ளது. %d நிமிடம் காத்திருந்து, மீண்டும் முயலவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">தவறான குறியீடு பல முறை உள்ளிடப்பட்டுள்ளது. %d நிமிடங்கள் காத்திருந்து, மீண்டும் முயலவும்.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">தவறான குறியீடு பல முறை உள்ளிடப்பட்டுள்ளது. %d வினாடி காத்திருந்து, மீண்டும் முயலவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">தவறான குறியீடு பல முறை உள்ளிடப்பட்டுள்ளது. %d வினாடிகள் காத்திருந்து, மீண்டும் முயலவும்.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உறக்க நேரம்: %d மணிநேரம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">உறக்க நேரம்: %d மணிநேரங்கள்</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உறக்க நேரம்: %d நிமிடம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">உறக்க நேரம்: %d நிமிடங்கள்</item>
+    </plurals>
+</resources>

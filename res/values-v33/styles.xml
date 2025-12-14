@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SudDynamicColorTheme" parent="@style/SudDynamicColorBaseTheme">
+        <item name="colorSurface">@color/sud_system_surface</item>
+    </style>
+    <style name="SudDynamicColorTheme.Light" parent="@style/SudDynamicColorBaseTheme.Light">
+        <item name="colorSurface">@color/sud_system_surface</item>
+    </style>
+    <style name="SudMaterialYouAlertDialogTheme" parent="@style/SudAlertDialogTheme">
+        <item name="android:windowTitleStyle">@style/SudMaterialYouWindowTitleStyle</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="SudMaterialYouAlertDialogTheme.Light" parent="@style/SudAlertDialogTheme.Light">
+        <item name="android:windowTitleStyle">@style/SudMaterialYouWindowTitleStyle</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

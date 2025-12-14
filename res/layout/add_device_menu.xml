@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/register_new_device" android:tag="layout/add_device_menu_0" android:background="@drawable/ripple_setting_preference" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/common_field_layout_height_1" android:paddingStart="20.0dp" android:paddingEnd="18.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/add_image" android:layout_width="@dimen/device_info_icon_size" android:layout_height="@dimen/device_info_icon_size" android:src="@drawable/tw_ic_ab_add_mtrl" android:layout_marginEnd="18.0dp" app:tint="@color/functional_green_color" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/default_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/register_new_device_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/sa_device_register_device" android:textDirection="locale" style="@style/FontRegular" />
+</LinearLayout>

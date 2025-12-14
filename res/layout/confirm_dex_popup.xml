@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lo_main" android:background="#fafafa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="36.0dp" android:paddingEnd="36.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/img_biometric" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" android:layout_marginBottom="8.0dp" />
+    <TextView android:layout_gravity="center" android:id="@id/tv_use_your_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dp" android:text="@string/sa_pop_use_your_irises_on_your_phone_to_verify_your_identity" />
+    <Button android:textSize="15.0sp" android:layout_gravity="center" android:id="@id/btn_use_backup_pw" android:background="@drawable/iris_button" android:layout_width="wrap_content" android:layout_height="40.0dp" android:layout_marginBottom="15.0dp" android:foreground="@drawable/ripple_mask_3" android:text="@string/sa_button_use_account_password" android:textAllCaps="true" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" />
+    <TextView android:textSize="15.0sp" android:textColor="#499ebd" android:layout_gravity="right" android:id="@id/btn_cancel" android:background="@drawable/ripple_mask_5" android:padding="2.0dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="@string/button_name_cancel" android:textAllCaps="true" android:layout_marginEnd="0.0dp" style="@style/FontSemiBold" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/nice_auth_mvno_help_dialog_0" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dp" android:paddingTop="24.0dp" android:paddingRight="24.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/nice_auth_mvno_help_text" android:textColor="@color/nice_auth_title" android:gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_nice_auth_skt" style="@style/FontSemiBold" />
+        <TextView android:textSize="@dimen/nice_auth_mvno_help_text" android:textColor="@color/nice_auth_title" android:gravity="start" android:id="@id/mvno_sk_providers" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" style="@style/FontRegular" />
+        <TextView android:textSize="@dimen/nice_auth_mvno_help_text" android:textColor="@color/nice_auth_title" android:gravity="start" android:paddingTop="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_nice_auth_kt" style="@style/FontSemiBold" />
+        <TextView android:textSize="@dimen/nice_auth_mvno_help_text" android:textColor="@color/nice_auth_title" android:gravity="start" android:id="@id/mvno_kt_providers" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" style="@style/FontRegular" />
+        <TextView android:textSize="@dimen/nice_auth_mvno_help_text" android:textColor="@color/nice_auth_title" android:gravity="start" android:paddingTop="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_nice_auth_lg_uplus" style="@style/FontSemiBold" />
+        <TextView android:textSize="@dimen/nice_auth_mvno_help_text" android:textColor="@color/nice_auth_title" android:gravity="start" android:id="@id/mvno_lg_providers" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" style="@style/FontRegular" />
+    </LinearLayout>
+</ScrollView>

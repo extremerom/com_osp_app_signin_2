@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/sa_enter_profile_information_header"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/sa_personal_info_account_id" android:key="Id">
+        <androidx.preference.Preference android:enabled="false" android:title="@string/sa_header_email" android:key="EmailId" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/sa_main_personal_information" android:key="PersonalInfo">
+        <androidx.preference.Preference android:enabled="false" android:title="@string/sa_body_name" android:key="Name" />
+        <androidx.preference.Preference android:enabled="false" android:title="@string/sa_header_phone_number" android:key="PhoneNumber" />
+        <androidx.preference.Preference android:enabled="false" android:title="@string/sa_personal_info_work" android:key="Work" />
+        <androidx.preference.Preference android:title="@string/sa_body_language" android:key="Language" />
+        <androidx.preference.Preference android:enabled="false" android:title="@string/sa_header_country_or_region" android:key="Country" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

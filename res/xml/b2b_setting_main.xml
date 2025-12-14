@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/sa_body_samsung_account" android:key="@string/setting_main_key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:title="@string/sa_enter_profile_information_header" android:key="PersonalInformation" />
+    <com.samsung.android.samsungaccount.setting.ui.SecurityStatusPreference android:layout="@layout/pref_row_security" android:title="@string/sa_security_and_privacy_title" android:key="SecurityAndPrivacy" />
+    <com.samsung.android.samsungaccount.b2b.presentation.view.B2bSettingDevicePreference android:layout="@layout/b2b_pref_row_device" android:title="@string/sa_main_devices" android:key="Devices" />
+    <androidx.preference.PreferenceCategory android:title="@string/sa_main_apps_and_features" android:key="AppsAndFeatures" />
+    <com.samsung.android.samsungaccount.setting.ui.IconPreference android:icon="@drawable/ic_intelligence_services" android:title="@string/sa_galaxy_ai" android:key="GalaxyAi" />
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

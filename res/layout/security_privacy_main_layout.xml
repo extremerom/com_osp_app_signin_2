@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:tag="layout/security_privacy_main_layout_0" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:fitsSystemWindows="true" app:expanded="false" style="@style/AppBarLayoutStyle">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:fitsSystemWindows="true" style="@style/ExpandedAppbarLayoutStyle">
+            <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" app:layout_collapseMode="pin" app:titleTextAppearance="@style/Toolbar.TitleText" style="@style/ToolbarStyle" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerNestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:side_margin="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="100.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/list_container_sub" android:tag="binding_1" android:background="@color/list_background" android:scrollbars="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:fillViewport="true" android:layout_weight="100.0" android:overScrollMode="always">
+                <include android:id="@id/security_badge_header" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/security_privacy_header_layout" />
+                <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/security_tips_parent_container" android:tag="binding_2" android:background="@color/chunk_background" android:paddingBottom="@dimen/page_indicator_container_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dp">
+                    <androidx.viewpager2.widget.ViewPager2 android:id="@id/tips_cards_view_pager" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <com.google.android.material.tabs.TabLayout android:layout_gravity="center_horizontal" android:id="@id/dots_indicator_tips_cards" android:layout_width="match_parent" android:layout_height="@dimen/page_indicator_height" android:layout_marginTop="@dimen/page_indicator_margin_top" app:tabBackground="@drawable/tab_selector_tips_security" app:tabGravity="center" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="0.0dp" app:tabMode="fixed" />
+                </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                    <FrameLayout android:layout_gravity="center" android:id="@id/security_privacy_preference_container" android:background="@color/chunk_background" android:layout_width="1.0px" android:layout_height="match_parent" android:layout_weight="100.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerNestedScrollView>
+    <View android:id="@id/bottom_corner" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d įrenginys</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d įrenginiai</item>
+        <item quantity="many">%d įrenginio</item>
+        <item quantity="other">%d įrenginių</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Per daug patvirtinimo kodų išsiųsta į jūsų įrenginį, todėl užblokavome „Galaxy“ įrenginio patvirtinimą jūsų paskyrai.
+
+Naudokite kitą patvirtinimo būdą arba bandykite dar kartą po %d min."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Per daug patvirtinimo kodų išsiųsta į jūsų įrenginį, todėl užblokavome „Galaxy“ įrenginio patvirtinimą jūsų paskyrai.
+
+Naudokite kitą patvirtinimo būdą arba bandykite dar kartą po %d min."</item>
+        <item quantity="many">"Per daug patvirtinimo kodų išsiųsta į jūsų įrenginį, todėl užblokavome „Galaxy“ įrenginio patvirtinimą jūsų paskyrai.
+
+Naudokite kitą patvirtinimo būdą arba bandykite dar kartą po %d min."</item>
+        <item quantity="other">"Per daug patvirtinimo kodų išsiųsta į jūsų įrenginį, todėl užblokavome „Galaxy“ įrenginio patvirtinimą jūsų paskyrai.
+
+Naudokite kitą patvirtinimo būdą arba bandykite dar kartą po %d min."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ir dar %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s ir dar %2$d</item>
+        <item quantity="many">%1$s ir dar %2$d</item>
+        <item quantity="other">%1$s ir dar %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Per 30 d. negalima pakviesti %1$s daugiau nei %2$d kartą.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Per 30 d. negalima pakviesti %1$s daugiau nei %2$d kartus.</item>
+        <item quantity="many">Per 30 d. negalima pakviesti %1$s daugiau nei %2$d kartų.</item>
+        <item quantity="other">Per 30 d. negalima pakviesti %1$s daugiau nei %2$d kartų.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vaikų paskyras galima kurti tik jaunesniems nei %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vaikų paskyras galima kurti tik jaunesniems nei %d.</item>
+        <item quantity="many">Vaikų paskyras galima kurti tik jaunesniems nei %d.</item>
+        <item quantity="other">Vaikų paskyras galima kurti tik jaunesniems nei %d.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metai.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metai.</item>
+        <item quantity="many">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metų.</item>
+        <item quantity="other">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metų.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jūsų šalyje ar regione jaunesni nei %d žmonės negali turėti paskyros.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jūsų šalyje ar regione jaunesni nei %d žmonės negali turėti paskyros.</item>
+        <item quantity="many">Jūsų šalyje ar regione jaunesni nei %d žmonės negali turėti paskyros.</item>
+        <item quantity="other">Jūsų šalyje ar regione jaunesni nei %d žmonės negali turėti paskyros.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Amžius: %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Amžius: %d m.</item>
+        <item quantity="many">Amžius: %d m.</item>
+        <item quantity="other">Amžius: %d m.</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Prieš išsiųsdami užklausą palaukite %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Prieš išsiųsdami užklausą palaukite %d min.</item>
+        <item quantity="many">Prieš išsiųsdami užklausą palaukite %d min.</item>
+        <item quantity="other">Prieš išsiųsdami užklausą palaukite %d min.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d simbolį.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="other">Negalima įvesti daugiau nei %d simbolių.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Atsakymuose turi būti bent %d simbolis.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Atsakymuose turi būti bent %d simboliai.</item>
+        <item quantity="many">Atsakymuose turi būti bent %d simbolių.</item>
+        <item quantity="other">Atsakymuose turi būti bent %d simbolių.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dabar, kai jums suėjo %d, galite pereiti prie įprastos „Samsung account“. Kai tai padarysite, galėsite naudotis bet kokiomis programomis ir įrenginiais be tėvų leidimo, o tėvų kontrolė nebebus taikoma.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dabar, kai jums suėjo %d, galite pereiti prie įprastos „Samsung account“. Kai tai padarysite, galėsite naudotis bet kokiomis programomis ir įrenginiais be tėvų leidimo, o tėvų kontrolė nebebus taikoma.</item>
+        <item quantity="many">Dabar, kai jums suėjo %d, galite pereiti prie įprastos „Samsung account“. Kai tai padarysite, galėsite naudotis bet kokiomis programomis ir įrenginiais be tėvų leidimo, o tėvų kontrolė nebebus taikoma.</item>
+        <item quantity="other">Dabar, kai jums suėjo %d, galite pereiti prie įprastos „Samsung account“. Kai tai padarysite, galėsite naudotis bet kokiomis programomis ir įrenginiais be tėvų leidimo, o tėvų kontrolė nebebus taikoma.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Man daugiau nei %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Man daugiau nei %d</item>
+        <item quantity="many">Man daugiau nei %d</item>
+        <item quantity="other">Man daugiau nei %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Man nėra %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Man nėra %d</item>
+        <item quantity="many">Man nėra %d</item>
+        <item quantity="other">Man nėra %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Per daug kartų įvestas neegzistuojantis ID. Bandykite dar kartą po %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Per daug kartų įvestas neegzistuojantis ID. Bandykite dar kartą po %d min.</item>
+        <item quantity="many">Per daug kartų įvestas neegzistuojantis ID. Bandykite dar kartą po %d min.</item>
+        <item quantity="other">Per daug kartų įvestas neegzistuojantis ID. Bandykite dar kartą po %d min.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d narys</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nariai</item>
+        <item quantity="many">%d narių</item>
+        <item quantity="other">%d narių</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Į šeimos grupę negalima pakviesti daugiau nei %d žmogaus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Į šeimos grupę negalima pakviesti daugiau nei %d žmonių.</item>
+        <item quantity="many">Į šeimos grupę negalima pakviesti daugiau nei %d žmonių.</item>
+        <item quantity="other">Į šeimos grupę negalima pakviesti daugiau nei %d žmonių.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s netrukus sueis %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s netrukus sueis %2$d</item>
+        <item quantity="many">%1$s netrukus sueis %2$d</item>
+        <item quantity="other">%1$s netrukus sueis %2$d</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pakviesta žmonių: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pakviesta žmonių: %d</item>
+        <item quantity="many">Pakviesta žmonių: %d</item>
+        <item quantity="other">Pakviesta žmonių: %d</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ir dar %2$d numeris</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s ir dar %2$d numeriai</item>
+        <item quantity="many">%1$s ir dar %2$d numerio</item>
+        <item quantity="other">%1$s ir dar %2$d numerių</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d neperžiūrėtas įvykis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d neperžiūrėti įvykiai</item>
+        <item quantity="many">%d neperžiūrėtų įvykių</item>
+        <item quantity="other">%d neperžiūrėtų įvykių</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ir dar %2$d paskyra</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s ir dar %2$d paskyros</item>
+        <item quantity="many">%1$s ir dar %2$d paskyrų</item>
+        <item quantity="other">%1$s ir dar %2$d paskyrų</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s pakvietė jus į savo šeimos grupę. Bakstelėkite nuorodą toliau esančioje žinutėje ir prisijunkite. Jei prisijungsite, jūsų vardas, el. paštas ir „Samsung account“ ID bus bendrinami su kitais šeimos nariais. Šis kvietimas baigs galioti po %2$d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s pakvietė jus į savo šeimos grupę. Bakstelėkite nuorodą toliau esančioje žinutėje ir prisijunkite. Jei prisijungsite, jūsų vardas, el. paštas ir „Samsung account“ ID bus bendrinami su kitais šeimos nariais. Šis kvietimas baigs galioti po %2$d d.</item>
+        <item quantity="many">%1$s pakvietė jus į savo šeimos grupę. Bakstelėkite nuorodą toliau esančioje žinutėje ir prisijunkite. Jei prisijungsite, jūsų vardas, el. paštas ir „Samsung account“ ID bus bendrinami su kitais šeimos nariais. Šis kvietimas baigs galioti po %2$d d.</item>
+        <item quantity="other">%1$s pakvietė jus į savo šeimos grupę. Bakstelėkite nuorodą toliau esančioje žinutėje ir prisijunkite. Jei prisijungsite, jūsų vardas, el. paštas ir „Samsung account“ ID bus bendrinami su kitais šeimos nariais. Šis kvietimas baigs galioti po %2$d d.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pasiūlymas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pasiūlymai</item>
+        <item quantity="many">%d pasiūlymų</item>
+        <item quantity="other">%d pasiūlymų</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Per daug kartų įvestas neteisingas kodas. Palaukite %d min. ir bandykite dar kartą.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Per daug kartų įvestas neteisingas kodas. Palaukite %d min. ir bandykite dar kartą.</item>
+        <item quantity="many">Per daug kartų įvestas neteisingas kodas. Palaukite %d min. ir bandykite dar kartą.</item>
+        <item quantity="other">Per daug kartų įvestas neteisingas kodas. Palaukite %d min. ir bandykite dar kartą.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Per daug kartų įvestas neteisingas kodas. Palaukite %d sek. ir bandykite dar kartą.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Per daug kartų įvestas neteisingas kodas. Palaukite %d sek. ir bandykite dar kartą.</item>
+        <item quantity="many">Per daug kartų įvestas neteisingas kodas. Palaukite %d sek. ir bandykite dar kartą.</item>
+        <item quantity="other">Per daug kartų įvestas neteisingas kodas. Palaukite %d sek. ir bandykite dar kartą.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Miegojimo laikas: %d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Miegojimo laikas: %d val.</item>
+        <item quantity="many">Miegojimo laikas: %d val.</item>
+        <item quantity="other">Miegojimo laikas: %d val.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Miegojimo laikas: %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Miegojimo laikas: %d min.</item>
+        <item quantity="many">Miegojimo laikas: %d min.</item>
+        <item quantity="other">Miegojimo laikas: %d min.</item>
+    </plurals>
+</resources>

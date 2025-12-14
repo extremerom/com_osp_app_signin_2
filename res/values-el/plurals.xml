@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d συσκευή</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d συσκευές</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d νέα ειδοποίηση</item>
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Στάλθηκαν πάρα πολλοί κωδικοί επαλήθευσης στη συσκευή σας και γι' αυτόν το λόγο αποκλείσαμε την επαλήθευση μέσω συσκευής Galaxy για το λογαριασμό σας.
+
+Χρησιμοποιήστε άλλη μέθοδο επαλήθευσης ή δοκιμάστε ξανά σε %d λεπτό."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Στάλθηκαν πάρα πολλοί κωδικοί επαλήθευσης στη συσκευή σας και γι' αυτόν το λόγο αποκλείσαμε την επαλήθευση μέσω συσκευής Galaxy για το λογαριασμό σας.
+
+Χρησιμοποιήστε άλλη μέθοδο επαλήθευσης ή δοκιμάστε ξανά σε %d λεπτά."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s και %2$d ακόμη</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s και %2$d ακόμη</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να προσκαλέσετε το χρήστη %1$s πάνω από %2$d φορά μέσα σε 30 ημέρες.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν μπορείτε να προσκαλέσετε το χρήστη %1$s πάνω από %2$d φορές μέσα σε 30 ημέρες.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Η δημιουργία λογαριασμών για παιδιά είναι δυνατή μόνο για άτομα κάτω του %d έτους.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Η δημιουργία λογαριασμών για παιδιά είναι δυνατή μόνο για άτομα κάτω των %d ετών.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Θα πρέπει να είστε τουλάχιστον %1$d έτους, για να χρησιμοποιήσετε την υπηρεσία %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Θα πρέπει να είστε τουλάχιστον %1$d ετών, για να χρησιμοποιήσετε την υπηρεσία %2$s.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Τα άτομα κάτω του %d έτους δεν μπορούν να έχουν λογαριασμό στη χώρα ή την περιοχή σας.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Τα άτομα κάτω των %d ετών δεν μπορούν να έχουν λογαριασμό στη χώρα ή την περιοχή σας.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ηλικία %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ηλικία %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Περιμένετε %d λεπτό προτού στείλετε το αίτημα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Περιμένετε %d λεπτά προτού στείλετε το αίτημα.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρες.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Οι απαντήσεις πρέπει να περιέχουν τουλάχιστον %d χαρακτήρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Οι απαντήσεις πρέπει να περιέχουν τουλάχιστον %d χαρακτήρες.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Τώρα που γίνατε %d, μπορείτε να αλλάξετε τον λογαριασμό σας σε κανονικό Samsung account. Αν το κάνετε αυτό, θα μπορείτε να χρησιμοποιείτε ό,τι εφαρμογές και συσκευές θέλετε χωρίς να χρειάζεστε άδεια από τους γονείς σας και οι γονικοί έλεγχοι δεν θα ισχύουν πια.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Τώρα που γίνατε %d, μπορείτε να αλλάξετε τον λογαριασμό σας σε κανονικό Samsung account. Αν το κάνετε αυτό, θα μπορείτε να χρησιμοποιείτε ό,τι εφαρμογές και συσκευές θέλετε χωρίς να χρειάζεστε άδεια από τους γονείς σας και οι γονικοί έλεγχοι δεν θα ισχύουν πια.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Είμαι άνω του %d έτους</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Είμαι άνω των %d ετών</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Είμαι κάτω του %d έτους</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Είμαι κάτω των %d ετών</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Καταχωρήθηκε αναγνωριστικό που δεν υπάρχει πάρα πολλές φορές. Δοκιμάστε ξανά σε %d λεπτό.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Καταχωρήθηκε αναγνωριστικό που δεν υπάρχει πάρα πολλές φορές. Δοκιμάστε ξανά σε %d λεπτά.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d μέλος</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d μέλη</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να προσκαλέσετε πάνω από %d άτομο σε μια οικογενειακή ομάδα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Δεν μπορείτε να προσκαλέσετε πάνω από %d άτομα σε μια οικογενειακή ομάδα.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ο χρήστης %1$s γίνεται %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ο χρήστης %1$s γίνεται %2$d</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Στάλθηκε πρόσκληση σε %d άτομο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Στάλθηκε πρόσκληση σε %d άτομα</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s και %2$d ακόμη αριθμός</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s και %2$d ακόμη αριθμοί</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d συμβάν που δεν έχετε δει</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d συμβάντα που δεν έχετε δει</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s και %2$d ακόμη λογαριασμός</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s και %2$d ακόμη λογαριασμοί</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ο χρήστης %1$s σας προσκάλεσε στην οικογενειακή ομάδα του. Πατήστε τον σύνδεσμο στο παρακάτω μήνυμα για να εγγραφείτε. Εάν εγγραφείτε, το όνομα, το email και το αναγνωριστικό του Samsung account σας θα κοινοποιηθούν στα άλλα μέλη της οικογένειας. Η πρόσκληση θα λήξει σε %2$d ημέρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ο χρήστης %1$s σας προσκάλεσε στην οικογενειακή ομάδα του. Πατήστε τον σύνδεσμο στο παρακάτω μήνυμα για να εγγραφείτε. Εάν εγγραφείτε, το όνομα, το email και το αναγνωριστικό του Samsung account σας θα κοινοποιηθούν στα άλλα μέλη της οικογένειας. Η πρόσκληση θα λήξει σε %2$d ημέρες.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d πρόταση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d προτάσεις</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Καταχωρήθηκε λανθασμένος κωδικός πάρα πολλές φορές. Περιμένετε %d λεπτό και δοκιμάστε ξανά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Καταχωρήθηκε λανθασμένος κωδικός πάρα πολλές φορές. Περιμένετε %d λεπτά και δοκιμάστε ξανά.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Καταχωρήθηκε λανθασμένος κωδικός πάρα πολλές φορές. Περιμένετε %d δευτερόλεπτο και δοκιμάστε ξανά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Καταχωρήθηκε λανθασμένος κωδικός πάρα πολλές φορές. Περιμένετε %d δευτερόλεπτα και δοκιμάστε ξανά.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Χρόνος ύπνου: %d ώρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Χρόνος ύπνου: %d ώρες</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Χρόνος ύπνου: %d λεπτό</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Χρόνος ύπνου: %d λεπτά</item>
+    </plurals>
+</resources>

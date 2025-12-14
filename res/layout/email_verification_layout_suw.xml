@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:tag="layout/email_verification_layout_suw_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/email_verification_id_text_size" android:textColor="@color/description_text_color" android:gravity="center" android:id="@id/user_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FontRegular" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/description_text_color" android:gravity="center" android:id="@id/email_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" style="@style/FontRegular" />
+</LinearLayout>

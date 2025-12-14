@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/permission_dialog" android:paddingTop="@dimen/winset_dialog_body_padding_vertical" android:paddingBottom="@dimen/winset_dialog_body_padding_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/default_padding_start_end" android:paddingEnd="@dimen/default_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/permission_dialog_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textColor="?android:textColorAlertDialogListItem" android:id="@id/dialog_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/winset_dialog_permission_body_margin_bottom" android:lineSpacingExtra="@dimen/winset_dialog_body_text_line_spacing" android:textDirection="locale" />
+        <LinearLayout android:orientation="vertical" android:id="@id/permission_items_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

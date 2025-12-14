@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/guardian_verification_empty_card_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="@color/default_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:text="@string/sa_guardian_verification_empty_card" android:textAlignment="center" />
+    <Button android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_guardian_verification_register_card" />
+</LinearLayout>

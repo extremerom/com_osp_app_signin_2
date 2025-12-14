@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/about_passkeys_layout_0" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/main_desc_font" android:textColor="@color/page_title_main_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dp" android:text="@string/sa_passkey_about_passkeys_description" style="@style/FontRegular" />
+    <TextView android:textSize="@dimen/main_desc_font" android:textColor="@color/page_title_main_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_passkey_about_passkeys_secondary_title" style="@style/FontSemiBold" />
+    <TextView android:textSize="@dimen/main_desc_font" android:textColor="@color/page_title_main_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_passkey_about_passkeys_secondary_description" style="@style/FontRegular" />
+    <TextView android:textSize="@dimen/main_desc_font" android:textColor="@color/page_title_main_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_passkey_about_passkeys_third_description" style="@style/FontRegular" />
+</LinearLayout>

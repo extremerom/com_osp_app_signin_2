@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:tag="layout/personal_info_edit_filed_layout_0" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/edit_filed_layout" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="100.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/all_names_layout" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/given_name_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:tag="binding_2" android:text="@string/sa_body_first_name" style="@style/PersonalInfoFieldTitleTextView" />
+                <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout style="@style/PersonalInfoRoundedCornerLinearLayout">
+                    <EditText android:id="@id/given_name" android:tag="binding_3" android:hint="@string/sa_personal_info_enter_your_first_name" style="@style/PersonalInfoEditText" />
+                    <TextView android:id="@id/given_name_error" style="@style/DefaultErrorTextView" />
+                </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/family_name_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:tag="binding_4" android:text="@string/sa_body_last_name" style="@style/PersonalInfoFieldTitleTextView" />
+                <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout style="@style/PersonalInfoRoundedCornerLinearLayout">
+                    <EditText android:id="@id/family_name" android:tag="binding_5" android:hint="@string/sa_personal_info_enter_your_last_name" android:imeOptions="actionDone|flagNoFullscreen" style="@style/PersonalInfoEditText" />
+                    <TextView android:id="@id/family_name_error" style="@style/DefaultErrorTextView" />
+                </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:tag="binding_6" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:id="@id/nick_name_layout" style="@style/PersonalInfoRoundedCornerLinearLayout">
+                <EditText android:id="@id/nick_name" android:tag="binding_7" android:hint="@string/sa_personal_info_hint_nick_name" android:imeOptions="actionDone|flagNoFullscreen" style="@style/PersonalInfoEditText" />
+                <TextView android:id="@id/nick_name_error" style="@style/DefaultErrorTextView" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:tag="binding_8" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_marginBottom="17.0dp" android:text="@string/sa_personal_info_select_the_language" android:layout_marginHorizontal="18.0dp" style="@style/BasicDescription" />
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:id="@id/language_layout" android:paddingBottom="0.0dp" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" style="@style/PersonalInfoRoundedCornerLinearLayout">
+                <Spinner android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/language_spinner" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="56.0dp" android:dropDownWidth="wrap_content" android:spinnerMode="dropdown" android:layout_marginStart="10.0dp" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:tag="binding_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:id="@id/status_message_layout" style="@style/PersonalInfoRoundedCornerLinearLayout">
+                <EditText android:id="@id/status_message" android:tag="binding_11" android:hint="@string/sa_personal_info_hint_status_message" android:imeOptions="actionDone|flagNoFullscreen" style="@style/PersonalInfoEditText" />
+                <TextView android:id="@id/status_message_error" style="@style/DefaultErrorTextView" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:tag="binding_12" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:tag="binding_13" android:text="@string/sa_personal_info_title_job_title" style="@style/PersonalInfoFieldTitleTextView" />
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:id="@id/job_title_layout" style="@style/PersonalInfoRoundedCornerLinearLayout">
+                <EditText android:id="@id/job_title" android:tag="binding_14" android:hint="@string/sa_personal_info_hint_job_title" style="@style/PersonalInfoEditText" />
+                <TextView android:id="@id/job_title_error" style="@style/DefaultErrorTextView" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+            <TextView android:tag="binding_15" android:text="@string/sa_personal_info_title_department" style="@style/PersonalInfoFieldTitleTextView" />
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:id="@id/department_layout" style="@style/PersonalInfoRoundedCornerLinearLayout">
+                <EditText android:id="@id/department" android:tag="binding_16" android:hint="@string/sa_personal_info_hint_department" style="@style/PersonalInfoEditText" />
+                <TextView android:id="@id/department_error" style="@style/DefaultErrorTextView" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+            <TextView android:tag="binding_17" android:text="@string/sa_personal_info_title_company" style="@style/PersonalInfoFieldTitleTextView" />
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:id="@id/company_layout" style="@style/PersonalInfoRoundedCornerLinearLayout">
+                <EditText android:id="@id/company" android:tag="binding_18" android:hint="@string/sa_personal_info_hint_company" android:imeOptions="actionDone|flagNoFullscreen" style="@style/PersonalInfoEditText" />
+                <TextView android:id="@id/company_error" style="@style/DefaultErrorTextView" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:tag="binding_19" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:id="@id/birthday_layout" android:paddingTop="24.0dp" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" style="@style/PersonalInfoRoundedCornerLinearLayout">
+                <androidx.picker.widget.SeslDatePicker android:theme="@style/PersonalInfoDatePickerStyle" android:layout_gravity="center" android:id="@id/date_picker" android:tag="binding_20" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:tag="binding_21" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:id="@id/zip_code_layout" style="@style/PersonalInfoRoundedCornerLinearLayout">
+                <EditText android:id="@id/zip_code" android:tag="binding_22" android:hint="@string/sa_personal_info_zip_code" android:imeOptions="actionDone|flagNoFullscreen" style="@style/PersonalInfoEditText" />
+                <TextView android:id="@id/zip_code_error" style="@style/DefaultErrorTextView" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:tag="binding_23" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:id="@id/postal_code_layout" style="@style/PersonalInfoRoundedCornerLinearLayout">
+                <EditText android:id="@id/postal_code" android:tag="binding_24" android:hint="@string/sa_personal_info_postal_code" android:imeOptions="actionDone|flagNoFullscreen" style="@style/PersonalInfoEditText" />
+                <TextView android:id="@id/postal_code_error" style="@style/DefaultErrorTextView" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/popup_middle_layout" android:tag="layout/login_push_confirm_popup_0" android:paddingTop="28.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" android:scrollIndicators="top|bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginBottom="14.0dp">
+            <com.samsung.android.samsungaccount.utils.ui.AppLogoPopupView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/txt_logo" />
+        </FrameLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/dialog_body_text_color" android:id="@id/login_confirm_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:lineSpacingExtra="6.0dp" android:textAlignment="center" style="@style/FontRegular" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/photo_layout" android:tag="binding_1" android:background="@drawable/profile_photo_selector" android:focusable="true" android:clickable="true" android:layout_width="96.0dp" android:layout_height="96.0dp">
+            <ImageView android:layout_gravity="center" android:id="@id/photo_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/photo_default_area" android:background="@drawable/profile_photo_circle_setting" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/photo_default" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/profile_default" android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="25.0sp" android:textColor="@color/dialog_body_text_color" android:gravity="center" android:id="@id/name_field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="2.0dp" style="@style/FontRegular" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/sa_light_gray" android:gravity="center" android:id="@id/id_field" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FontRegular" />
+    </LinearLayout>
+</ScrollView>

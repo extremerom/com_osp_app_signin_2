@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <inset>
+            <shape android:shape="rectangle">
+                <corners android:radius="2.0dp" />
+                <solid android:color="#fafafa" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sa_consent_info_switch_sub_on_background" />
+        </shape>
+    </item>
+</ripple>

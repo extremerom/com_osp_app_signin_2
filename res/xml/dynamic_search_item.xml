@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchableItem key="@string/setting_main_key" title="@string/sa_body_samsung_account">
+    <Item connectedClass="@string/config_samsung_account_payments_and_benefits_class" intentAction="@string/config_samsung_account_setting_main_action" key="PaymentsAndBenefits" screenTitle="@string/sa_body_samsung_account" targetClass="@string/config_samsung_account_setting_main_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_payments_and_benefits" />
+</SearchableItem>

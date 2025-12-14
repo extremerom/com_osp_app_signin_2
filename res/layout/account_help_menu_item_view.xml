@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:tag="layout/account_help_menu_item_view_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/help_menu_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/create_account" android:background="@drawable/account_help_menu_button_background" android:layout_marginBottom="16.0dp" android:text="@string/sa_help_menu_create_account" style="@style/BottomContainedButtonStyle" />
+        <Button android:id="@id/forgot_id" android:background="@drawable/account_help_menu_button_background" android:layout_marginBottom="16.0dp" android:text="@string/sa_help_menu_forgot_id" style="@style/BottomContainedButtonStyle" />
+        <Button android:id="@id/forgot_password" android:background="@drawable/account_help_menu_button_background" android:text="@string/sa_help_menu_forgot_password" style="@style/BottomContainedButtonStyle" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/set_up_later" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dp" android:text="@string/sa_help_menu_set_up_later" style="@style/HyperLinkSignIn" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/create_menu_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="@color/onboarding_content_description_text" android:gravity="center" android:layout_gravity="center" android:id="@id/create_menu_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" />
+        <Button android:id="@id/i_am_over" android:background="@drawable/account_help_menu_button_background" android:layout_marginBottom="16.0dp" style="@style/BottomContainedButtonStyle" />
+        <Button android:id="@id/i_am_under" android:background="@drawable/account_help_menu_button_background" style="@style/BottomContainedButtonStyle" />
+    </LinearLayout>
+    <View android:id="@id/bottom_padding" android:layout_width="match_parent" android:layout_height="50.0dp" />
+</LinearLayout>

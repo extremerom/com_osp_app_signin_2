@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchableItem title="@string/sa_security_and_privacy_title">
+    <androidx.preference.PreferenceCategory key="Privacy">
+        <Item intentAction="@string/config_samsung_account_security_and_privacy_action" key="PrivacyNotice" screenTitle="@string/sa_security_and_privacy_title" targetClass="@string/config_samsung_account_security_and_privacy_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_tnc_privacy_notice" />
+        <Item intentAction="@string/config_samsung_account_security_and_privacy_action" key="MarketingPrivacyNotice" screenTitle="@string/sa_security_and_privacy_title" targetClass="@string/config_samsung_account_security_and_privacy_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_personal_info_data_processing_and_sharing" />
+        <Item intentAction="@string/config_samsung_account_security_and_privacy_action" key="MarketingReceive" screenTitle="@string/sa_security_and_privacy_title" targetClass="@string/config_samsung_account_security_and_privacy_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_tnc_get_news_and_special_offers" />
+        <Item intentAction="@string/config_samsung_account_security_and_privacy_action" key="PersonalizedAdvertising" screenTitle="@string/sa_security_and_privacy_title" targetClass="@string/config_samsung_account_security_and_privacy_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_privacy_personalized_ads_with_customized_marketing_title_eu" />
+    </androidx.preference.PreferenceCategory>
+</SearchableItem>

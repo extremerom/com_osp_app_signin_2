@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/nice_auth_mvno_selection_dialog_0" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="20.0dp" android:paddingEnd="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/mvno_selection_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:textSize="@dimen/nice_auth_mvno_selection_popup_text" android:textColor="@color/nice_auth_title" android:gravity="start|center" android:id="@id/mvno_selection_radio_skt" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:minHeight="56.0dp" android:text="@string/sa_nice_auth_skt" style="@style/NiceRadioButtonStyle" />
+        <RadioButton android:textSize="@dimen/nice_auth_mvno_selection_popup_text" android:textColor="@color/nice_auth_title" android:gravity="start|center" android:id="@id/mvno_selection_radio_kt" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:minHeight="56.0dp" android:text="@string/sa_nice_auth_kt" style="@style/NiceRadioButtonStyle" />
+        <RadioButton android:textSize="@dimen/nice_auth_mvno_selection_popup_text" android:textColor="@color/nice_auth_title" android:gravity="start|center" android:id="@id/mvno_selection_radio_lg" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:minHeight="56.0dp" android:text="@string/sa_nice_auth_lg_uplus" style="@style/NiceRadioButtonStyle" />
+    </RadioGroup>
+</LinearLayout>

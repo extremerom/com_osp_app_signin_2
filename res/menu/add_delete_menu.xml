@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/tw_ic_ab_add_mtrl" android:id="@id/add_button" android:title="@string/add" app:showAsAction="always" />
+    <item android:icon="@drawable/tw_ic_bb_delete_mtrl" android:id="@id/delete_button" android:title="@string/option_delete" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d მოწყობილობა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d მოწყობილობა</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"თქვენს მოწყობილობაში გაიგზავნა ზედმეტად ბევრი დამოწმების კოდი და, ამიტომ, თქვენი ანგარიშისთვის დავბლოკეთ Galaxy მოწყობილობა.
+
+გამოიყენეთ დამოწმების სხვა მეთოდი, ან ისევ სცადეთ %d წუთში."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"თქვენს მოწყობილობაში გაიგზავნა ზედმეტად ბევრი დამოწმების კოდი და, ამიტომ, თქვენი ანგარიშისთვის დავბლოკეთ Galaxy მოწყობილობა.
+
+გამოიყენეთ დამოწმების სხვა მეთოდი, ან ისევ სცადეთ %d წუთში."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და კიდევ %2$d სხვა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s და კიდევ %2$d სხვა</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s შეგიძლიათ მოიწვიოთ მაქსიმუმ %2$d-ხელ 30 დღეში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s შეგიძლიათ მოიწვიოთ მაქსიმუმ %2$d-ჯერ 30 დღეში.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">საბავშვო ანგარიშის შექმნა შესაძლებელია მხოლოდ %d წლის ასაკზე ნაკლებ პირთათვის.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">საბავშვო ანგარიშის შექმნა შესაძლებელია მხოლოდ %d წლის ასაკზე ნაკლებ პირთათვის.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მინიმუმ %1$d წლის უნდა იყოთ, რომ გამოიყენოთ %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მინიმუმ %1$d წლის უნდა იყოთ, რომ გამოიყენოთ %2$s.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წელზე ნაკლები ასაკის მქონე პირებს ვერ ექნებათ ანგარიში თქვენს ქვეყანაში ან რეგიონში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წელზე ნაკლები ასაკის მქონე პირებს ვერ ექნებათ ანგარიში თქვენს ქვეყანაში ან რეგიონში.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წლის</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წლის</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მოთხოვნის გაგზავნამდე დაიცადეთ %d წუთი.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მოთხოვნის გაგზავნამდე დაიცადეთ %d წუთი.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">პასუხი უნდა შეიცავდეს მინიმუმ %d სიმბოლოს.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">პასუხი უნდა შეიცავდეს მინიმუმ %d სიმბოლოს.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ახლა როცა %d წლის გახდით, შეგიძლიათ გადართოთ ჩვეულებრივ Samsung account-ზე. თუ ამას გააკეთებთ, მშობლების ნებართვის გარეშე შეძლებთ თქვენთვის სასურველი ნებისმიერი აპლიკაციისა და მოწყობილობის გამოყენებას და მშობლის მხრიდან კონტროლის გამოყენება აღარ მოხდება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ახლა როცა %d წლის გახდით, შეგიძლიათ გადართოთ ჩვეულებრივ Samsung account-ზე. თუ ამას გააკეთებთ, მშობლების ნებართვის გარეშე შეძლებთ თქვენთვის სასურველი ნებისმიერი აპლიკაციისა და მოწყობილობის გამოყენებას და მშობლის მხრიდან კონტროლის გამოყენება აღარ მოხდება.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წელზე მეტი ასაკის ვარ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წელზე მეტი ასაკის ვარ</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წელზე ნაკლების ვარ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წელზე ნაკლების ვარ</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">არარსებული ID შეყვანილია ძალიან ბევრჯერ. ისევ სცადეთ %d წუთში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">არარსებული ID შეყვანილია ძალიან ბევრჯერ. ისევ სცადეთ %d წუთში.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წევრი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d წევრი</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ოჯახის ჯგუფში %d ადამიანზე მეტის მოწვევა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ოჯახის ჯგუფში %d ადამიანზე მეტის მოწვევა შეუძლებელია.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s მალე %2$d წლის ხდება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s მალე %2$d წლის ხდება</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მოწვეულია %d პიროვნება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">მოწვეულია %d ადამიანი</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და კიდევ %2$d სხვა ნომერი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s და კიდევ %2$d სხვა ნომერი</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d მოუნიშნავი ღონისძიება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d მოუნიშნავი ღონისძიება</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და კიდევ %2$d სხვა ანგარიში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s და კიდევ %2$d სხვა ანგარიში</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s გიწვევთ ოჯახის ჯგუფში. შეეხეთ ბმულს ქვემოთ მოცემულ შეტყობინებაში, რომ შეუერთდეთ. თუ შეუერთდებით, თქვენი სახელი, ელფოსტა და Samsung account ID გაზიარდება ოჯახის სხვა წევრებთან. მოწვევას ვადა გასდის %2$d დღეში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s გიწვევთ ოჯახის ჯგუფში. შეეხეთ ბმულს ქვემოთ მოცემულ შეტყობინებაში, რომ შეუერთდეთ. თუ შეუერთდებით, თქვენი სახელი, ელფოსტა და Samsung account ID გაზიარდება ოჯახის სხვა წევრებთან. მოწვევას ვადა გასდის %2$d დღეში.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d შეთავაზება</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d შეთავაზება</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">კოდი არასწორადაა შეყვანილი ძალიან ბევრჯერ. დაიცადეთ %d წუთი და შემდეგ ისევ სცადეთ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">კოდი არასწორადაა შეყვანილი ძალიან ბევრჯერ. დაიცადეთ %d წუთი და შემდეგ ისევ სცადეთ.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">კოდი არასწორადაა შეყვანილი ძალიან ბევრჯერ. დაიცადეთ %d წამი და შემდეგ ისევ სცადეთ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">კოდი არასწორადაა შეყვანილი ძალიან ბევრჯერ. დაიცადეთ %d წამი და შემდეგ ისევ სცადეთ.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ძილის დრო: %d საათი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ძილის დრო: %d საათი</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ძილის დრო: %d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ძილის დრო: %d წუთი</item>
+    </plurals>
+</resources>

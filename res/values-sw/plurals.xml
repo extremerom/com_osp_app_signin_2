@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kifaa %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vifaa %d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">Arifa %d mpya</item>
+        <item quantity="other">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Nambari nyingi mno za kuthibitisha zimetumwa kwenye kifaa chako, kwa hivyo tumezuia uthibitishaji wa kifaa cha Galaxy kwenye akaunti yako.
+
+Tumia njia nyingine ya uthibitishaji au ujaribu tena baada ya dakika %d."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Nambari nyingi mno za kuthibitisha zimetumwa kwenye kifaa chako, kwa hivyo tumezuia uthibitishaji wa kifaa cha Galaxy kwenye akaunti yako.
+
+Tumia njia nyingine ya uthibitishaji au ujaribu tena baada ya dakika %d."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s na %2$d zaidi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s na %2$d zaidi</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kualika %1$s zaidi ya mara %2$d ndani ya siku 30.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Haiwezi kualika %1$s zaidi ya mara %2$d ndani ya siku 30.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Akaunti za watoto zinaweza tu kuundiwa watu walio chini ya %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Akaunti za watoto zinaweza tu kuundiwa watu walio chini ya %d.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Unahitaji kuwa na angalau umri wa mwaka %1$d ili kutumia %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Unahitaji kuwa na angalau umri wa miaka %1$d ili kutumia %2$s.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Watu chini ya miaka %d hawawezi kuwa na akaunti katika nchi au eneo lako.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Watu chini ya miaka %d hawawezi kuwa na akaunti katika nchi au eneo lako.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Umri %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Umri %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Subiri dakika %d kabla ya kutuma ombi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Subiri dakika %d kabla ya kutuma ombi.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kuingiza zaidi ya herufi %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Haiwezi kuingiza zaidi ya herufi %d.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Majibu lazima yawe na angalau herufi %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Majibu lazima yawe na angalau herufi %d.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kwa kuwa sasa una miaka %d, unaweza kubadilisha hadi Samsung account ya kawaida. Ukifanya hivyo, utaweza kutumia programu na vifaa vyovyote unavyopenda bila ruhusa kutoka kwa wazazi wako, na vidhibiti vya wazazi havitatumika tena.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kwa kuwa sasa una miaka %d, unaweza kubadilisha hadi Samsung account ya kawaida. Ukifanya hivyo, utaweza kutumia programu na vifaa vyovyote unavyopenda bila ruhusa kutoka kwa wazazi wako, na vidhibiti vya wazazi havitatumika tena.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niko juu ya %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Niko juu ya %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niko chini ya %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Niko chini ya %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kitambulisho ambacho hakipo kimeingizwa mara nyingi sana. Jaribu tena ndani ya dakika %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kitambulisho ambacho hakipo kimeingizwa mara nyingi sana. Jaribu tena ndani ya dakika %d.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mshirika %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Washiriki %d</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kualika zaidi ya mtu %d kwenye kikundi cha familia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Haiwezi kualika zaidi ya watu %d kwenye kikundi cha familia.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$sinageuka %2$d hivi karibuni</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$sinageuka %2$d hivi karibuni</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mtu %d amealikwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Watu %d wamealikwa</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s na %2$d nambari nyingine</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s na %2$d nambari zingine</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tukio %d lisilochaguliwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Matukio %d yasiyochaguliwa</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s na %2$d akaunti nyingine</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s na %2$d akaunti zingine</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s amekualika kwenye kikundi cha familia yao. Gusa kiungo katika ujumbe ulio hapa chini ili kujiunga. Ukijiunga, jina lako, barua pepe na kitambulisho cha Samsung account vitashirikiwa na wanafamilia wengine. Muda wa mwaliko utaisha %2$d siku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s amekualika kwenye kikundi cha familia yao. Gusa kiungo katika ujumbe ulio hapa chini ili kujiunga. Ukijiunga, jina lako, barua pepe na kitambulisho cha Samsung account vitashirikiwa na wanafamilia wengine. Muda wa mwaliko utaisha %2$d siku.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pendekezo %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mapendekezo %d</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Msimbo usio sahihi umeingizwa mara nyingi sana. Subiri dakika %d, kisha ujaribu tena.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Msimbo usio sahihi umeingizwa mara nyingi sana. Subiri dakika %d, kisha ujaribu tena.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Msimbo usio sahihi umeingizwa mara nyingi sana. Subiri sekunde %d, kisha ujaribu tena.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Msimbo usio sahihi umeingizwa mara nyingi sana. Subiri sekunde %d, kisha ujaribu tena.</item>
+    </plurals>
+</resources>

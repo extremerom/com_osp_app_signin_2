@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/consent_top_view" android:tag="layout/b2b_re_consent_checkbox_type_0" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/consent_content_view" android:tag="binding_1" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0">
+        <TextView android:id="@id/consent_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" style="@style/BasicDescription" />
+        <include android:id="@id/privacy_notice" layout="@layout/consent_checkbox_item_view" />
+        <com.samsung.android.samsungaccount.utils.ui.BottomBar android:id="@id/bottom_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/tnc_min_width" app:button_number="1" app:button_type="primary" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

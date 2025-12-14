@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dp" android:paddingTop="24.0dp" android:paddingRight="24.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/qr_code" android:background="@drawable/qr_family_invitation_background" android:layout_width="224.0dp" android:layout_height="224.0dp" android:layout_marginBottom="16.0dp" android:scaleType="center" />
+        <TextView android:textSize="@dimen/nice_auth_mvno_help_text" android:textColor="@color/sa_child_qr_sign_up_popup_description" android:gravity="start" android:id="@id/qr_description" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FontRegular" />
+    </LinearLayout>
+</ScrollView>

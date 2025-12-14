@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/background" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="@dimen/bottom_bar_icon_text_height" android:paddingHorizontal="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/image_button" android:background="@drawable/ripple_mask_for_bottom_bar_image_button" android:layout_width="match_parent" android:layout_height="match_parent" android:stateListAnimator="?seslSmallTouchAnimator">
+        <ImageView android:layout_gravity="center" android:id="@id/image_view" android:layout_width="24.0dp" android:layout_height="24.0dp" android:tint="@color/bottom_bar_icon_color" />
+        <com.samsung.android.samsungaccount.utils.ui.CustomScaleTextView android:textSize="12.0sp" android:layout_gravity="center" android:id="@id/center_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="5.0dp" app:maxFontLevel="large" />
+    </LinearLayout>
+</LinearLayout>

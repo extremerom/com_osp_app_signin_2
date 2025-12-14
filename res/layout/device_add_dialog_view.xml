@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/device_add_dialog_view_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginStart="6.0dp" android:layout_marginEnd="6.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/device_identity_layer" android:paddingTop="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/sa_device_add_device_dialog_message" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" app:errorTextAppearance="@style/AddDeviceEditTextLayoutErrorAppearance" app:hintTextAppearance="@style/AddDeviceEditTextLayoutHintAppearance" style="@style/TextInputLayoutStyle">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/device_identity_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:imeOptions="actionDone" android:layout_marginStart="0.0dp" android:layout_marginEnd="10.0dp" style="@style/DefaultEditTextStyle" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dp" android:layout_marginTop="19.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="17.0dp" style="android:attr/buttonBarStyle">
+        <Button android:id="@id/cancel_dialog_button" android:text="@string/sa_button_cancel" style="@style/AddDeviceDialogButton" />
+        <View android:layout_gravity="center" android:background="@color/list_divider_color" android:layout_width="@dimen/list_divider_height" android:layout_height="16.0dp" />
+        <Button android:enabled="false" android:id="@id/add_device_button" android:text="@string/add" style="@style/AddDeviceDialogButton" />
+    </LinearLayout>
+</LinearLayout>

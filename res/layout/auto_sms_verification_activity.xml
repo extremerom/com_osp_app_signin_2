@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top_view" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_marginHorizontal="@dimen/onboarding_start_end_margin">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/app_logo_view" />
+            <TextView android:textSize="@dimen/auth_onboarding_title_text_size" android:textColor="@color/page_title_main_page" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_register_your_phone_number" style="@style/FontBold" />
+            <TextView android:textSize="@dimen/auth_onboarding_sub_title_text_size" android:textColor="@color/page_desc_main_page" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/auth_onboarding_sub_title_top_margin" android:layout_marginBottom="@dimen/auth_onboarding_sub_title_bottom_margin" android:text="@string/sa_header_two_step_verification" android:lineSpacingExtra="6.0dp" style="@style/FontRegular" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

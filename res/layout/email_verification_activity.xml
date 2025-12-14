@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout android:id="@id/top_view" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/app_logo_view" />
+            <TextView android:textSize="@dimen/auth_onboarding_title_text_size" android:textColor="@color/page_title_main_page" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_body_the_last_step_to_create_your_account" style="@style/FontBold" />
+            <TextView android:textSize="@dimen/auth_onboarding_sub_title_text_size" android:textColor="@color/page_desc_main_page" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/auth_onboarding_sub_title_top_margin" android:layout_marginBottom="@dimen/auth_onboarding_sub_title_bottom_margin" android:text="@string/sa_email_verification_description" android:textAlignment="center" style="@style/FontRegular" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ripple_setting_preference" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_1line_height" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" style="@style/TextAppearance.ListItem" />
+        <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" style="@style/TextAppearance.ListItemSecondary" />
+        <TextView android:textColor="@color/secondary_text_color" android:id="@id/linked_description" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" style="@style/TextAppearance.ListItemSecondary" />
+    </LinearLayout>
+    <View android:id="@id/preference_divider" android:background="@color/list_divider_color" android:layout_width="@dimen/preference_divider_width" android:layout_height="@dimen/preference_divider_height" android:layout_marginStart="12.0dp" android:layout_marginEnd="9.0dp" />
+    <androidx.appcompat.widget.SwitchCompat android:id="@id/preference_switch" android:importantForAccessibility="no" style="@style/ToggleSwitch" />
+</LinearLayout>

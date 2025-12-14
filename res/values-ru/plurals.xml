@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d устройство</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d устройства</item>
+        <item quantity="many">%d устройств</item>
+        <item quantity="other">%d устройства</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Отправлено слишком много проверочных кодов на ваше устройство, поэтому для вашей учетной записи заблокирована проверка с помощью устройства Galaxy.
+
+Выберите другой способ проверки или попробуйте снова через %d минуту."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Отправлено слишком много проверочных кодов на ваше устройство, поэтому для вашей учетной записи заблокирована проверка с помощью устройства Galaxy.
+
+Выберите другой способ проверки или попробуйте снова через %d минуты."</item>
+        <item quantity="many">"Отправлено слишком много проверочных кодов на ваше устройство, поэтому для вашей учетной записи заблокирована проверка с помощью устройства Galaxy.
+
+Выберите другой способ проверки или попробуйте снова через %d минут."</item>
+        <item quantity="other">"Отправлено слишком много проверочных кодов на ваше устройство, поэтому для вашей учетной записи заблокирована проверка с помощью устройства Galaxy.
+
+Выберите другой способ проверки или попробуйте снова через %d минуты."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s и еще %2$d устройство</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s и еще %2$d устройства</item>
+        <item quantity="many">%1$s и еще %2$d устройств</item>
+        <item quantity="other">%1$s и еще %2$d устройства</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно пригласить пользователя %1$s более %2$d раза в течение 30 дней.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно пригласить пользователя %1$s более %2$d раз в течение 30 дней.</item>
+        <item quantity="many">Невозможно пригласить пользователя %1$s более %2$d раз в течение 30 дней.</item>
+        <item quantity="other">Невозможно пригласить пользователя %1$s более %2$d раза в течение 30 дней.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Учетные записи детей можно создавать для пользователей возрастом до %d года.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Учетные записи детей можно создавать для пользователей возрастом до %d лет.</item>
+        <item quantity="many">Учетные записи детей можно создавать для пользователей возрастом до %d лет.</item>
+        <item quantity="other">Учетные записи детей можно создавать для пользователей возрастом до %d года.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+        <item quantity="many">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+        <item quantity="other">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пользователи, которым не исполнилось %d, не могут иметь учетную запись в вашей стране или регионе.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Пользователи, которым не исполнилось %d, не могут иметь учетную запись в вашей стране или регионе.</item>
+        <item quantity="many">Пользователи, которым не исполнилось %d, не могут иметь учетную запись в вашей стране или регионе.</item>
+        <item quantity="other">Пользователи, которым не исполнилось %d, не могут иметь учетную запись в вашей стране или регионе.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Возраст: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Возраст: %d</item>
+        <item quantity="many">Возраст: %d</item>
+        <item quantity="other">Возраст: %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Между отправкой запроса должна пройти %d минута.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Между отправкой запроса должно пройти %d минуты.</item>
+        <item quantity="many">Между отправкой запроса должно пройти %d минут.</item>
+        <item quantity="other">Между отправкой запроса должно пройти %d минуты.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно ввести более %d символа.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно ввести более %d символов.</item>
+        <item quantity="many">Невозможно ввести более %d символов.</item>
+        <item quantity="other">Невозможно ввести более %d символа.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ответ должен содержать не менее %d символа.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ответ должен содержать не менее %d символов.</item>
+        <item quantity="many">Ответ должен содержать не менее %d символов.</item>
+        <item quantity="other">Ответ должен содержать не менее %d символа.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вам исполнилось %d, и вы можете перейти на обычную версию Samsung account. После перехода вы сможете использовать приложения и устройства без разрешения родителей, а средства родительского контроля будут больше неактивны.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вам исполнилось %d, и вы можете перейти на обычную версию Samsung account. После перехода вы сможете использовать приложения и устройства без разрешения родителей, а средства родительского контроля будут больше неактивны.</item>
+        <item quantity="many">Вам исполнилось %d, и вы можете перейти на обычную версию Samsung account. После перехода вы сможете использовать приложения и устройства без разрешения родителей, а средства родительского контроля будут больше неактивны.</item>
+        <item quantity="other">Вам исполнилось %d, и вы можете перейти на обычную версию Samsung account. После перехода вы сможете использовать приложения и устройства без разрешения родителей, а средства родительского контроля будут больше неактивны.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Мне больше %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Мне больше %d</item>
+        <item quantity="many">Мне больше %d</item>
+        <item quantity="other">Мне больше %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Мне меньше %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Мне меньше %d</item>
+        <item quantity="many">Мне меньше %d</item>
+        <item quantity="other">Мне меньше %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы ввели несуществующий идентификатор слишком много раз. Попробуйте снова через %d минуту.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы ввели несуществующий идентификатор слишком много раз. Попробуйте снова через %d минуты.</item>
+        <item quantity="many">Вы ввели несуществующий идентификатор слишком много раз. Попробуйте снова через %d минут.</item>
+        <item quantity="other">Вы ввели несуществующий идентификатор слишком много раз. Попробуйте снова через %d минуты.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d участник</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d участника</item>
+        <item quantity="many">%d участников</item>
+        <item quantity="other">%d участника</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно пригласить в семейную группу более %d пользователя.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно пригласить в семейную группу более %d пользователей.</item>
+        <item quantity="many">Невозможно пригласить в семейную группу более %d пользователей.</item>
+        <item quantity="other">Невозможно пригласить в семейную группу более %d пользователя.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s: скоро исполнится %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s: скоро исполнится %2$d</item>
+        <item quantity="many">%1$s: скоро исполнится %2$d</item>
+        <item quantity="other">%1$s: скоро исполнится %2$d</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d человек приглашен</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d человека приглашены</item>
+        <item quantity="many">%d человек приглашены</item>
+        <item quantity="other">%d человека приглашено</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s и еще %2$d номер</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s и еще %2$d номера</item>
+        <item quantity="many">%1$s и еще %2$d номеров</item>
+        <item quantity="other">%1$s и еще %2$d номера</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d непросмотренное событие</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d непросмотренных события</item>
+        <item quantity="many">%d непросмотренных событий</item>
+        <item quantity="other">%d непросмотренного события</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s и еще %2$d учетная запись</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s и еще %2$d учетных записи</item>
+        <item quantity="many">%1$s и еще %2$d учетных записей</item>
+        <item quantity="other">%1$s и еще %2$d учетной записи</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пользователь %1$s пригласил вас в свою семейную группу. Коснитесь ссылки в сообщении ниже, чтобы присоединиться. После присоединения ваше имя, адрес электронной почты и логин Samsung account будут видны всем участникам семейной группы. Срок действия приглашения: %2$d день.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Пользователь %1$s пригласил вас в свою семейную группу. Коснитесь ссылки в сообщении ниже, чтобы присоединиться. После присоединения ваше имя, адрес электронной почты и логин Samsung account будут видны всем участникам семейной группы. Срок действия приглашения: %2$d дня.</item>
+        <item quantity="many">Пользователь %1$s пригласил вас в свою семейную группу. Коснитесь ссылки в сообщении ниже, чтобы присоединиться. После присоединения ваше имя, адрес электронной почты и логин Samsung account будут видны всем участникам семейной группы. Срок действия приглашения: %2$d дней.</item>
+        <item quantity="other">Пользователь %1$s пригласил вас в свою семейную группу. Коснитесь ссылки в сообщении ниже, чтобы присоединиться. После присоединения ваше имя, адрес электронной почты и логин Samsung account будут видны всем участникам семейной группы. Срок действия приглашения: %2$d дня.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рекомендация</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d рекомендации</item>
+        <item quantity="many">%d рекомендаций</item>
+        <item quantity="other">%d рекомендации</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неправильный код введен слишком много раз. Подождите %d минуту и попробуйте снова.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неправильный код введен слишком много раз. Подождите %d минуты и попробуйте снова.</item>
+        <item quantity="many">Неправильный код введен слишком много раз. Подождите %d минут и попробуйте снова.</item>
+        <item quantity="other">Неправильный код введен слишком много раз. Подождите %d минуты и попробуйте снова.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неправильный код введен слишком много раз. Подождите %d секунду и попробуйте снова.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неправильный код введен слишком много раз. Подождите %d секунды и попробуйте снова.</item>
+        <item quantity="many">Неправильный код введен слишком много раз. Подождите %d секунд и попробуйте снова.</item>
+        <item quantity="other">Неправильный код введен слишком много раз. Подождите %d секунды и попробуйте снова.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Время сна: %d час</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Время сна: %d часа</item>
+        <item quantity="many">Время сна: %d часов</item>
+        <item quantity="other">Время сна: %d часа</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Время сна: %d минута</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Время сна: %d минуты</item>
+        <item quantity="many">Время сна: %d минут</item>
+        <item quantity="other">Время сна: %d минуты</item>
+    </plurals>
+</resources>

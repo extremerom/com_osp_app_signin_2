@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d уређај</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d уређаја</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d уређаја</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Превише верификационих кодова је послато на уређај, па смо блокирали верификацију Galaxy уређајем за ваш налог.
+
+Користите другу методу верификације или покушајте поново за %d минут."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Превише верификационих кодова је послато на уређај, па смо блокирали верификацију Galaxy уређајем за ваш налог.
+
+Користите другу методу верификације или покушајте поново за %d минута."</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Превише верификационих кодова је послато на уређај, па смо блокирали верификацију Galaxy уређајем за ваш налог.
+
+Користите другу методу верификације или покушајте поново за %d минута."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s и још %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s и још %2$d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s и још %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не можете да позовете особу %1$s више од %2$d пут у 30 дана.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Не можете да позовете особу %1$s више од %2$d пута у 30 дана.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Не можете да позовете особу %1$s више од %2$d пута у 30 дана.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Дечји налози могу да се направе само за особе млађе од %d године.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Дечји налози могу да се направе само за особе млађе од %d године.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Дечји налози могу да се направе само за особе млађе од %d година.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Да бисте користили %2$s, морате да имате најмање %1$d годину.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Да бисте користили %2$s, морате да имате најмање %1$d године.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Да бисте користили %2$s, морате да имате најмање %1$d година.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/А</item>
+        <item quantity="one">Људи који су млађи од %d године не могу да имају налог у вашој земљи или региону.</item>
+        <item quantity="two">N/А</item>
+        <item quantity="few">Људи који су млађи од %d године не могу да имају налог у вашој земљи или региону.</item>
+        <item quantity="many">N/А</item>
+        <item quantity="other">Људи који су млађи од %d година не могу да имају налог у вашој земљи или региону.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d година</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d године</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d година</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сачекајте %d минут пре слања захтева.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сачекајте %d минута пре слања захтева.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Сачекајте %d минута пре слања захтева.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не можете да унесете више од %d карактера.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Не можете да унесете више од %d карактера.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Не можете да унесете више од %d карактера.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Одговори морају да садрже најмање %d карактер.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Одговори морају да садрже најмање %d карактера.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Одговори морају да садрже најмање %d карактера.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пошто сада имате %d годину, можете да пређете на обичан Samsung account. Ако то урадите, моћи ћете да користите све апликације и уређаје које желите без дозволе родитеља, а родитељске забране више неће важити.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Пошто сада имате %d године, можете да пређете на обичан Samsung account. Ако то урадите, моћи ћете да користите све апликације и уређаје које желите без дозволе родитеља, а родитељске забране више неће важити.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Пошто сада имате %d година, можете да пређете на обичан Samsung account. Ако то урадите, моћи ћете да користите све апликације и уређаје које желите без дозволе родитеља, а родитељске забране више неће важити.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Имам више од %d година</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Имам више од %d године</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Имам више од %d година</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Имам мање од %d година</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Имам мање од %d године</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Имам мање од %d година</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Непостојећи ID је унет превише пута. Покушајте поново за %d минут.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Непостојећи ID је унет превише пута. Покушајте поново за %d минута.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Непостојећи ID је унет превише пута. Покушајте поново за %d минута.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d члан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d члана</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d чланова</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можете да позовете највише %d особу у породичну групу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можете да позовете највише %d особе у породичну групу.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Можете да позовете највише %d особа у породичну групу.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ускоро пуни %2$d годину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s ускоро пуни %2$d године</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ускоро пуни %2$d година</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Позвана је %d особа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Позване су %d особе</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Позвано је %d особа</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s и још %2$d број</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s и још %2$d броја</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s и још %2$d бројева</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d непогледан догађај</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d непогледана догађаја</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d непогледаних догађаја</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s и још %2$d налог</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s и још %2$d налога</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s и још %2$d налога</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s вас је позвао/ла да се придружите његовој/њеној породичној групи. Куцните на линк у поруци у наставку да бисте се придружили. Ако се придружите, ваше име, е-адреса и ИД Samsung account-а ће се делити са другим члановима породице. Позивница истиче за %2$d дан.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s вас је позвао/ла да се придружите његовој/њеној породичној групи. Куцните на линк у поруци у наставку да бисте се придружили. Ако се придружите, ваше име, е-адреса и ИД Samsung account-а ће се делити са другим члановима породице. Позивница истиче за %2$d дана.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s вас је позвао/ла да се придружите његовој/њеној породичној групи. Куцните на линк у поруци у наставку да бисте се придружили. Ако се придружите, ваше име, е-адреса и ИД Samsung account-а ће се делити са другим члановима породице. Позивница истиче за %2$d дана.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d предлог</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d предлога</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d предлога</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Унели сте погрешан код превише пута. Сачекајте %d минут и покушајте поново.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Унели сте погрешан код превише пута. Сачекајте %d минута и покушајте поново.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Унели сте погрешан код превише пута. Сачекајте %d минута и покушајте поново.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Унели сте погрешан код превише пута. Сачекајте %d секунду и покушајте поново.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Унели сте погрешан код превише пута. Сачекајте %d секунде и покушајте поново.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Унели сте погрешан код превише пута. Сачекајте %d секунди и покушајте поново.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Време спавања: %d сат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Време спавања: %d сата</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Време спавања: %d сати</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Време спавања: %d минут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Време спавања: %d минута</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Време спавања: %d минута</item>
+    </plurals>
+</resources>

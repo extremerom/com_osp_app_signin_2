@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/sa_support"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/sa_support" android:key="DeviceSupport">
+        <androidx.preference.Preference android:title="@string/sa_get_support" android:key="GetSupport" />
+        <androidx.preference.Preference android:title="@string/sa_repair_history" android:key="RepairHistory" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

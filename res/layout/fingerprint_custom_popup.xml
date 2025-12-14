@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dp" android:layout_marginBottom="16.0dp">
+                <ImageView android:id="@id/img_log_samsung_pass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_samsung_pass" android:contentDescription="@null" app:tint="@color/samsung_pass_icon_tint_color" />
+                <TextView android:textSize="20.0sp" android:textColor="@color/dialog_title_text_color" android:layout_gravity="center_horizontal" android:id="@id/title_no_samsung_pass" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sa_confirm_verify_your_identity" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" style="@style/FontRegular" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/img_txt_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="40.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/img_error_fingerprint" android:layout_width="40.0dp" android:layout_height="40.0dp" android:contentDescription="@null" android:layout_marginEnd="7.0dp" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/dialog_body_text_color" android:layout_gravity="center_vertical" android:id="@id/txt_error_fingerprint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="2.0dp" style="@style/FontRegular" />
+            </LinearLayout>
+            <Button android:id="@id/use_account_password_btn" android:layout_marginTop="18.0dp" android:layout_marginBottom="24.0dp" android:text="@string/sa_button_use_account_password" android:includeFontPadding="false" android:contentDescription="@string/sa_button_use_account_password" style="@style/BiometricRaisedButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

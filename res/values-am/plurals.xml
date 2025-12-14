@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መሳሪያ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መሳሪያዎች</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"በጣም ብዙ የማረጋገጫ ኮዶች ወደ መሳሪያዎ ተልከዋል፣ስለዚህ የGalaxy መሳሪያ ማረጋገጫን ለመለያህ አግደነዋል።
+
+ሌላ የማረጋገጫ ዘዴ ይጠቀሙ ወይም በ%d ደቂቃ ውስጥ እንደገና ይሞክሩ።"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"በጣም ብዙ የማረጋገጫ ኮዶች ወደ መሳሪያህ ተልከዋል፣ስለዚህ የGalaxy መሳሪያ ማረጋገጫን ለመለያህ አግደነዋል።
+
+ሌላ የማረጋገጫ ዘዴ ይጠቀሙ ወይም በ%d ደቂቃ ውስጥ እንደገና ይሞክሩ።"</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s እና %2$d ተጨማሪ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s እና %2$d ተጨማሪ</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በ30 ቀናት ውስጥ %1$s ከ%2$d ጊዜ በላይ መጋበዝ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በ30 ቀናት ውስጥ %1$s ከ%2$d ጊዜ በላይ መጋበዝ አይቻልም።</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የልጅ መለያዎች ሊፈጠሩ የሚችሉት ከ%d በታች ለሆኑ ሰዎች ብቻ ነው።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የልጅ መለያዎች ሊፈጠሩ የሚችሉት ከ%d በታች ለሆኑ ሰዎች ብቻ ነው።</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ለመጠቀም ቢያንስ አመት መሆን ያስፈልግዎታል%2$s።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$dለመጠቀም ቢያንስ አመት መሆን ያስፈልግዎታል%2$s።</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በታች ያሉ ሰዎች በአገርዎ ወይም በክልልዎ ውስጥ መለያ ሊኖራቸው አይችልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በታች ያሉ ሰዎች በአገርዎ ወይም በክልልዎ ውስጥ መለያ ሊኖራቸው አይችልም።</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዕድሜ %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ዕድሜ %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ጥያቄ ከመላክዎ በፊት %d ደቂቃ ይጠብቁ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ጥያቄ ከመላክዎ በፊት %d ደቂቃዎች ይጠብቁ።</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ቁምፊ ማስገባት አይችሉም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ቁምፊዎች ማስገባት አይችሉም።</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ምላሾች ቢያንስ %d ቁምፊ መያዝ አለባቸው።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ምላሾች ቢያንስ %d ቁምፊዎችን መያዝ አለባቸው።</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">አሁን %d ስለሆንክ ወደ መደበኛ የSamsung account መቀየር ትችላለህ። ይህን ካደረግክ፣ ከወላጆችህ ፈቃድ ውጭ የምትወጂያቸውን ማናቸውንም መተግበሪያዎች እና መሣሪያዎች መጠቀም ትችላለህ፣ እና የወላጅ ቁጥጥር ከእንግዲህ አይተገበርም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">አሁን %d ስለሆንክ ወደ መደበኛ የSamsung account መቀየር ትችላለህ። ይህን ካደረግክ፣ ከወላጆችህ ፈቃድ ውጭ የምትወጂያቸውን ማናቸውንም መተግበሪያዎች እና መሣሪያዎች መጠቀም ትችላለህ፣ እና የወላጅ ቁጥጥር ከእንግዲህ አይተገበርም።</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ነኝ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ነኝ</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በታች ነኝ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በታች ነኝ</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የሌለ መታወቂያ በጣም ብዙ ጊዜ ገብቷል። በ%d ደቂቃ ውስጥ እንደገና ይሞክሩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የሌለ መታወቂያ በጣም ብዙ ጊዜ ገብቷል። በ%d ደቂቃዎች ውስጥ እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አባል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አባላት</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ሰው በላይ ወደ ቤተሰብ ቡድን መጋበዝ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ሰዎችን ወደ የቤተሰብ ቡድን መጋበዝ አይቻልም።</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s በቅርቡ ወደ %2$d ይለወጣል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s በቅርቡ ወደ %2$d ይለወጣል</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ሰው ተጋብዟል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ሰዎች ተጋብዘዋል</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s እና %2$d ሌላ ቁጥር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s እና %2$d ሌሎች ቁጥሮች</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ያልተረጋገጠ ክስተት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ያልተረጋገጡ ክስተቶች</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s እና %2$d ሌላ መለያ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s እና %2$d ሌሎች መለያዎች</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s እርስዎን ወደ የቤተሰብ ቡድናቸው ጋብዘውዎታል። ለመቀላቀል ከታች ባለው መልእክት ውስጥ ያለውን ማስፈንጠርያ ይንኩ። ከተቀላቀሉ፣ የእርስዎ ስም፣ ኢሜይል እና የSamsung account መታወቂያ ከሌሎች የቤተሰቡ አባላት ጋር ይጋራሉ። ግብዣው በ%2$d ቀን ውስጥ ጊዜው ያልፍበታል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s እርስዎን ወደ የቤተሰብ ቡድናቸው ጋብዘውዎታል። ለመቀላቀል ከታች ባለው መልእክት ውስጥ ያለውን ማስፈንጠሪያ ይንኩ። ከተቀላቀሉ፣ የእርስዎ ስም፣ ኢሜይል እና የSamsung account መታወቂያ ከሌሎች የቤተሰቡ አባላት ጋር ይጋራሉ። ግብዣው በ%2$d ቀናት ውስጥ ጊዜው ያልፍበታል።</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ምክር መስጠት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ምክሮችን መስጠት</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የተሳሳተ ኮድ ብዙ ጊዜ ገብቷል። %d ደቂቃ ይጠብቁ፣ ከዚያ እንደገና ይሞክሩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የተሳሳተ ኮድ ብዙ ጊዜ ገብቷል። %d ደቂቃዎችን ይጠብቁ፣ ከዚያ እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የተሳሳተ ኮድ ብዙ ጊዜ ገብቷል። %d ሰከንድ ይጠብቁ፣ ከዚያ እንደገና ይሞክሩ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የተሳሳተ ኮድ ብዙ ጊዜ ገብቷል። %d ሰከንዶችን ይጠብቁ፣ ከዚያ እንደገና ይሞክሩ።</item>
+    </plurals>
+</resources>

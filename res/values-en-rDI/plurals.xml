@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_PD_DEVICES %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_PD_DEVICES %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_PD_DEVICES %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_PD_DEVICES %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_PD_DEVICES %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_PD_DEVICES %d</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_TOO_MANY_VERIFICATION_CODES_HAVE_BEEN_SENT_TO_YOUR_DEVICE_SO_WE_BLOCKED_GALAXY_DEVICE_VERIFICATION_FOR_YOUR_ACCOUNT_MSG %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_TOO_MANY_VERIFICATION_CODES_HAVE_BEEN_SENT_TO_YOUR_DEVICE_SO_WE_BLOCKED_GALAXY_DEVICE_VERIFICATION_FOR_YOUR_ACCOUNT_MSG %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_TOO_MANY_VERIFICATION_CODES_HAVE_BEEN_SENT_TO_YOUR_DEVICE_SO_WE_BLOCKED_GALAXY_DEVICE_VERIFICATION_FOR_YOUR_ACCOUNT_MSG %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_TOO_MANY_VERIFICATION_CODES_HAVE_BEEN_SENT_TO_YOUR_DEVICE_SO_WE_BLOCKED_GALAXY_DEVICE_VERIFICATION_FOR_YOUR_ACCOUNT_MSG %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_TOO_MANY_VERIFICATION_CODES_HAVE_BEEN_SENT_TO_YOUR_DEVICE_SO_WE_BLOCKED_GALAXY_DEVICE_VERIFICATION_FOR_YOUR_ACCOUNT_MSG %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_TOO_MANY_VERIFICATION_CODES_HAVE_BEEN_SENT_TO_YOUR_DEVICE_SO_WE_BLOCKED_GALAXY_DEVICE_VERIFICATION_FOR_YOUR_ACCOUNT_MSG %d</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">PLURAL_ZERO_SA_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SA_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SA_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SA_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SA_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SA_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_CANT_INVITE_P1SS_MORE_THAN_P2SD_TIMES_IN_30_DAYS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_CANT_INVITE_P1SS_MORE_THAN_P2SD_TIMES_IN_30_DAYS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_CANT_INVITE_P1SS_MORE_THAN_P2SD_TIMES_IN_30_DAYS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_CANT_INVITE_P1SS_MORE_THAN_P2SD_TIMES_IN_30_DAYS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_CANT_INVITE_P1SS_MORE_THAN_P2SD_TIMES_IN_30_DAYS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_CANT_INVITE_P1SS_MORE_THAN_P2SD_TIMES_IN_30_DAYS %1$s %2$d</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_CHILD_ACCOUNTS_CAN_ONLY_BE_CREATED_FOR_PEOPLE_UNDER_PD %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_CHILD_ACCOUNTS_CAN_ONLY_BE_CREATED_FOR_PEOPLE_UNDER_PD %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_CHILD_ACCOUNTS_CAN_ONLY_BE_CREATED_FOR_PEOPLE_UNDER_PD %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_CHILD_ACCOUNTS_CAN_ONLY_BE_CREATED_FOR_PEOPLE_UNDER_PD %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_CHILD_ACCOUNTS_CAN_ONLY_BE_CREATED_FOR_PEOPLE_UNDER_PD %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_CHILD_ACCOUNTS_CAN_ONLY_BE_CREATED_FOR_PEOPLE_UNDER_PD %d</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_PEOPLE_UNDER_PD_CANT_HAVE_AN_ACCOUNT_IN_YOUR_COUNTRY_OR_REGION %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_PEOPLE_UNDER_PD_CANT_HAVE_AN_ACCOUNT_IN_YOUR_COUNTRY_OR_REGION %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_PEOPLE_UNDER_PD_CANT_HAVE_AN_ACCOUNT_IN_YOUR_COUNTRY_OR_REGION %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_PEOPLE_UNDER_PD_CANT_HAVE_AN_ACCOUNT_IN_YOUR_COUNTRY_OR_REGION %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_PEOPLE_UNDER_PD_CANT_HAVE_AN_ACCOUNT_IN_YOUR_COUNTRY_OR_REGION %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_PEOPLE_UNDER_PD_CANT_HAVE_AN_ACCOUNT_IN_YOUR_COUNTRY_OR_REGION %d</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">PLURAL_ZERO_SA_OPT_AGE_PD %d</item>
+        <item quantity="one">PLURAL_ONE_SA_OPT_AGE_PD %d</item>
+        <item quantity="two">PLURAL_TWO_SA_OPT_AGE_PD %d</item>
+        <item quantity="few">PLURAL_FEW_SA_OPT_AGE_PD %d</item>
+        <item quantity="many">PLURAL_MANY_SA_OPT_AGE_PD %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_OPT_AGE_PD %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_WAIT_PD_MINUTES_BEFORE_SENDING_REQUEST %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_WAIT_PD_MINUTES_BEFORE_SENDING_REQUEST %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_WAIT_PD_MINUTES_BEFORE_SENDING_REQUEST %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_WAIT_PD_MINUTES_BEFORE_SENDING_REQUEST %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_WAIT_PD_MINUTES_BEFORE_SENDING_REQUEST %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_WAIT_PD_MINUTES_BEFORE_SENDING_REQUEST %d</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">PLURAL_ZERO_ST_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_ST_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_ST_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_ST_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_ST_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="other">PLURAL_OTHER_ST_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_ANSWERS_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_ANSWERS_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_ANSWERS_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_ANSWERS_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_ANSWERS_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_ANSWERS_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_NOW_THAT_YOURE_PD_YOU_CAN_SWITCH_TO_A_REGULAR_SAMSUNG_ACCOUNT_MSG %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_NOW_THAT_YOURE_PD_YOU_CAN_SWITCH_TO_A_REGULAR_SAMSUNG_ACCOUNT_MSG %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_NOW_THAT_YOURE_PD_YOU_CAN_SWITCH_TO_A_REGULAR_SAMSUNG_ACCOUNT_MSG %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_NOW_THAT_YOURE_PD_YOU_CAN_SWITCH_TO_A_REGULAR_SAMSUNG_ACCOUNT_MSG %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_NOW_THAT_YOURE_PD_YOU_CAN_SWITCH_TO_A_REGULAR_SAMSUNG_ACCOUNT_MSG %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_NOW_THAT_YOURE_PD_YOU_CAN_SWITCH_TO_A_REGULAR_SAMSUNG_ACCOUNT_MSG %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">PLURAL_ZERO_SA_BUTTON_IM_OVER_PD_25 %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BUTTON_IM_OVER_PD_25 %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BUTTON_IM_OVER_PD_25 %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BUTTON_IM_OVER_PD_25 %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BUTTON_IM_OVER_PD_25 %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BUTTON_IM_OVER_PD_25 %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">PLURAL_ZERO_SA_BUTTON_IM_UNDER_PD_25 %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BUTTON_IM_UNDER_PD_25 %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BUTTON_IM_UNDER_PD_25 %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BUTTON_IM_UNDER_PD_25 %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BUTTON_IM_UNDER_PD_25 %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BUTTON_IM_UNDER_PD_25 %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_A_NON_EXISTENT_ID_HAS_BEEN_ENTERED_TOO_MANY_TIMES_TRY_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_A_NON_EXISTENT_ID_HAS_BEEN_ENTERED_TOO_MANY_TIMES_TRY_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_A_NON_EXISTENT_ID_HAS_BEEN_ENTERED_TOO_MANY_TIMES_TRY_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_A_NON_EXISTENT_ID_HAS_BEEN_ENTERED_TOO_MANY_TIMES_TRY_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_A_NON_EXISTENT_ID_HAS_BEEN_ENTERED_TOO_MANY_TIMES_TRY_AGAIN_IN_PD_MINUTES %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_A_NON_EXISTENT_ID_HAS_BEEN_ENTERED_TOO_MANY_TIMES_TRY_AGAIN_IN_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">PLURAL_ZERO_SA_OPT_PD_MEMBERS %d</item>
+        <item quantity="one">PLURAL_ONE_SA_OPT_PD_MEMBERS %d</item>
+        <item quantity="two">PLURAL_TWO_SA_OPT_PD_MEMBERS %d</item>
+        <item quantity="few">PLURAL_FEW_SA_OPT_PD_MEMBERS %d</item>
+        <item quantity="many">PLURAL_MANY_SA_OPT_PD_MEMBERS %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_OPT_PD_MEMBERS %d</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_CANT_INVITE_MORE_THAN_PD_PEOPLE_TO_A_FAMILY_GROUP %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_CANT_INVITE_MORE_THAN_PD_PEOPLE_TO_A_FAMILY_GROUP %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_CANT_INVITE_MORE_THAN_PD_PEOPLE_TO_A_FAMILY_GROUP %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_CANT_INVITE_MORE_THAN_PD_PEOPLE_TO_A_FAMILY_GROUP %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_CANT_INVITE_MORE_THAN_PD_PEOPLE_TO_A_FAMILY_GROUP %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_CANT_INVITE_MORE_THAN_PD_PEOPLE_TO_A_FAMILY_GROUP %d</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">PLURAL_ZERO_SA_TMBODY_P1SSS_TURNING_P2SD_SOON %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SA_TMBODY_P1SSS_TURNING_P2SD_SOON %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SA_TMBODY_P1SSS_TURNING_P2SD_SOON %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SA_TMBODY_P1SSS_TURNING_P2SD_SOON %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SA_TMBODY_P1SSS_TURNING_P2SD_SOON %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SA_TMBODY_P1SSS_TURNING_P2SD_SOON %1$s %2$d</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">PLURAL_ZERO_SA_STATUS_PD_PEOPLE_INVITED %d</item>
+        <item quantity="one">PLURAL_ONE_SA_STATUS_PD_PEOPLE_INVITED %d</item>
+        <item quantity="two">PLURAL_TWO_SA_STATUS_PD_PEOPLE_INVITED %d</item>
+        <item quantity="few">PLURAL_FEW_SA_STATUS_PD_PEOPLE_INVITED %d</item>
+        <item quantity="many">PLURAL_MANY_SA_STATUS_PD_PEOPLE_INVITED %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_STATUS_PD_PEOPLE_INVITED %d</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">PLURAL_ZERO_SA_STATUS_P1SS_AND_P2SD_OTHER_NUMBERS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SA_STATUS_P1SS_AND_P2SD_OTHER_NUMBERS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SA_STATUS_P1SS_AND_P2SD_OTHER_NUMBERS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SA_STATUS_P1SS_AND_P2SD_OTHER_NUMBERS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SA_STATUS_P1SS_AND_P2SD_OTHER_NUMBERS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SA_STATUS_P1SS_AND_P2SD_OTHER_NUMBERS %1$s %2$d</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">PLURAL_ZERO_SA_STATUS_PD_UNCHECKED_EVENTS %d</item>
+        <item quantity="one">PLURAL_ONE_SA_STATUS_PD_UNCHECKED_EVENTS %d</item>
+        <item quantity="two">PLURAL_TWO_SA_STATUS_PD_UNCHECKED_EVENTS %d</item>
+        <item quantity="few">PLURAL_FEW_SA_STATUS_PD_UNCHECKED_EVENTS %d</item>
+        <item quantity="many">PLURAL_MANY_SA_STATUS_PD_UNCHECKED_EVENTS %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_STATUS_PD_UNCHECKED_EVENTS %d</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">PLURAL_ZERO_SA_OPT_P1SS_AND_P2SD_OTHER_ACCOUNTS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SA_OPT_P1SS_AND_P2SD_OTHER_ACCOUNTS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SA_OPT_P1SS_AND_P2SD_OTHER_ACCOUNTS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SA_OPT_P1SS_AND_P2SD_OTHER_ACCOUNTS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SA_OPT_P1SS_AND_P2SD_OTHER_ACCOUNTS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SA_OPT_P1SS_AND_P2SD_OTHER_ACCOUNTS %1$s %2$d</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_P1SS_INVITED_YOU_TO_THEIR_FAMILY_GROUP_TAP_THE_LINK_IN_THE_MESSAGE_BELOW_TO_JOIN_IF_YOU_JOIN_YOUR_NAME_EMAIL_P2SD_DAYS_MSG %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_P1SS_INVITED_YOU_TO_THEIR_FAMILY_GROUP_TAP_THE_LINK_IN_THE_MESSAGE_BELOW_TO_JOIN_IF_YOU_JOIN_YOUR_NAME_EMAIL_P2SD_DAYS_MSG %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_P1SS_INVITED_YOU_TO_THEIR_FAMILY_GROUP_TAP_THE_LINK_IN_THE_MESSAGE_BELOW_TO_JOIN_IF_YOU_JOIN_YOUR_NAME_EMAIL_P2SD_DAYS_MSG %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_P1SS_INVITED_YOU_TO_THEIR_FAMILY_GROUP_TAP_THE_LINK_IN_THE_MESSAGE_BELOW_TO_JOIN_IF_YOU_JOIN_YOUR_NAME_EMAIL_P2SD_DAYS_MSG %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_P1SS_INVITED_YOU_TO_THEIR_FAMILY_GROUP_TAP_THE_LINK_IN_THE_MESSAGE_BELOW_TO_JOIN_IF_YOU_JOIN_YOUR_NAME_EMAIL_P2SD_DAYS_MSG %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_P1SS_INVITED_YOU_TO_THEIR_FAMILY_GROUP_TAP_THE_LINK_IN_THE_MESSAGE_BELOW_TO_JOIN_IF_YOU_JOIN_YOUR_NAME_EMAIL_P2SD_DAYS_MSG %1$s %2$d</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">PLURAL_ZERO_SA_HEADER_PD_SUGGESTIONS %d</item>
+        <item quantity="one">PLURAL_ONE_SA_HEADER_PD_SUGGESTIONS %d</item>
+        <item quantity="two">PLURAL_TWO_SA_HEADER_PD_SUGGESTIONS %d</item>
+        <item quantity="few">PLURAL_FEW_SA_HEADER_PD_SUGGESTIONS %d</item>
+        <item quantity="many">PLURAL_MANY_SA_HEADER_PD_SUGGESTIONS %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_HEADER_PD_SUGGESTIONS %d</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_MINUTES_THEN_TRY_AGAIN %d</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">PLURAL_ZERO_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_SECONDS_THEN_TRY_AGAIN %d</item>
+        <item quantity="one">PLURAL_ONE_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_SECONDS_THEN_TRY_AGAIN %d</item>
+        <item quantity="two">PLURAL_TWO_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_SECONDS_THEN_TRY_AGAIN %d</item>
+        <item quantity="few">PLURAL_FEW_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_SECONDS_THEN_TRY_AGAIN %d</item>
+        <item quantity="many">PLURAL_MANY_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_SECONDS_THEN_TRY_AGAIN %d</item>
+        <item quantity="other">PLURAL_OTHER_SA_BODY_THE_WRONG_CODE_HAS_BEEN_ENTERED_TOO_MANY_TIMES_WAIT_PD_SECONDS_THEN_TRY_AGAIN %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+    </plurals>
+</resources>

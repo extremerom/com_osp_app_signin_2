@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">%d جهاز</item>
+        <item quantity="one">جهاز واحد</item>
+        <item quantity="two">جهازان</item>
+        <item quantity="few">%d أجهزة</item>
+        <item quantity="many">%d جهازاً</item>
+        <item quantity="other">%d جهاز</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">"تم إرسال رموز تحقق كثيرة إلى جهازك، لذلك قمنا بحظر التحقق من جهاز Galaxy لحسابك.
+
+استخدم طريقة تحقق أخرى أو حاول مرة أخرى بعد %d دقيقة."</item>
+        <item quantity="one">"تم إرسال رموز تحقق كثيرة إلى جهازك، لذلك قمنا بحظر التحقق من جهاز Galaxy لحسابك.
+
+استخدم طريقة تحقق أخرى أو حاول مرة أخرى بعد دقيقة."</item>
+        <item quantity="two">"تم إرسال رموز تحقق كثيرة إلى جهازك، لذلك قمنا بحظر التحقق من جهاز Galaxy لحسابك.
+
+استخدم طريقة تحقق أخرى أو حاول مرة أخرى بعد دقيقتين."</item>
+        <item quantity="few">"تم إرسال رموز تحقق كثيرة إلى جهازك، لذلك قمنا بحظر التحقق من جهاز Galaxy لحسابك.
+
+استخدم طريقة تحقق أخرى أو حاول مرة أخرى بعد %d دقائق."</item>
+        <item quantity="many">"تم إرسال رموز تحقق كثيرة إلى جهازك، لذلك قمنا بحظر التحقق من جهاز Galaxy لحسابك.
+
+استخدم طريقة تحقق أخرى أو حاول مرة أخرى بعد %d دقيقةً."</item>
+        <item quantity="other">"تم إرسال رموز تحقق كثيرة إلى جهازك، لذلك قمنا بحظر التحقق من جهاز Galaxy لحسابك.
+
+استخدم طريقة تحقق أخرى أو حاول مرة أخرى بعد %d دقيقة."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">%1$s و%2$d جهاز إضافي</item>
+        <item quantity="one">%1$s وجهاز واحد إضافي</item>
+        <item quantity="two">%1$s وجهازان إضافيان</item>
+        <item quantity="few">%1$s و%2$d أجهزة إضافية</item>
+        <item quantity="many">%1$s و%2$d جهازاً إضافياً</item>
+        <item quantity="other">%1$s و%2$d جهاز إضافي</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">لا يمكن دعوة %1$s أكثر من %2$d مرة في غضون ٣٠ يوماً‬.</item>
+        <item quantity="one">لا يمكن دعوة %1$s أكثر من مرة واحدة في غضون ٣٠ يوماً‬.</item>
+        <item quantity="two">لا يمكن دعوة %1$s أكثر من ‏‎مرتين في غضون ٣٠ يوماً‬.</item>
+        <item quantity="few">لا يمكن دعوة %1$s أكثر من ‏‎%2$d مرات في غضون ٣٠ يوماً‬.</item>
+        <item quantity="many">لا يمكن دعوة %1$s أكثر من ‏‎%2$d مرةً في غضون ٣٠ يوماً‬.</item>
+        <item quantity="other">لا يمكن دعوة %1$s أكثر من ‏‎%2$d مرة في غضون ٣٠ يوماً‬.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">يمكن إنشاء حسابات الأطفال لأشخاص تقل أعمارهم عن %d عام فقط.</item>
+        <item quantity="one">يمكن إنشاء حسابات الأطفال لأشخاص تقل أعمارهم عن عام واحد فقط.</item>
+        <item quantity="two">يمكن إنشاء حسابات الأطفال لأشخاص تقل أعمارهم عن عامين فقط.</item>
+        <item quantity="few">يمكن إنشاء حسابات الأطفال لأشخاص تقل أعمارهم عن %d أعوام فقط.</item>
+        <item quantity="many">يمكن إنشاء حسابات الأطفال لأشخاص تقل أعمارهم عن %d عاماً فقط.</item>
+        <item quantity="other">يمكن إنشاء حسابات الأطفال لأشخاص تقل أعمارهم عن %d عام فقط.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">يجب أن يكون عمرك %1$d عام على الأقل لاستخدام %2$s.</item>
+        <item quantity="one">يجب أن يكون عمرك عاماً واحداً على الأقل لاستخدام %2$s.</item>
+        <item quantity="two">يجب أن يكون عمرك عامين على الأقل لاستخدام %2$s.</item>
+        <item quantity="few">يجب أن يكون عمرك %1$d أعوام على الأقل لاستخدام %2$s.</item>
+        <item quantity="many">يجب أن يكون عمرك %1$d عاماً على الأقل لاستخدام %2$s.</item>
+        <item quantity="other">يجب أن يكون عمرك %1$d عام على الأقل لاستخدام %2$s.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">يتعذر امتلاك الأشخاص الأقل من %d عام لحساب في بلدك أو منطقتك.</item>
+        <item quantity="one">يتعذر امتلاك الأشخاص الأقل من عام واحد لحساب في بلدك أو منطقتك.</item>
+        <item quantity="two">يتعذر امتلاك الأشخاص الأقل من عامين لحساب في بلدك أو منطقتك.</item>
+        <item quantity="few">يتعذر امتلاك الأشخاص الأقل من %d أعوام لحساب في بلدك أو منطقتك.</item>
+        <item quantity="many">يتعذر امتلاك الأشخاص الأقل من %d عاماً لحساب في بلدك أو منطقتك.</item>
+        <item quantity="other">يتعذر امتلاك الأشخاص الأقل من %d عام لحساب في بلدك أو منطقتك.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">العمر %d سنة</item>
+        <item quantity="one">العمر سنة واحدة</item>
+        <item quantity="two">العمر سنتان</item>
+        <item quantity="few">العمر %d سنوات</item>
+        <item quantity="many">العمر %d سنةً</item>
+        <item quantity="other">العمر %d سنة</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">انتظر %d دقيقة قبل إرسال الطلب.</item>
+        <item quantity="one">انتظر دقيقة واحدة قبل إرسال الطلب.</item>
+        <item quantity="two">انتظر دقيقتين قبل إرسال الطلب.</item>
+        <item quantity="few">انتظر %d دقائق قبل إرسال الطلب.</item>
+        <item quantity="many">انتظر %d دقيقةً قبل إرسال الطلب.</item>
+        <item quantity="other">انتظر %d دقيقة قبل إرسال الطلب.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d حرفاً.</item>
+        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">‏‫يجب أن تحتوي الإجابات على %d حرف على الأقل.</item>
+        <item quantity="one">‏‫يجب أن تحتوي الإجابات على حرف واحد على الأقل.</item>
+        <item quantity="two">‏‫يجب أن تحتوي الإجابات على حرفين على الأقل.</item>
+        <item quantity="few">‏‫يجب أن تحتوي الإجابات على %d أحرف على الأقل.</item>
+        <item quantity="many">‏‫يجب أن تحتوي الإجابات على %d حرفاً على الأقل.</item>
+        <item quantity="other">‏‫يجب أن تحتوي الإجابات على %d حرف على الأقل.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">بما أن عمرك قد أصبح %d عام، يمكنك التبديل إلى Samsung account عادي. إذا قمت بذلك، فسوف تتمكن من استخدام أي تطبيقات وأجهزة تريدها من دون الحصول على إذن من والديك، ولن تصبح عناصر التحكم الأبوية سارية بعد الآن.</item>
+        <item quantity="one">بما أن عمرك قد أصبح عام واحد، يمكنك التبديل إلى Samsung account عادي. إذا قمت بذلك، فسوف تتمكن من استخدام أي تطبيقات وأجهزة تريدها من دون الحصول على إذن من والديك، ولن تصبح عناصر التحكم الأبوية سارية بعد الآن.</item>
+        <item quantity="two">بما أن عمرك قد أصبح عامين، يمكنك التبديل إلى Samsung account عادي. إذا قمت بذلك، فسوف تتمكن من استخدام أي تطبيقات وأجهزة تريدها من دون الحصول على إذن من والديك، ولن تصبح عناصر التحكم الأبوية سارية بعد الآن.</item>
+        <item quantity="few">بما أن عمرك قد أصبح %d أعوام، يمكنك التبديل إلى Samsung account عادي. إذا قمت بذلك، فسوف تتمكن من استخدام أي تطبيقات وأجهزة تريدها من دون الحصول على إذن من والديك، ولن تصبح عناصر التحكم الأبوية سارية بعد الآن.</item>
+        <item quantity="many">بما أن عمرك قد أصبح %d عاماً، يمكنك التبديل إلى Samsung account عادي. إذا قمت بذلك، فسوف تتمكن من استخدام أي تطبيقات وأجهزة تريدها من دون الحصول على إذن من والديك، ولن تصبح عناصر التحكم الأبوية سارية بعد الآن.</item>
+        <item quantity="other">بما أن عمرك قد أصبح %d عام، يمكنك التبديل إلى Samsung account عادي. إذا قمت بذلك، فسوف تتمكن من استخدام أي تطبيقات وأجهزة تريدها من دون الحصول على إذن من والديك، ولن تصبح عناصر التحكم الأبوية سارية بعد الآن.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">عمري أكبر من %d عام</item>
+        <item quantity="one">عمري أكبر من عام واحد</item>
+        <item quantity="two">عمري أكبر من عامين</item>
+        <item quantity="few">عمري أكبر من %d أعوام</item>
+        <item quantity="many">عمري أكبر من %d عاماً</item>
+        <item quantity="other">عمري أكبر من %d عام</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">عمري أقل من %d عام</item>
+        <item quantity="one">عمري أقل من عام واحد</item>
+        <item quantity="two">عمري أقل من عامين</item>
+        <item quantity="few">عمري أقل من %d أعوام</item>
+        <item quantity="many">عمري أقل من %d عاماً</item>
+        <item quantity="other">عمري أقل من %d عام</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">‏‫تم إدخال معرف غير موجود مرات كثيرة. حاول مرةً أخرى خلال %d دقيقة.</item>
+        <item quantity="one">‏‫تم إدخال معرف غير موجود مرات كثيرة. حاول مرةً أخرى خلال دقيقة واحدة.</item>
+        <item quantity="two">‏‫تم إدخال معرف غير موجود مرات كثيرة. حاول مرةً أخرى خلال دقيقتين.</item>
+        <item quantity="few">‏‫تم إدخال معرف غير موجود مرات كثيرة. حاول مرةً أخرى خلال %d دقائق.</item>
+        <item quantity="many">‏‫تم إدخال معرف غير موجود مرات كثيرة. حاول مرةً أخرى خلال %d دقيقةً.</item>
+        <item quantity="other">‏‫تم إدخال معرف غير موجود مرات كثيرة. حاول مرةً أخرى خلال %d دقيقة.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">%d عضو</item>
+        <item quantity="one">عضو واحد</item>
+        <item quantity="two">عضوان</item>
+        <item quantity="few">%d أعضاء</item>
+        <item quantity="many">%d عضواً</item>
+        <item quantity="other">%d عضو</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">تتعذر دعوة أكثر من %d شخص إلى ‏‫مجموعة عائلة.</item>
+        <item quantity="one">تتعذر دعوة أكثر من شخص واحد إلى ‏‫مجموعة عائلة.</item>
+        <item quantity="two">تتعذر دعوة أكثر من شخصين إلى ‏‫مجموعة عائلة.</item>
+        <item quantity="few">تتعذر دعوة أكثر من %d أشخاص إلى ‏‫مجموعة عائلة.</item>
+        <item quantity="many">تتعذر دعوة أكثر من %d شخصاً إلى ‏‫مجموعة عائلة.</item>
+        <item quantity="other">تتعذر دعوة أكثر من %d شخص إلى ‏‫مجموعة عائلة.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">يصبح %1$s عمره %2$d عام قريباً</item>
+        <item quantity="one">يصبح %1$s عمره عام واحد قريباً</item>
+        <item quantity="two">يصبح %1$s عمره عامين قريباً</item>
+        <item quantity="few">يصبح %1$s عمره %2$d أعوام قريباً</item>
+        <item quantity="many">يصبح %1$s عمره %2$d عاماً قريباً</item>
+        <item quantity="other">يصبح %1$s عمره %2$d عام قريباً</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">تمت دعوة %d شخص</item>
+        <item quantity="one">تمت دعوة شخص واحد</item>
+        <item quantity="two">تمت دعوة شخصين</item>
+        <item quantity="few">تمت دعوة %d أشخاص</item>
+        <item quantity="many">تمت دعوة %d شخصاً</item>
+        <item quantity="other">تمت دعوة %d شخص</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">%1$s و%2$d رقم آخر</item>
+        <item quantity="one">%1$s ورقم واحد آخر</item>
+        <item quantity="two">%1$s ورقمان آخران</item>
+        <item quantity="few">%1$s و%2$d أرقام أخرى</item>
+        <item quantity="many">%1$s و%2$d رقماً آخر</item>
+        <item quantity="other">%1$s و%2$d رقم آخر</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">%d حدث لم يتم الاطلاع عليه</item>
+        <item quantity="one">حدث واحد غير محدد</item>
+        <item quantity="two">حدثان لم يتم الاطلاع عليهما</item>
+        <item quantity="few">%d أحداث لم يتم الاطلاع عليها</item>
+        <item quantity="many">%d حدثاً لم يتم الاطلاع عليه</item>
+        <item quantity="other">%d حدث لم يتم الاطلاع عليه</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">%1$s و%2$d حساب آخر</item>
+        <item quantity="one">%1$s وحساب آخر واحد</item>
+        <item quantity="two">%1$s وحسابان آخران</item>
+        <item quantity="few">%1$s و%2$d حسابات أخرى</item>
+        <item quantity="many">%1$s و%2$d حساباً آخر</item>
+        <item quantity="other">%1$s و%2$d حساب آخر</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">قام %1$s بدعوتك للانضمام إلى مجموعة العائلة الخاصة به. انقر فوق الرابط في الرسالة التالية للانضمام. إذا قمت بالانضمام، ستتم مشاركة اسمك وبريدك الإلكتروني ومعرف Samsung account الخاص بك مع أفراد العائلة الآخرين. تنتهي الدعوة خلال %2$d يوم.</item>
+        <item quantity="one">قام %1$s بدعوتك للانضمام إلى مجموعة العائلة الخاصة به. انقر فوق الرابط في الرسالة التالية للانضمام. إذا قمت بالانضمام، ستتم مشاركة اسمك وبريدك الإلكتروني ومعرف Samsung account الخاص بك مع أفراد العائلة الآخرين. تنتهي الدعوة خلال يوم واحد.</item>
+        <item quantity="two">قام %1$s بدعوتك للانضمام إلى مجموعة العائلة الخاصة به. انقر فوق الرابط في الرسالة التالية للانضمام. إذا قمت بالانضمام، ستتم مشاركة اسمك وبريدك الإلكتروني ومعرف Samsung account الخاص بك مع أفراد العائلة الآخرين. تنتهي الدعوة خلال يومين.</item>
+        <item quantity="few">قام %1$s بدعوتك للانضمام إلى مجموعة العائلة الخاصة به. انقر فوق الرابط في الرسالة التالية للانضمام. إذا قمت بالانضمام، ستتم مشاركة اسمك وبريدك الإلكتروني ومعرف Samsung account الخاص بك مع أفراد العائلة الآخرين. تنتهي الدعوة خلال %2$d أيام.</item>
+        <item quantity="many">قام %1$s بدعوتك للانضمام إلى مجموعة العائلة الخاصة به. انقر فوق الرابط في الرسالة التالية للانضمام. إذا قمت بالانضمام، ستتم مشاركة اسمك وبريدك الإلكتروني ومعرف Samsung account الخاص بك مع أفراد العائلة الآخرين. تنتهي الدعوة خلال %2$d يوماً.</item>
+        <item quantity="other">قام %1$s بدعوتك للانضمام إلى مجموعة العائلة الخاصة به. انقر فوق الرابط في الرسالة التالية للانضمام. إذا قمت بالانضمام، ستتم مشاركة اسمك وبريدك الإلكتروني ومعرف Samsung account الخاص بك مع أفراد العائلة الآخرين. تنتهي الدعوة خلال %2$d يوم.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">%d اقتراح</item>
+        <item quantity="one">اقتراح واحد</item>
+        <item quantity="two">اقتراحان</item>
+        <item quantity="few">%d اقتراحات</item>
+        <item quantity="many">%d اقتراحاً</item>
+        <item quantity="other">%d اقتراح</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة %d دقيقة، ثم حاول مرةً أخرى.</item>
+        <item quantity="one">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة دقيقة واحدة، ثم حاول مرةً أخرى.</item>
+        <item quantity="two">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة دقيقتين، ثم حاول مرةً أخرى.</item>
+        <item quantity="few">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة %d دقائق، ثم حاول مرةً أخرى.</item>
+        <item quantity="many">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة %d دقيقةً، ثم حاول مرةً أخرى.</item>
+        <item quantity="other">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة %d دقيقة، ثم حاول مرةً أخرى.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة %d ثانية، ثم حاول مرةً أخرى.</item>
+        <item quantity="one">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة ثانية واحدة، ثم حاول مرةً أخرى.</item>
+        <item quantity="two">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة ثانيتين، ثم حاول مرةً أخرى.</item>
+        <item quantity="few">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة %d ثوانٍ، ثم حاول مرةً أخرى.</item>
+        <item quantity="many">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة %d ثانيةً، ثم حاول مرةً أخرى.</item>
+        <item quantity="other">‏‫تم إدخال الرمز الخطأ مرات كثيرة. انتظر لمدة %d ثانية، ثم حاول مرةً أخرى.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">وقت النوم: %d ساعة</item>
+        <item quantity="one">وقت النوم: ساعة واحدة</item>
+        <item quantity="two">وقت النوم: ساعتان</item>
+        <item quantity="few">وقت النوم: %d ساعات</item>
+        <item quantity="many">وقت النوم: %d ساعةً</item>
+        <item quantity="other">وقت النوم: %d ساعة</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">وقت النوم: %d دقيقة</item>
+        <item quantity="one">وقت النوم: دقيقة واحدة</item>
+        <item quantity="two">وقت النوم: دقيقتان</item>
+        <item quantity="few">وقت النوم: %d دقائق</item>
+        <item quantity="many">وقت النوم: %d دقيقةً</item>
+        <item quantity="other">وقت النوم: %d دقيقة</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:id="@id/top_view" android:tag="layout/graduate_child_account_intro_suw_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/common_view_margin" android:layout_marginEnd="@dimen/common_view_margin">
+            <TextView android:textSize="14.0sp" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:text="@string/sa_graduate_child_main_description" style="@style/BasicDescription" />
+            <TextView android:textSize="14.0sp" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/sa_graduate_child_intro_legal_description" style="@style/BasicDescription" />
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.setupdesign.GlifLayout>

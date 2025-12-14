@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئامێر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d‎ ‎ئامێر</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"کۆدێکی پشتڕاستکردنەوەی زۆر نێردراوە بۆ ئامێرەکەت، بۆیە ئێمە پشتڕاستکردنەوەی ئامێری Galaxyی تۆمان بۆ هەژمارەکەت بلۆککرد.
+
+شێوازێکی تری پشتڕاستکردنەوە بەکاربهێنە یان پاش %d خولەک جارێکی تر هەوڵ بدەوە."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"کۆدێکی پشتڕاستکردنەوەی زۆر نێردراوە بۆ ئامێرەکەت، بۆیە ئێمە پشتڕاستکردنەوەی ئامێری Galaxyی تۆمان بۆ هەژمارەکەت بلۆک‌کرد.
+
+شێوازێکی تری پشتڕاستکردنەوە بەکاربهێنە یان پاش %d خولەک جارێکی تر هەوڵ بدەوە."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s و %2$d زیاتر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s و %2$d زیاتر</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانیت %1$s زیاتر لە %2$d جار لە ٣٠ ڕۆژدا بانگھێشت بکەیت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانێت %1$sزیاتر لە %2$d جار لە 30 ڕۆژدا بانگهێشت بکات.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هەژماری منداڵان تەنها دەتوانرێت بۆ کەسانی ژێر تەمەنی %d ساڵ دروست بکرێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">هەژماری منداڵان تەنها دەتوانرێت بۆ کەسانی ژێر تەمەنی %d ساڵ دروست بکرێت.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بۆ بەکارهێنانی %2$s پێویستە تەمەنت بەلانیکەم %1$d ساڵ بێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">بۆ بەکارهێنانی %2$s پێویستە تەمەنت بەلانیکەم %1$d ساڵ بێت.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">کەسانی ژێر تەمەنی %d ناتوانن لە وڵاتەکەت یان هەرێمەکەت خاوەن ھەژمار بن.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">کەسانی ژێر تەمەنی %d ناتوانن لە وڵاتەکەت یان هەرێمەکەت خاوەن ھەژمار بن.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تەمەن %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">تەمەن %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بەر لە ناردنی داواکاری %d خولەک چاوەڕێ بکە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">بەر لە ناردنی داواکاری %d خولەک چاوەڕێ بکە.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانرێت زیاتر لە %d نووسە زیاد بکات.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناکرێ زیاتر لە %d نووسە بنووسرێت.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">پێویستە وەڵامەکان لانیکەم %d نووسە لەخۆ بگرن.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">پێویستە وەڵامەکان لانیکەم %d نووسە لەخۆ گرن.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ئێستا بوویتە %d ساڵ، تۆ دەتوانیت بیگۆڕیت بۆ ھەژمارێکی بەردەوامی Samsung. ئەگەر واتکرد، ئەوا دەتوانیت ھەر ئەپ یان ئامێرێک کە حەزت لێیە بەبێ ڕێپێدان لە باوک و دایکت بەکاری بھێنیت، و چاودێرەکانی باوان چیتر کاریان پێناکرێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ئێستا بوویتە %d ساڵ، تۆ دەتوانیت بیگۆڕیت بۆ ھەژمارێکی بەردەوامی Samsung. ئەگەر واتکرد، ئەوا دەتوانیت ھەر ئەپ یان ئامێرێک کە حەزت لێیە بەبێ ڕێپێدان لە باوک و دایکت بەکاری بھێنیت، و چاودێرەکانی باوان چیتر کاریان پێناکرێت.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">من لە سەروو %d ساڵیم</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">من لە سەروو %d ساڵیم</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">من لەخوار %d ساڵیم</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">من لەخوار %d ساڵیم</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناسنامەیەک کە بوونی نیە چەندینجار نووسراوە. پاش %d خولەک دووبارە هەوڵدەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناسنامەیەک کە بوونی نیە چەندینجار نووسراوە. پاش %d خولەک دووبارە هەوڵدەوە.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ئەندام</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ئەندام</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ناتوانیت زیاتر لە %d کەس بۆ کۆمەڵەی خێزانی بانگھێشت بکەیت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ناتوانیت زیاتر لە %d کەس بۆ کۆمەڵەی خێزانی بانگھێشت بکەیت.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s بەم زووانە دەبێتە %2$d ساڵ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s بەم زووانە دەبێتە %2$d ساڵ</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d کەس بانگهێشتکراوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d کەس بانگهێشتکراوە</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s و %2$d ژمارەی تر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s و %2$d ژمارەی تر</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d بۆنەی نیشانەنەکراو</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d بۆنەی نیشانەنەکراو</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s و %2$d هەژماری تر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s و %2$d هەژماری تر</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s تۆی بۆ کۆمەڵەی خێزانی خۆی بانگھێشت کردووە. بۆ پەیوەست بوون پەنجە لە بەستەری ناو پەیامی خوارەوە بدە. ئەگەر پەیوەست بوویت، ناوت، ئیمەیلەکەت و پێناسی ھەژماری Samsungی خۆت لەگەڵ ئەندامانی تری خێزانەکە ھاوبەشی دەکرێت. بانگھێشتەکە لە %2$d ڕۆژ تردا بەسەردەچێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s تۆی بۆ کۆمەڵەی خێزانی خۆی بانگھێشت کردووە. بۆ پەیوەست بوون پەنجە لە بەستەری ناو پەیامی خوارەوە بدە. ئەگەر پەیوەست بوویت، ناوت، ئیمەیلەکەت و پێناسی ھەژماری Samsungی خۆت لەگەڵ ئەندامانی تری خێزانەکە ھاوبەشی دەکرێت. بانگھێشتەکە لە %2$d ڕۆژ تردا بەسەردەچێت.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پێشنیار</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d پێشنیار</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">چەندین جار کۆدی هەڵە نووسراوە. خولەک %d چاوەڕوان بە، دواتر جارێکی تر هەوڵدەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">چەندین جار کۆدی هەڵە نووسراوە. %d خولەک چاوەڕوان بە، دواتر جارێکی تر هەوڵدەوە.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">چەندین جار کۆدی هەڵە نووسراوە. %d چرکە چاوەڕوان بە، دواتر جارێکی تر هەوڵدەوە.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">چەندین جار کۆدی هەڵە نووسراوە. %d چرکە چاوەڕوان بە، دواتر جارێکی تر هەوڵدەوە.</item>
+    </plurals>
+</resources>

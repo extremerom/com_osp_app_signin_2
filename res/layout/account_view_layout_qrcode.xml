@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:tag="layout/account_view_layout_qrcode_0" android:visibility="gone" android:layout_width="@dimen/qr_code_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:tag="binding_1" android:background="@drawable/qr_signin_background" android:layout_width="@dimen/qr_code_width" android:layout_height="@dimen/qr_code_width" android:scaleType="center" />
+        <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="center" android:id="@id/progress" android:tag="binding_2" android:background="@drawable/circle_progress_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.AppCompat.Light.ProgressBar.Large" />
+    </FrameLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@color/text_sub_header_color" android:gravity="center_horizontal" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="5.0dp" style="@style/FontRegular" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textColor="@color/text_sub_header_color" android:layout_gravity="center" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FontRegular" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/blue_text_button" android:layout_gravity="center" android:id="@id/create_qr_code" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sa_create_new_qr_code" style="@style/FontSemiBold" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/push_recommend_full_view_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/app_logo_view" />
+                <TextView android:textSize="@dimen/main_title_font" android:textColor="@color/page_title_main_page" android:gravity="center" android:id="@id/recommend_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="@string/sa_recommend_change_pwd_title" android:textDirection="locale" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" style="@style/FontSemiBold" />
+                <TextView android:textSize="14.0dp" android:textColor="@color/page_desc_main_page" android:gravity="center" android:id="@id/recommend_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" style="@style/FontRegular" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dp">
+            <Button android:enabled="true" android:id="@id/recommend_button" android:layout_width="@dimen/recommend_change_pwd_button_width" android:layout_marginBottom="15.0dp" android:text="@string/sa_button_change_password" android:layout_marginStart="45.0dp" android:layout_marginEnd="45.0dp" style="@style/ChangePwdBlueButtonStyle" />
+            <Button android:enabled="true" android:id="@id/do_nothing_button" android:layout_width="@dimen/recommend_change_pwd_button_width" android:layout_height="wrap_content" android:text="@string/sa_do_nothing_for_now" android:layout_marginStart="45.0dp" android:layout_marginEnd="45.0dp" style="@style/ChangePwdGrayButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

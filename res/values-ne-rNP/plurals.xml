@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d यन्त्र</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d यन्त्रहरू</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"तपाईको यन्त्रमा अत्यन्त धेरैपटक प्रमाणीकरणका कोडहरू पठाइएकाले हामीले तपाईको एकाउंटको ग्यालेक्सी यन्त्रमार्फत प्रमाणित गर्ने सुविधामाथि रोक लगाएका छौँ।
+
+कुनै अर्को प्रमाणीकरणको तरिका प्रयोग गरी हेर्नुहोस् वा %d मिनटमा फेरि प्रयास गर्नुहोस्।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"तपाईको यन्त्रमा अत्यन्त धेरैपटक प्रमाणीकरणका कोडहरू पठाइएकाले हामीले तपाईको एकाउंटको ग्यालेक्सी यन्त्रमार्फत प्रमाणित गर्ने सुविधामाथि रोक लगाएका छौँ।
+
+कुनै अर्को प्रमाणीकरणको तरिका प्रयोग गरी हेर्नुहोस् वा %d मिनटमा फेरि प्रयास गर्नुहोस्।"</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s र थप %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s र थप %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">30 दिनभित्रमा %1$s लाई %2$d पटकभन्दा बढी आमन्त्रित गर्न सकिँदैन।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">30 दिनभित्रमा %1$s लाई %2$d पटकभन्दा बढी आमन्त्रित गर्न सकिँदैन।</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">बच्चाका एकाउंटहरू %d वर्षमुनिका मानिसहरूका लागि मात्र सिर्जना गर्न सकिन्छ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">बच्चाका एकाउंटहरू %d वर्षमुनिका मानिसहरूका लागि मात्र सिर्जना गर्न सकिन्छ।</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s प्रयोग गर्न तपाई कम्तीमा पनि %1$d वर्षको हुनुपर्छ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s प्रयोग गर्न तपाई कम्तीमा पनि %1$d वर्षको हुनुपर्छ।</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">तपाईंको देश वा क्षेत्रमा %d भन्दा कम उमेरका मानिसहरूले एकाउंट राख्न मिल्दैन।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">तपाईंको देश वा क्षेत्रमा %d भन्दा कम उमेरका मानिसहरूले एकाउंट राख्न मिल्दैन।</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">उमेर %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">उमेर %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">अनुरोध पठाउनुअघि %d मिनट पर्खनुहोस्।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">अनुरोध पठाउनुअघि %d मिनट पर्खनुहोस्।</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d भन्दा धेरै वर्ण प्रविष्ट गर्न सकिँदैन।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d भन्दा धेरै वर्णहरू प्रविष्ट गर्न सकिँदैन।</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">उत्तरमा कम्तीमा पनि %d वर्ण हुनुपर्छ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">उत्तरमा कम्तीमा पनि %d वटा वर्णहरू हुनुपर्छ।</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">अब तपाईंको उमेर %d वर्ष पुगेकोले, तपाईं नियमित Samsung account मा स्विच गर्न सक्नुहुन्छ। तपाईंले यसरी स्विच गर्नुभयो भने तपाईं आफ्ना अभिभावकको अनुमतिबिनै आफूलाई मन पर्ने जुनसुकै एप र यन्त्रहरू प्रयोग गर्न सक्नुहुने छ र तदुपरान्त अभिभावकीय नियन्त्रणहरू लागू हुने छैनन्।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">अब तपाईंको उमेर %d वर्ष पुगेकोले, तपाईं नियमित Samsung account मा स्विच गर्न सक्नुहुन्छ। तपाईंले यसरी स्विच गर्नुभयो भने तपाईं आफ्ना अभिभावकको अनुमतिबिनै आफूलाई मन पर्ने जुनसुकै एप र यन्त्रहरू प्रयोग गर्न सक्नुहुने छ र तदुपरान्त अभिभावकीय नियन्त्रणहरू लागू हुने छैनन्।</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">म %d वर्षभन्दा माथिको हुँ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">म %d वर्षभन्दा माथिको हुँ</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">म %d वर्षभन्दा मुनिको हुँ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">म %d वर्षभन्दा मुनिको हुँ</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">विद्यमान नै नभएको एउटा ID अन्यन्त धेरै पटक प्रविष्ट गरिएको छ। %d मिनटमा फेरि प्रयास गर्नुहोस्।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">विद्यमान नै नभएको एउटा ID अन्यन्त धेरै पटक प्रविष्ट गरिएको छ। %d मिनटमा फेरि प्रयास गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d सदस्य</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d सदस्यहरू</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">पारिवारिक समूहमा %d जना भन्दा धेरै थप्न सकिँदैन।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">पारिवारिक समूहमा %d भन्दा धेरै मानिस थप्न सकिँदैन।</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s चाँडै नै %2$d वर्षका हुनुहुँदै छ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s चाँडै नै %2$d वर्षका हुनुहुँदै छ</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d व्यक्तिलाई आमन्त्रित गरिएको छ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d जनालाई आमन्त्रित गरिएको छ</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s र अन्य %2$d नम्बर</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s र अन्य %2$d वटा नम्बर</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">जाँच नगरिएको %d कार्यक्रम</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">जाँच नगरिएका %d कार्यक्रमहरू</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s र अन्य %2$d वटा एकाउंट</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s र अन्य %2$d वटा एकाउंटहरू</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ले तपाईंलाई आफ्नो पारिवारिक समूहमा आमन्त्रित गर्नुभएको छ। सामेल हुन तलको संदेशमा रहेको लिंकमा ट्याप गर्नुहोस्। तपाईं सामेल हुनुभयो भने तपाईंको नाम, ईमेल र Samsung account ID उक्त परिवारका अन्य सदस्यहरूसँग शेयर गरिनेछ। यस निमन्त्रणाको म्याद %2$d दिनमा सकिने छ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ले तपाईंलाई आफ्नो पारिवारिक समूहमा आमन्त्रित गर्नुभएको छ। सामेल हुन तलको संदेशमा रहेको लिंकमा ट्याप गर्नुहोस्। तपाईं सामेल हुनुभयो भने तपाईंको नाम, ईमेल र Samsung account ID उक्त परिवारका अन्य सदस्यहरूसँग शेयर गरिनेछ। यस निमन्त्रणाको म्याद %2$d दिनमा सकिने छ।</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d सुझाव</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा सुझाव</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">अत्यन्त धेरै पटक गलत कोड प्रविष्ट गरिएको छ। %d मिनट प्रतीक्षा गरेपछि फेरि प्रयास गर्नुहोस्।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">अत्यन्त धेरै पटक गलत कोड प्रविष्ट गरिएको छ। %d मिनट प्रतीक्षा गरेपछि फेरि प्रयास गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">अत्यन्त धेरै पटक गलत कोड प्रविष्ट गरिएको छ। %d सेकेन्ड प्रतीक्षा गरेपछि फेरि प्रयास गर्नुहोस्।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">अत्यन्त धेरै पटक गलत कोड प्रविष्ट गरिएको छ। %d सेकेन्ड प्रतीक्षा गरेपछि फेरि प्रयास गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">सुतेको समय: %d घण्‍टा</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">सुतेको समय: %d घण्‍टा</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">सुतेको समय: %d मिनट</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">सुतेको समय: %d मिनट</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+version: 3.0.0-dirty
+apkFileName: app.apk
+usesFramework:
+  ids:
+  - 1
+  tag: dm2q
+sdkInfo:
+  minSdkVersion: 29
+  targetSdkVersion: 36
+versionInfo:
+  versionCode: 1550201100
+  versionName: 15.5.02.1
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- ogg
+- png
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

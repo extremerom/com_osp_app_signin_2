@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/scroll_area_parent" android:tag="layout/consent_content_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/item_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:dividerHeight="0.0dp" android:minWidth="@dimen/tnc_min_width" android:layout_above="@id/bottom_area" android:layout_alignParentTop="true" android:importantForAccessibility="no" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_area" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/dotted_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/consent_agree_all_dotted_line_margin_bottom" android:src="@drawable/dotted_line" android:contentDescription="@null" android:layerType="software" />
+        <com.samsung.android.samsungaccount.utils.ui.ChunkDefaultLayout android:id="@id/agree_all" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

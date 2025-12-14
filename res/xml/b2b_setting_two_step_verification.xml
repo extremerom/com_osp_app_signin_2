@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/sa_body_two_step_verification"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/b2b_two_step_verification_methods" android:key="VerificationMethods">
+        <com.samsung.android.samsungaccount.setting.ui.SecurityStatusPreference android:layout="@layout/pref_row_security" android:title="@string/sa_2factor_sms_title" android:key="TextMessage" android:summary="@string/b2b_two_step_verification_text_message_summary" />
+        <com.samsung.android.samsungaccount.b2b.presentation.view.AuthenticatorSwitchPreference android:layout="@layout/pref_row_with_switch" android:title="@string/sa_2factor_otp_title" android:key="AuthenticatorApp" android:summary="@string/b2b_two_step_verification_auth_app_summary" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/sa_trusted_device" android:key="TrustedDevices">
+        <com.samsung.android.samsungaccount.b2b.presentation.view.B2bTrustedDevicesPreference android:layout="@layout/b2b_pref_row_trusted_devices" android:selectable="false" android:key="TrustedDevicesCount" android:summary="@string/sa_multiple_trusted_device_desc" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" android:order="10000" />
+</androidx.preference.PreferenceScreen>

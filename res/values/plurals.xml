@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">%d devices</item>
+        <item quantity="one">%d device</item>
+        <item quantity="two">%d devices</item>
+        <item quantity="few">%d devices</item>
+        <item quantity="many">%d devices</item>
+        <item quantity="other">%d devices</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">"Too many verification codes have been sent to your device, so we blocked Galaxy device verification for your account.
+
+Use another verification method or try again in %d minutes."</item>
+        <item quantity="one">"Too many verification codes have been sent to your device, so we blocked Galaxy device verification for your account.
+
+Use another verification method or try again in %d minute."</item>
+        <item quantity="two">"Too many verification codes have been sent to your device, so we blocked Galaxy device verification for your account.
+
+Use another verification method or try again in %d minutes."</item>
+        <item quantity="few">"Too many verification codes have been sent to your device, so we blocked Galaxy device verification for your account.
+
+Use another verification method or try again in %d minutes."</item>
+        <item quantity="many">"Too many verification codes have been sent to your device, so we blocked Galaxy device verification for your account.
+
+Use another verification method or try again in %d minutes."</item>
+        <item quantity="other">"Too many verification codes have been sent to your device, so we blocked Galaxy device verification for your account.
+
+Use another verification method or try again in %d minutes."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">%1$s and %2$d more</item>
+        <item quantity="one">%1$s and %2$d more</item>
+        <item quantity="two">%1$s and %2$d more</item>
+        <item quantity="few">%1$s and %2$d more</item>
+        <item quantity="many">%1$s and %2$d more</item>
+        <item quantity="other">%1$s and %2$d more</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">"Can't invite %1$s more than %2$d times in 30 days."</item>
+        <item quantity="one">"Can't invite %1$s more than %2$d time in 30 days."</item>
+        <item quantity="two">"Can't invite %1$s more than %2$d times in 30 days."</item>
+        <item quantity="few">"Can't invite %1$s more than %2$d times in 30 days."</item>
+        <item quantity="many">"Can't invite %1$s more than %2$d times in 30 days."</item>
+        <item quantity="other">"Can't invite %1$s more than %2$d times in 30 days."</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">Child accounts can only be created for people under %d.</item>
+        <item quantity="one">Child accounts can only be created for people under %d.</item>
+        <item quantity="two">Child accounts can only be created for people under %d.</item>
+        <item quantity="few">Child accounts can only be created for people under %d.</item>
+        <item quantity="many">Child accounts can only be created for people under %d.</item>
+        <item quantity="other">Child accounts can only be created for people under %d.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">You need to be at least %1$d years old to use %2$s.</item>
+        <item quantity="one">You need to be at least %1$d year old to use %2$s.</item>
+        <item quantity="two">You need to be at least %1$d years old to use %2$s.</item>
+        <item quantity="few">You need to be at least %1$d years old to use %2$s.</item>
+        <item quantity="many">You need to be at least %1$d years old to use %2$s.</item>
+        <item quantity="other">You need to be at least %1$d years old to use %2$s.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">"People under %d can't have an account in your country or region."</item>
+        <item quantity="one">"People under %d can't have an account in your country or region."</item>
+        <item quantity="two">"People under %d can't have an account in your country or region."</item>
+        <item quantity="few">"People under %d can't have an account in your country or region."</item>
+        <item quantity="many">"People under %d can't have an account in your country or region."</item>
+        <item quantity="other">"People under %d can't have an account in your country or region."</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">Age %d</item>
+        <item quantity="one">Age %d</item>
+        <item quantity="two">Age %d</item>
+        <item quantity="few">Age %d</item>
+        <item quantity="many">Age %d</item>
+        <item quantity="other">Age %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">Wait %d minutes before sending request.</item>
+        <item quantity="one">Wait %d minute before sending request.</item>
+        <item quantity="two">Wait %d minutes before sending request.</item>
+        <item quantity="few">Wait %d minutes before sending request.</item>
+        <item quantity="many">Wait %d minutes before sending request.</item>
+        <item quantity="other">Wait %d minutes before sending request.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">"Can't enter more than %d characters."</item>
+        <item quantity="one">"Can't enter more than %d character."</item>
+        <item quantity="two">"Can't enter more than %d characters."</item>
+        <item quantity="few">"Can't enter more than %d characters."</item>
+        <item quantity="many">"Can't enter more than %d characters."</item>
+        <item quantity="other">"Can't enter more than %d characters."</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">Answers must contain at least %d characters.</item>
+        <item quantity="one">Answers must contain at least %d character.</item>
+        <item quantity="two">Answers must contain at least %d characters.</item>
+        <item quantity="few">Answers must contain at least %d characters.</item>
+        <item quantity="many">Answers must contain at least %d characters.</item>
+        <item quantity="other">Answers must contain at least %d characters.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">"Now that you're %d, you can switch to a regular Samsung account. If you do, you'll be able to use any apps and devices you like without permission from your parents, and parental controls will no longer apply."</item>
+        <item quantity="one">"Now that you're %d, you can switch to a regular Samsung account. If you do, you'll be able to use any apps and devices you like without permission from your parents, and parental controls will no longer apply."</item>
+        <item quantity="two">"Now that you're %d, you can switch to a regular Samsung account. If you do, you'll be able to use any apps and devices you like without permission from your parents, and parental controls will no longer apply."</item>
+        <item quantity="few">"Now that you're %d, you can switch to a regular Samsung account. If you do, you'll be able to use any apps and devices you like without permission from your parents, and parental controls will no longer apply."</item>
+        <item quantity="many">"Now that you're %d, you can switch to a regular Samsung account. If you do, you'll be able to use any apps and devices you like without permission from your parents, and parental controls will no longer apply."</item>
+        <item quantity="other">"Now that you're %d, you can switch to a regular Samsung account. If you do, you'll be able to use any apps and devices you like without permission from your parents, and parental controls will no longer apply."</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">"I'm over %d"</item>
+        <item quantity="one">"I'm over %d"</item>
+        <item quantity="two">"I'm over %d"</item>
+        <item quantity="few">"I'm over %d"</item>
+        <item quantity="many">"I'm over %d"</item>
+        <item quantity="other">"I'm over %d"</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">"I'm under %d"</item>
+        <item quantity="one">"I'm under %d"</item>
+        <item quantity="two">"I'm under %d"</item>
+        <item quantity="few">"I'm under %d"</item>
+        <item quantity="many">"I'm under %d"</item>
+        <item quantity="other">"I'm under %d"</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">A non-existent ID has been entered too many times. Try again in %d minutes.</item>
+        <item quantity="one">A non-existent ID has been entered too many times. Try again in %d minute.</item>
+        <item quantity="two">A non-existent ID has been entered too many times. Try again in %d minutes.</item>
+        <item quantity="few">A non-existent ID has been entered too many times. Try again in %d minutes.</item>
+        <item quantity="many">A non-existent ID has been entered too many times. Try again in %d minutes.</item>
+        <item quantity="other">A non-existent ID has been entered too many times. Try again in %d minutes.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">%d members</item>
+        <item quantity="one">%d member</item>
+        <item quantity="two">%d members</item>
+        <item quantity="few">%d members</item>
+        <item quantity="many">%d members</item>
+        <item quantity="other">%d members</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">"Can't invite more than %d people to a family group."</item>
+        <item quantity="one">"Can't invite more than %d person to a family group."</item>
+        <item quantity="two">"Can't invite more than %d people to a family group."</item>
+        <item quantity="few">"Can't invite more than %d people to a family group."</item>
+        <item quantity="many">"Can't invite more than %d people to a family group."</item>
+        <item quantity="other">"Can't invite more than %d people to a family group."</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">"%1$s's turning %2$d soon"</item>
+        <item quantity="one">"%1$s's turning %2$d soon"</item>
+        <item quantity="two">"%1$s's turning %2$d soon"</item>
+        <item quantity="few">"%1$s's turning %2$d soon"</item>
+        <item quantity="many">"%1$s's turning %2$d soon"</item>
+        <item quantity="other">"%1$s's turning %2$d soon"</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">%d people invited</item>
+        <item quantity="one">%d person invited</item>
+        <item quantity="two">%d people invited</item>
+        <item quantity="few">%d people invited</item>
+        <item quantity="many">%d people invited</item>
+        <item quantity="other">%d people invited</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">%1$s and %2$d other numbers</item>
+        <item quantity="one">%1$s and %2$d other number</item>
+        <item quantity="two">%1$s and %2$d other numbers</item>
+        <item quantity="few">%1$s and %2$d other numbers</item>
+        <item quantity="many">%1$s and %2$d other numbers</item>
+        <item quantity="other">%1$s and %2$d other numbers</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">%d unchecked events</item>
+        <item quantity="one">%d unchecked event</item>
+        <item quantity="two">%d unchecked events</item>
+        <item quantity="few">%d unchecked events</item>
+        <item quantity="many">%d unchecked events</item>
+        <item quantity="other">%d unchecked events</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">%1$s and %2$d other accounts</item>
+        <item quantity="one">%1$s and %2$d other account</item>
+        <item quantity="two">%1$s and %2$d other accounts</item>
+        <item quantity="few">%1$s and %2$d other accounts</item>
+        <item quantity="many">%1$s and %2$d other accounts</item>
+        <item quantity="other">%1$s and %2$d other accounts</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">%1$s invited you to their family group. Tap the link in the message below to join. If you join, your name, email, and Samsung account ID will be shared with the other members of the family. The invitation expires in %2$d days.</item>
+        <item quantity="one">%1$s invited you to their family group. Tap the link in the message below to join. If you join, your name, email, and Samsung account ID will be shared with the other members of the family. The invitation expires in %2$d day.</item>
+        <item quantity="two">%1$s invited you to their family group. Tap the link in the message below to join. If you join, your name, email, and Samsung account ID will be shared with the other members of the family. The invitation expires in %2$d days.</item>
+        <item quantity="few">%1$s invited you to their family group. Tap the link in the message below to join. If you join, your name, email, and Samsung account ID will be shared with the other members of the family. The invitation expires in %2$d days.</item>
+        <item quantity="many">%1$s invited you to their family group. Tap the link in the message below to join. If you join, your name, email, and Samsung account ID will be shared with the other members of the family. The invitation expires in %2$d days.</item>
+        <item quantity="other">%1$s invited you to their family group. Tap the link in the message below to join. If you join, your name, email, and Samsung account ID will be shared with the other members of the family. The invitation expires in %2$d days.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">%d suggestions</item>
+        <item quantity="one">%d suggestion</item>
+        <item quantity="two">%d suggestions</item>
+        <item quantity="few">%d suggestions</item>
+        <item quantity="many">%d suggestions</item>
+        <item quantity="other">%d suggestions</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">The wrong code has been entered too many times. Wait %d minutes, then try again.</item>
+        <item quantity="one">The wrong code has been entered too many times. Wait %d minute, then try again.</item>
+        <item quantity="two">The wrong code has been entered too many times. Wait %d minutes, then try again.</item>
+        <item quantity="few">The wrong code has been entered too many times. Wait %d minutes, then try again.</item>
+        <item quantity="many">The wrong code has been entered too many times. Wait %d minutes, then try again.</item>
+        <item quantity="other">The wrong code has been entered too many times. Wait %d minutes, then try again.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">The wrong code has been entered too many times. Wait %d seconds, then try again.</item>
+        <item quantity="one">The wrong code has been entered too many times. Wait %d second, then try again.</item>
+        <item quantity="two">The wrong code has been entered too many times. Wait %d seconds, then try again.</item>
+        <item quantity="few">The wrong code has been entered too many times. Wait %d seconds, then try again.</item>
+        <item quantity="many">The wrong code has been entered too many times. Wait %d seconds, then try again.</item>
+        <item quantity="other">The wrong code has been entered too many times. Wait %d seconds, then try again.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">Sleep time %d hours</item>
+        <item quantity="one">Sleep time %d hour</item>
+        <item quantity="two">Sleep time %d hours</item>
+        <item quantity="few">Sleep time %d hours</item>
+        <item quantity="many">Sleep time %d hours</item>
+        <item quantity="other">Sleep time %d hours</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">Sleep time %d minutes</item>
+        <item quantity="one">Sleep time %d minute</item>
+        <item quantity="two">Sleep time %d minutes</item>
+        <item quantity="few">Sleep time %d minutes</item>
+        <item quantity="many">Sleep time %d minutes</item>
+        <item quantity="other">Sleep time %d minutes</item>
+    </plurals>
+    <plurals name="sesl_sleep_goal_duration_in_hour_plurals">
+        <item quantity="zero">Your sleep goal %d hours</item>
+        <item quantity="one">Your sleep goal hour</item>
+        <item quantity="two">Your sleep goal %d hours</item>
+        <item quantity="few">Your sleep goal %d hours</item>
+        <item quantity="many">Your sleep goal %d hours</item>
+        <item quantity="other">Your sleep goal %d hours</item>
+    </plurals>
+    <plurals name="sesl_sleep_goal_duration_in_min_plurals">
+        <item quantity="zero">Your sleep goal %d minutes</item>
+        <item quantity="one">Your sleep goal %d minute</item>
+        <item quantity="two">Your sleep goal %d minutes</item>
+        <item quantity="few">Your sleep goal %d minutes</item>
+        <item quantity="many">Your sleep goal %d minutes</item>
+        <item quantity="other">Your sleep goal %d minutes</item>
+    </plurals>
+</resources>

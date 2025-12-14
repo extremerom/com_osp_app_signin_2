@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="44.0dp" android:width="44.0dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/sesl_background_color_light" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="34.0dp" android:width="34.0dp" android:drawable="@drawable/ic_qr_code_generator" />
+</layer-list>

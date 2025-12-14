@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:tag="layout/recent_account_activity_view_0" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:fitsSystemWindows="true" app:expanded="false" style="@style/AppBarLayoutStyle">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:fitsSystemWindows="true" style="@style/ExpandedAppbarLayoutStyle">
+            <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" app:layout_collapseMode="pin" app:titleTextAppearance="@style/Toolbar.TitleText" style="@style/ToolbarStyle" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/list_container" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerNestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="always" app:has_stroke="false" app:side_margin="true">
+                <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="100.0">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/activities_layout" android:tag="binding_1" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="100.0">
+                        <TextView android:id="@id/recent_account_activity_description" android:paddingTop="12.0dp" android:paddingBottom="20.0dp" android:focusable="false" android:text="@string/sa_recent_account_activity_description" android:layout_alignParentTop="true" android:importantForAccessibility="yes" android:layout_marginStart="@dimen/default_contents_start_end" android:layout_marginEnd="@dimen/default_contents_start_end" style="@style/BasicDescription" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                            <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/recent_account_activity_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:paddingHorizontal="@dimen/common_list_spacing" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                            <Button android:id="@id/change_pw_button" android:tag="binding_2" android:visibility="gone" android:layout_marginTop="@dimen/recent_account_activity_padding_between_items" android:layout_marginBottom="@dimen/recent_account_change_pw_margin_bottom" android:minWidth="@dimen/contained_button_body_max_width" android:text="@string/sa_button_change_password" style="@style/ContainedButtonBodyArea" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerNestedScrollView>
+            <ScrollView android:layout_gravity="center" android:tag="binding_3" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/no_activity_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0" android:minHeight="300.0dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.75">
+                        <TextView android:textSize="@dimen/no_items_text_size" android:textColor="@color/no_item_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_recent_account_activity_no_recent_activities_title" android:textAlignment="center" />
+                        <TextView android:textSize="@dimen/no_items_description_text_size" android:textColor="@color/no_items_description_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/sa_recent_account_activity_no_recent_activities_description" android:textAlignment="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:id="@id/bottom_corner" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

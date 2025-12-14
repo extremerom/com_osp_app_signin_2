@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0sp" android:textColor="@color/description_text_color" android:id="@id/biometrics_error_msg" android:tag="layout/user_validate_check_biometrics_error_layout_0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_body_your_biometric_data_has_been_changed_enter_your_password" android:paddingStart="@dimen/confirm_password_popup_default_margin" android:paddingEnd="@dimen/confirm_password_popup_default_margin" style="@style/FontRegular"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

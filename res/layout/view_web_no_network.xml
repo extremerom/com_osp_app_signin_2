@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/no_network" android:background="@color/carta_primary_color_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/carta_default_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/carta_web_no_network" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/carta_default_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/carta_web_no_network_body" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/sesl_primary_text_color_dark" android:layout_gravity="center_horizontal" android:id="@id/btn_retry_no_network" android:background="@drawable/raised_button_primary_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="20.0dp" android:minWidth="200.0dp" android:minHeight="36.0dp" android:text="@string/carta_web_no_network_try_again" android:fontFamily="sec-roboto-light" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/carta_default_text_color" android:layout_gravity="center_horizontal" android:id="@id/btn_network_settings" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/carta_web_network_settings" />
+    </LinearLayout>
+</FrameLayout>

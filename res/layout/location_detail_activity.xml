@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/location_detail_activity_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:fitsSystemWindows="true" app:expanded="false" style="@style/AppBarLayoutStyle">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:fitsSystemWindows="true" style="@style/ExpandedAppbarLayoutStyle">
+            <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" app:layout_collapseMode="pin" app:titleTextAppearance="@style/Toolbar.TitleText" style="@style/ToolbarStyle" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerNestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="always">
+                <LinearLayout android:gravity="center" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="100.0">
+                    <LinearLayout android:orientation="vertical" android:id="@id/frame_layout" android:tag="binding_1" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="100.0">
+                        <include android:id="@id/include_tipcard_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/common_list_spacing" layout="@layout/preference_tip_card" />
+                        <include android:id="@id/tipcard_no_places" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/place_no_items" />
+                        <FrameLayout android:tag="binding_2" android:paddingBottom="@dimen/common_list_empty_footer_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <androidx.recyclerview.widget.RecyclerView android:id="@id/add_listview" android:background="@color/chunk_background" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#00000000" android:dividerHeight="0.0dp" android:importantForAccessibility="no" android:nestedScrollingEnabled="false" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerNestedScrollView>
+            <ScrollView android:layout_gravity="center" android:id="@id/no_places" android:tag="binding_3" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.75">
+                        <TextView android:textSize="@dimen/no_items_text_size" android:textColor="@color/no_item_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_places" android:textAlignment="center" />
+                        <TextView android:textSize="@dimen/no_items_description_text_size" android:textColor="@color/no_items_description_text_color" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_padding_start_end" android:textAlignment="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/detail_view_error_layout" android:tag="binding_5" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="1.0">
+                <include android:id="@id/include_error_layout" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.75" layout="@layout/detail_view_no_data" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:id="@id/bottom_corner" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

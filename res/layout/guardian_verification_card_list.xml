@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/guardian_verification_card_list_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/text_sub_header_color" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="@string/sa_guardian_verification_select_card" android:layout_marginHorizontal="8.0dp" style="@style/FontBold" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/card_list" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/add_card_container" android:tag="binding_2" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72.0dp">
+            <ImageView android:layout_gravity="center" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_add" android:layout_marginStart="18.0dp" android:layout_marginEnd="16.0dp" />
+            <TextView android:textSize="17.0sp" android:textColor="@color/default_text_color" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_guardian_verification_add_card" android:layout_marginEnd="18.0dp" style="@style/FontSemiBold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

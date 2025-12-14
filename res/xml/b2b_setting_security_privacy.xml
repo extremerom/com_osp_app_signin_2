@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/sa_security_and_privacy_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/sa_security_and_privacy_security" android:key="Security">
+        <com.samsung.android.samsungaccount.setting.ui.SecurityStatusPreference android:layout="@layout/pref_row_security" android:title="@string/sa_body_password" android:key="Password" />
+        <com.samsung.android.samsungaccount.setting.ui.SecurityStatusPreference android:layout="@layout/pref_row_security" android:title="@string/sa_body_two_step_verification" android:key="TwoStepVerification" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/sa_main_privacy" android:key="Privacy">
+        <androidx.preference.Preference android:title="@string/sa_tnc_privacy_notice" android:key="PrivacyNotice" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" android:order="10000" />
+</androidx.preference.PreferenceScreen>

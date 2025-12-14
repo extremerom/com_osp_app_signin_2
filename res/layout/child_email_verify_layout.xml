@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/child_email_verify_layout_0" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.samsung.android.samsungaccount.utils.ui.AppLogoView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_logo_margin_bottom" />
+                <TextView android:textSize="@dimen/main_title_font" android:textColor="@color/page_title_main_page" android:gravity="center" android:id="@id/child_email_verify_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_child_email_verify_title" style="@style/FontSemiBold" />
+                <TextView android:textSize="@dimen/main_short_desc_font" android:textColor="@color/page_desc_main_page" android:layout_gravity="center" android:id="@id/child_email_verify_description" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_short_desc_top_margin" android:textAlignment="center" style="@style/FontRegular" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_desc_top_margin">
+                    <AutoCompleteTextView android:gravity="center_vertical" android:id="@id/otp_field" android:tag="binding_2" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="@string/sa_enter_code" android:maxLength="6" android:layout_weight="1.0" android:inputType="number" android:imeOptions="actionDone" android:textDirection="anyRtl" style="@style/DefaultEditTextStyle" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/sa_child_email_otp_bottom_text_size" android:textColor="@color/onboarding_content_title_text" android:layout_gravity="center_vertical" android:id="@id/otp_bottom_field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" />
+                <Button android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/resend_code_button" android:tag="binding_3" android:background="@drawable/contained_button_body_area_background" android:layout_marginTop="20.0dp" android:layout_marginBottom="29.0dp" android:minWidth="@dimen/sa_child_email_button_min_width" android:text="@string/sa_resend_code" android:singleLine="true" android:includeFontPadding="false" android:contentDescription="@string/sa_resend_code" style="@style/ContainedButtonListArea" />
+            </LinearLayout>
+        </com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout>
+    </ScrollView>
+    <com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textColor="@color/secondary_text_color" android:layout_gravity="center|bottom" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/sa_standalone_watch_you_can_not_sign_in_child_gmail_on_this_phone" style="@style/FontRegular" />
+    </com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout>
+    <com.samsung.android.samsungaccount.utils.ui.BottomBar android:id="@id/bottomBar" android:layout_width="match_parent" android:layout_height="wrap_content" app:button_number="1" app:button_type="primary" />
+</LinearLayout>

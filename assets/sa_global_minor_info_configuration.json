@@ -1,0 +1,667 @@
+{
+  "version": "1.0",
+  "countries": {
+    "KR": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 19
+        }
+      }
+    },
+    "CN": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "XK": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "AD": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "ME": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "GR": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "DE": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "FR": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "FI": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "DK": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "CZ": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "CY": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "HR": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "BG": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "BA": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "BE": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "AL": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "GB": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "CH": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "SE": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "ES": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "SI": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "SK": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "RS": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "RO": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "PT": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "PL": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "NO": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "NL": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "LU": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "IT": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "IS": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "HU": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "MK": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "CL": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "BR": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "BO": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "PE": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "MX": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "BH": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 21
+        }
+      }
+    },
+    "AE": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 21
+        }
+      }
+    },
+    "EG": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "DZ": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 19
+        }
+      }
+    },
+    "YE": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "TN": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "SA": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "QA": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "PK": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "MA": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "LB": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "KW": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 21
+        }
+      }
+    },
+    "JO": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "IQ": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "TR": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "FJ": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "CK": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "KH": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "VN": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "VU": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "TO": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 21
+        }
+      }
+    },
+    "TL": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "WS": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 21
+        }
+      }
+    },
+    "PG": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 21
+        }
+      }
+    },
+    "NC": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "MM": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "LA": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "TH": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 20
+        }
+      }
+    },
+    "PH": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "NZ": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "MY": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "PF": {
+      "DEFAULT": {
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    },
+    "US": {
+      "DEFAULT": {
+        "AL": {
+          "minorAge": 18
+        },
+        "AK": {
+          "minorAge": 18
+        },
+        "AZ": {
+          "minorAge": 18
+        },
+        "AR": {
+          "minorAge": 18
+        },
+        "CA": {
+          "minorAge": 18
+        },
+        "CO": {
+          "minorAge": 18
+        },
+        "CT": {
+          "minorAge": 18
+        },
+        "DE": {
+          "minorAge": 18
+        },
+        "FL": {
+          "minorAge": 18
+        },
+        "GA": {
+          "minorAge": 18
+        },
+        "HI": {
+          "minorAge": 18
+        },
+        "ID": {
+          "minorAge": 18
+        },
+        "IL": {
+          "minorAge": 18
+        },
+        "IN": {
+          "minorAge": 18
+        },
+        "IA": {
+          "minorAge": 18
+        },
+        "KS": {
+          "minorAge": 18
+        },
+        "KY": {
+          "minorAge": 18
+        },
+        "LA": {
+          "minorAge": 18
+        },
+        "ME": {
+          "minorAge": 18
+        },
+        "MD": {
+          "minorAge": 18
+        },
+        "MA": {
+          "minorAge": 18
+        },
+        "MI": {
+          "minorAge": 18
+        },
+        "MN": {
+          "minorAge": 18
+        },
+        "MS": {
+          "minorAge": 18
+        },
+        "MO": {
+          "minorAge": 18
+        },
+        "MT": {
+          "minorAge": 18
+        },
+        "NE": {
+          "minorAge": 18
+        },
+        "NV": {
+          "minorAge": 18
+        },
+        "NH": {
+          "minorAge": 18
+        },
+        "NJ": {
+          "minorAge": 18
+        },
+        "NM": {
+          "minorAge": 18
+        },
+        "NY": {
+          "minorAge": 18
+        },
+        "NC": {
+          "minorAge": 18
+        },
+        "ND": {
+          "minorAge": 18
+        },
+        "OH": {
+          "minorAge": 18
+        },
+        "OK": {
+          "minorAge": 18
+        },
+        "OR": {
+          "minorAge": 18
+        },
+        "PA": {
+          "minorAge": 18
+        },
+        "RI": {
+          "minorAge": 18
+        },
+        "SC": {
+          "minorAge": 18
+        },
+        "SD": {
+          "minorAge": 18
+        },
+        "TN": {
+          "minorAge": 18
+        },
+        "TX": {
+          "minorAge": 18
+        },
+        "UT": {
+          "minorAge": 18
+        },
+        "VT": {
+          "minorAge": 18
+        },
+        "VA": {
+          "minorAge": 18
+        },
+        "WA": {
+          "minorAge": 18
+        },
+        "WV": {
+          "minorAge": 18
+        },
+        "WI": {
+          "minorAge": 18
+        },
+        "WY": {
+          "minorAge": 18
+        },
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      },
+      "CDPA": {
+        "UT": {
+          "minorAge": 18
+        },
+        "DEFAULT": {
+          "minorAge": 18
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/no_places_tipcard" android:tag="layout/place_no_items_0" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="1.0" android:minHeight="300.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.75">
+        <TextView android:textSize="@dimen/no_items_text_size" android:textColor="@color/no_item_text" android:id="@id/no_places_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_places" android:textAlignment="center" />
+        <TextView android:textSize="@dimen/no_items_description_text_size" android:textColor="@color/no_items_description_text_color" android:id="@id/no_places_text_description" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M19.92,11.999L22,11.999" android:strokeColor="@color/device_info_icon_color" android:strokeWidth="1.5" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M4.083,11.999L2,11.999" android:strokeColor="@color/device_info_icon_color" android:strokeWidth="1.5" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M14.638,5.809L14.638,2.98C14.638,2.859 14.539,2.76 14.418,2.76L9.443,2.76C9.322,2.76 9.223,2.859 9.223,2.98L9.223,5.809" android:strokeColor="@color/device_info_icon_color" android:strokeWidth="1.7" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M14.645,5.809C14.645,5.809 14.719,6.835 15.915,8.035C18.116,10.242 18.116,13.82 15.915,16.028C13.714,18.235 10.147,18.235 7.946,16.028C5.745,13.82 5.745,10.242 7.946,8.035C9.142,6.835 9.216,5.809 9.216,5.809" android:strokeColor="@color/device_info_icon_color" android:strokeWidth="1.7" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M14.639,5.792L9.222,5.792" android:strokeColor="@color/device_info_icon_color" android:strokeWidth="1.7" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M11.25,19.915l1.5,0l0,2.084l-1.5,0z" />
+        <path android:fillColor="#00000000" android:pathData="M11.5,19.915L11.5,21.999" android:strokeColor="@color/device_info_icon_color" android:strokeWidth="5.0" android:fillType="evenOdd" />
+    </group>
+    <path android:fillColor="#00000000" android:pathData="M6.402,17.597L4.929,19.07" android:strokeColor="@color/device_info_icon_color" android:strokeWidth="1.5" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M17.598,17.597L19.071,19.07" android:strokeColor="@color/device_info_icon_color" android:strokeWidth="1.5" android:fillType="evenOdd" />
+</vector>

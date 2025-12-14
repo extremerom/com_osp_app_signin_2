@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/remote_signin_execute_signin_view_0" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/app_logo_view" />
+        <TextView android:textSize="@dimen/main_title_font" android:textColor="@color/page_title_main_page" android:gravity="center" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/qr_layout_horizontal_margin" style="@style/FontSemiBold" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginBottom="24.0dp" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/qr_layout_horizontal_margin">
+            <View android:layout_width="match_parent" android:layout_height="0.0dp" android:minHeight="24.0dp" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="96.0dp" android:layout_height="96.0dp" android:layout_marginBottom="@dimen/remote_sign_in_profile_image_bottom_margin">
+                <ImageView android:tag="binding_3" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:tag="binding_4" android:background="@drawable/thumbnail_default_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/thumbnail_default" android:contentDescription="@null" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="@style/FontRegular" android:textSize="25.0sp" android:textColor="@color/page_title_main_page" android:gravity="center" android:layout_gravity="center_horizontal" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/remote_sign_in_profile_name_bottom_margin" android:textDirection="locale" />
+            <TextView android:textAppearance="@style/FontRegular" android:textSize="14.0sp" android:textColor="@color/text_link_main_page" android:ellipsize="end" android:layout_gravity="center_horizontal" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/remote_sign_in_profile_id_bottom_margin" android:singleLine="true" android:textDirection="locale" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/text_link_main_page" android:layout_gravity="center_horizontal" android:tag="binding_7" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sa_use_another_account" style="@style/FontSemiBold" />
+            <View android:layout_width="match_parent" android:layout_height="0.0dp" android:minHeight="24.0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:tag="binding_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp">
+            <com.samsung.android.samsungaccount.utils.ui.CustomScaleButton android:theme="@style/Widget.AppCompat.Button.Custom" android:id="@id/cancel_button" android:tag="binding_9" android:minWidth="@dimen/qr_layout_two_button_width" android:text="@string/button_name_cancel" android:layout_marginStart="0.0dp" android:layout_marginEnd="@dimen/two_button_margin_end" app:maxFontLevel="large" style="@style/ContainedButtonBodyArea" />
+            <com.samsung.android.samsungaccount.utils.ui.CustomScaleButton android:id="@id/signin_button" android:tag="binding_10" android:layout_width="wrap_content" android:minWidth="@dimen/qr_layout_two_button_width" android:text="@string/sa_sign_in_button" app:maxFontLevel="large" style="@style/SignInButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_11" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp">
+            <Button android:id="@id/add_credit_card_button" android:tag="binding_12" android:layout_marginBottom="16.0dp" android:minWidth="270.0dp" android:text="@string/sa_add_credit_card" style="@style/ContainedButtonBodyArea" />
+            <com.samsung.android.samsungaccount.utils.ui.CustomScaleButton android:textColor="@color/sign_in_button_text_color" android:id="@id/ok_button" android:tag="binding_13" android:background="@drawable/launch_btn_blue" android:minWidth="270.0dp" android:text="@string/sa_all_ok" app:maxFontLevel="large" style="@style/ContainedButtonBodyArea" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

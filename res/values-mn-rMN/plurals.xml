@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d төхөөрөмж</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d төхөөрөмжүүд</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Хэт олон баталгаажуулах кодыг таны төхөөрөмж рүү илгээсэн учир бид таны бүртгэлийн Galaxy төхөөрөмжийн баталгаажуулалтыг хаасан.
+
+Өөр баталгаажуулалтын арга ашигла эсвэл %d минутын дараа дахин оролд."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Хэт олон баталгаажуулах кодыг таны төхөөрөмж рүү илгээсэн учир бид таны бүртгэлийн Galaxy төхөөрөмжийн баталгаажуулалтыг хаасан.
+
+Өөр баталгаажуулалтын арга ашигла эсвэл %d минутын дараа дахин оролд."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ба бусад %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ба бусад %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-г 30 хоногт %2$d-с дээш удаа урих боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-г 30 хоногт %2$d-с дээш удаа урих боломжгүй.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хүүхдийн бүртгэлийг зөвхөн %d-с бага настай хүмүүст үүсгэх боломжтой.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Хүүхдийн бүртгэлийг зөвхөн %d-с бага настай хүмүүст үүсгэх боломжтой.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Та хамгийн багадаа %1$d настай байж %2$s-г хэрэглэнэ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Та хамгийн багадаа %1$d настай байж %2$s-г хэрэглэнэ.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-с доош насны хүмүүс таны улс эсвэл бүс нутагт бүртгэлтэй болох боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-с доош насны хүмүүс таны улс эсвэл бүс нутагт бүртгэлтэй болох боломжгүй.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Нас %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Нас %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хүсэлт илгээхээс өмнө %d минут хүлээнэ үү.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Хүсэлт илгээхээс өмнө %d минут хүлээнэ үү.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-с илүү тэмдэгт оруулах боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-с илүү тэмдэгт оруулах боломжгүй.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хариу дор хаяж %d тэмдэг агуулах ёстой.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Хариу дор хаяж %d тэмдэг агуулах ёстой.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Та одоо %d болсон тул энгийн Samsung account руу шилжих боломжтой. Шилжсэн тохиолдолд та дуртай хэрэглүүр, төхөөрөмжөө эцэг эхийнхээ зөвшөөрөлгүйгээр ашиглах боломжтой бөгөөд эцэг эхийн хяналт цаашид үйлчлэхгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Та одоо %d болсон тул энгийн Samsung account руу шилжих боломжтой. Шилжсэн тохиолдолд та дуртай хэрэглүүр, төхөөрөмжөө эцэг эхийнхээ зөвшөөрөлгүйгээр ашиглах боломжтой бөгөөд эцэг эхийн хяналт цаашид үйлчлэхгүй.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Би %d-с дээш байна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Би %d-с дээш байна</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Би %d-с доогуур байна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Би %d-с доогуур байна</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Байхгүй ID-г олон удаа оруулсан байна. %d минутын дараа дахин оролдоно уу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Байхгүй ID-г олон удаа оруулсан байна. %d минутын дараа дахин оролдоно уу.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гишүүн</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d гишүүн</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэр бүлийн бүлэгт %d-с дээш хүн урих боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Гэр бүлийн бүлэгт %d-с дээш хүн урих боломжгүй.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s нь удахгүй %2$d хүрнэ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s нь удахгүй %2$d хүрнэ</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хүн уригдлаа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d хүн уригдлаа</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ба %2$d бусад дугаарууд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ба %2$d бусад дугаарууд</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d шалгаагүй арга хэмжээ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d шалгаагүй арга хэмжээ</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ба бусад %2$d бүртгэл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ба бусад %2$d бүртгэл</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s таныг гэр бүлийн бүлэгтээ урьсан байна. Доорх зурвасын холбоос дээр дарж нэгдээрэй. Та нэгдвэл таны нэр, цахим шуудан, Samsung account-н ID-г гэр бүлийн бусад гишүүнтэй хуваалцах болно. Урилгын хугацаа %2$d хоногийн дараа дуусна.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s таныг гэр бүлийн бүлэгтээ урьсан байна. Доорх зурвасын холбоос дээр дарж нэгдээрэй. Та нэгдвэл таны нэр, цахим шуудан, Samsung account-н ID-г гэр бүлийн бусад гишүүнтэй хуваалцах болно. Урилгын хугацаа %2$d хоногийн дараа дуусна.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d санал</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d санал</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Буруу кодыг хэт олон удаа оруулсан. %d минут хүлээгээд дахин оролдоно уу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Буруу кодыг хэт олон удаа оруулсан. %d минут хүлээгээд дахин оролдоно уу.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Буруу кодыг хэт олон удаа оруулсан. %d секунд хүлээгээд дахин оролдоно уу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Буруу кодыг хэт олон удаа оруулсан. %d секунд хүлээгээд дахин оролдоно уу.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Унтах цаг: %d цаг</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Унтах цаг: %d цаг</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Унтах цаг: %d минут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Унтах цаг: %d минут</item>
+    </plurals>
+</resources>

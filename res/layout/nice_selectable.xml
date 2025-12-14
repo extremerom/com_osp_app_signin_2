@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/layout" android:tag="layout/nice_selectable_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:layout_marginBottom="@dimen/nice_auth_field_title_bottom_padding" android:text="@string/sa_nice_auth_nationality" app:layout_constraintBottom_toTopOf="@id/radio_group" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/NiceAuthTitleStyle" />
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/left_button" android:checked="true" style="@style/NiceRadioButtonStyle" />
+        <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/right_button" android:checked="false" style="@style/NiceRadioButtonStyle" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

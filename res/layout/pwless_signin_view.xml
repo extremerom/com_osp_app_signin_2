@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/pwless_signin_view_0" android:background="@color/onboarding_background" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginHorizontal="@dimen/onboarding_start_end_margin">
+        <include layout="@layout/app_logo_view" />
+        <TextView android:textSize="@dimen/main_title_font" android:textColor="@color/page_title_main_page" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_use_one_time_permission" style="@style/FontSemiBold" />
+        <TextView android:textSize="@dimen/main_short_desc_font" android:textColor="@color/page_desc_main_page" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/onboarding_content_title_margin_bottom" android:layout_marginBottom="@dimen/tnc_description_bottom_margin" android:text="@string/sa_auth_tab_the_link_tin_the_verification_email" android:textAlignment="center" style="@style/FontRegular" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.4">
+                <TextView android:textSize="@dimen/email_verification_id_text_size" android:textColor="@color/page_title_main_page" android:gravity="center" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" style="@style/FontRegular" />
+                <Button android:textSize="@dimen/inbox_button_text_size" android:ellipsize="end" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:minWidth="@dimen/inbox_button_min_width" android:minHeight="@dimen/contained_button_body_area_min_height" android:text="@string/sa_go_to_your_mail_box" android:singleLine="true" android:includeFontPadding="false" android:contentDescription="@string/sa_go_to_your_mail_box" style="@style/ContainedButtonBodyArea" />
+                <TextView android:textSize="@dimen/email_verification_link_text_size" android:textColor="@color/text_link_main_page" android:layout_gravity="center" android:tag="binding_4" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sa_opt_resend_email" style="@style/FontSemiBold" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

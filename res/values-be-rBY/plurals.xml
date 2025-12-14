@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d прылада</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d прылады</item>
+        <item quantity="many">%d прылад</item>
+        <item quantity="other">%d прылад</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"На прыладу было адпраўлена зашмат кодаў праверкі сапраўднасці, таму мы заблакіравалі праверку з дапамогай прылады Galaxy для вашага ўліковага запісу.
+
+Скарыстайцеся іншым спосабам праверкі сапраўднасці або паўтарыце спробу праз %d хвіліну."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"На прыладу было адпраўлена зашмат кодаў праверкі сапраўднасці, таму мы заблакіравалі праверку з дапамогай прылады Galaxy для вашага ўліковага запісу.
+
+Скарыстайцеся іншым спосабам праверкі сапраўднасці або паўтарыце спробу праз %d хвіліны."</item>
+        <item quantity="many">"На прыладу было адпраўлена зашмат кодаў праверкі сапраўднасці, таму мы заблакіравалі праверку з дапамогай прылады Galaxy для вашага ўліковага запісу.
+
+Скарыстайцеся іншым спосабам праверкі сапраўднасці або паўтарыце спробу праз %d хвілін."</item>
+        <item quantity="other">"На прыладу было адпраўлена зашмат кодаў праверкі сапраўднасці, таму мы заблакіравалі праверку з дапамогай прылады Galaxy для вашага ўліковага запісу.
+
+Скарыстайцеся іншым спосабам праверкі сапраўднасці або паўтарыце спробу праз %d хвілін."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s і %2$d іншая</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s і %2$d іншыя</item>
+        <item quantity="many">%1$s і %2$d іншых</item>
+        <item quantity="other">%1$s і %2$d іншых</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма запрасіць %1$s больш за %2$d раз на працягу 30 дзён.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма запрасіць %1$s больш за %2$d разы на працягу 30 дзён.</item>
+        <item quantity="many">Немагчыма запрасіць %1$s больш за %2$d разоў на працягу 30 дзён.</item>
+        <item quantity="other">Немагчыма запрасіць %1$s больш за %2$d разоў на працягу 30 дзён.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Уліковыя запісы для дзяцей можна ствараць толькі для людзей ва ўзросце да %d года.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Уліковыя запісы для дзяцей можна ствараць толькі для людзей ва ўзросце да %d гадоў.</item>
+        <item quantity="many">Уліковыя запісы для дзяцей можна ствараць толькі для людзей ва ўзросце да %d гадоў.</item>
+        <item quantity="other">Уліковыя запісы для дзяцей можна ствараць толькі для людзей ва ўзросце да %d года.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d гады.</item>
+        <item quantity="many">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d гадоў.</item>
+        <item quantity="other">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d гадоў.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Людзі ва ўзросце да %d года не могуць мець уліковы запіс у вашай краіне або рэгіёне.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Людзі ва ўзросце да %d гадоў не могуць мець уліковы запіс у вашай краіне або рэгіёне.</item>
+        <item quantity="many">Людзі ва ўзросце да %d гадоў не могуць мець уліковы запіс у вашай краіне або рэгіёне.</item>
+        <item quantity="other">Людзі ва ўзросце да %d гадоў не могуць мець уліковы запіс у вашай краіне або рэгіёне.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Узрост: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Узрост: %d</item>
+        <item quantity="many">Узрост: %d</item>
+        <item quantity="other">Узрост: %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пачакайце %d хвіліну перад адпраўкай запыту.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Пачакайце %d хвіліны перад адпраўкай запыту.</item>
+        <item quantity="many">Пачакайце %d хвілін перад адпраўкай запыту.</item>
+        <item quantity="other">Пачакайце %d хвілін перад адпраўкай запыту.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+        <item quantity="many">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+        <item quantity="other">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адказы павінны змяшчаць прынамсі %d сімвал.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адказы павінны змяшчаць прынамсі %d сімвалы.</item>
+        <item quantity="many">Адказы павінны змяшчаць прынамсі %d сімвалаў.</item>
+        <item quantity="other">Адказы павінны змяшчаць прынамсі %d сімвалаў.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вам споўнілася %d, і цяпер вы можаце пераключыцца на звычайны Samsung account. Калі вы зробіце гэта, то зможаце карыстацца любымі праграмамі і прыладамі, якімі захочаце, без дазволу бацькоў, і да вас больш не будзе прымяняцца бацькоўскі кантроль.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вам споўнілася %d, і цяпер вы можаце пераключыцца на звычайны Samsung account. Калі вы зробіце гэта, то зможаце карыстацца любымі праграмамі і прыладамі, якімі захочаце, без дазволу бацькоў, і да вас больш не будзе прымяняцца бацькоўскі кантроль.</item>
+        <item quantity="many">Вам споўнілася %d, і цяпер вы можаце пераключыцца на звычайны Samsung account. Калі вы зробіце гэта, то зможаце карыстацца любымі праграмамі і прыладамі, якімі захочаце, без дазволу бацькоў, і да вас больш не будзе прымяняцца бацькоўскі кантроль.</item>
+        <item quantity="other">Вам споўнілася %d, і цяпер вы можаце пераключыцца на звычайны Samsung account. Калі вы зробіце гэта, то зможаце карыстацца любымі праграмамі і прыладамі, якімі захочаце, без дазволу бацькоў, і да вас больш не будзе прымяняцца бацькоўскі кантроль.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Мне больш за %d год</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Мне больш за %d гады</item>
+        <item quantity="many">Мне больш за %d гадоў</item>
+        <item quantity="other">Мне больш за %d гадоў</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Мне менш за %d год</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Мне менш за %d гады</item>
+        <item quantity="many">Мне менш за %d гадоў</item>
+        <item quantity="other">Мне менш за %d гадоў</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ідэнтыфікатар, які не існуе, быў уведзены зашмат разоў. Паўтарыце спробу праз %d хвіліну.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ідэнтыфікатар, які не існуе, быў уведзены зашмат разоў. Паўтарыце спробу праз %d хвіліны.</item>
+        <item quantity="many">Ідэнтыфікатар, які не існуе, быў уведзены зашмат разоў. Паўтарыце спробу праз %d хвілін.</item>
+        <item quantity="other">Ідэнтыфікатар, які не існуе, быў уведзены зашмат разоў. Паўтарыце спробу праз %d хвілін.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d член</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d члены</item>
+        <item quantity="many">%d членаў</item>
+        <item quantity="other">%d членаў</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма запрасіць у сямейную групу больш за %d чалавека.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма запрасіць у сямейную групу больш за %d чалавек.</item>
+        <item quantity="many">Немагчыма запрасіць у сямейную групу больш за %d чалавек.</item>
+        <item quantity="other">Немагчыма запрасіць у сямейную групу больш за %d чалавек.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Карыстал. %1$s хутка будзе %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Карыстал. %1$s хутка будзе %2$d</item>
+        <item quantity="many">Карыстал. %1$s хутка будзе %2$d</item>
+        <item quantity="other">Карыстал. %1$s хутка будзе %2$d</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Запрошаны %d чалавек</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Запрошана %d чалавекі</item>
+        <item quantity="many">Запрошана %d чалавек</item>
+        <item quantity="other">Запрошана %d чалавек</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s і %2$d іншы нумар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s і %2$d іншыя нумары</item>
+        <item quantity="many">%1$s і %2$d іншых нумароў</item>
+        <item quantity="other">%1$s і %2$d іншых нумароў</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d неправераная падзея</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d неправераныя падзеі</item>
+        <item quantity="many">%d неправераных падзей</item>
+        <item quantity="other">%d неправераных падзей</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s і %2$d іншы ўліковы запіс</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s і %2$d іншыя ўліковыя запісы</item>
+        <item quantity="many">%1$s і %2$d іншых уліковых запісаў</item>
+        <item quantity="other">%1$s і %2$d іншых уліковых запісаў</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Карыстальнік %1$s запрасіў вас далучыцца да яго сямейнай групы. Націсніце на спасылку ў паведамленні ніжэй, каб далучыцца. Калі вы далучыцеся, ваша імя, адрас электроннай пошты і ідэнтыфікатар Samsung account будуць абагулены з іншымі членамі сям’і. Тэрмін запрашэння скончыцца праз %2$d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Карыстальнік %1$s запрасіў вас далучыцца да яго сямейнай групы. Націсніце на спасылку ў паведамленні ніжэй, каб далучыцца. Калі вы далучыцеся, ваша імя, адрас электроннай пошты і ідэнтыфікатар Samsung account будуць абагулены з іншымі членамі сям’і. Тэрмін запрашэння скончыцца праз %2$d дні.</item>
+        <item quantity="many">Карыстальнік %1$s запрасіў вас далучыцца да яго сямейнай групы. Націсніце на спасылку ў паведамленні ніжэй, каб далучыцца. Калі вы далучыцеся, ваша імя, адрас электроннай пошты і ідэнтыфікатар Samsung account будуць абагулены з іншымі членамі сям’і. Тэрмін запрашэння скончыцца праз %2$d дзён.</item>
+        <item quantity="other">Карыстальнік %1$s запрасіў вас далучыцца да яго сямейнай групы. Націсніце на спасылку ў паведамленні ніжэй, каб далучыцца. Калі вы далучыцеся, ваша імя, адрас электроннай пошты і ідэнтыфікатар Samsung account будуць абагулены з іншымі членамі сям’і. Тэрмін запрашэння скончыцца праз %2$d дзён.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d прапанова</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d прапановы</item>
+        <item quantity="many">%d прапаноў</item>
+        <item quantity="other">%d прапаноў</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Няправільны код быў уведзены зашмат разоў. Пачакайце %d хвіліну, потым паўтарыце спробу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Няправільны код быў уведзены зашмат разоў. Пачакайце %d хвіліны, потым паўтарыце спробу.</item>
+        <item quantity="many">Няправільны код быў уведзены зашмат разоў. Пачакайце %d хвілін, потым паўтарыце спробу.</item>
+        <item quantity="other">Няправільны код быў уведзены зашмат разоў. Пачакайце %d хвілін, потым паўтарыце спробу.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Няправільны код быў уведзены зашмат разоў. Пачакайце %d секунду, потым паўтарыце спробу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Няправільны код быў уведзены зашмат разоў. Пачакайце %d секунды, потым паўтарыце спробу.</item>
+        <item quantity="many">Няправільны код быў уведзены зашмат разоў. Пачакайце %d секунд, потым паўтарыце спробу.</item>
+        <item quantity="other">Няправільны код быў уведзены зашмат разоў. Пачакайце %d секунд, потым паўтарыце спробу.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d гадзіна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d гадзіны</item>
+        <item quantity="many">Час сну: %d гадзін</item>
+        <item quantity="other">Час сну: %d гадзін</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d хвіліны</item>
+        <item quantity="many">Час сну: %d хвілін</item>
+        <item quantity="other">Час сну: %d хвілін</item>
+    </plurals>
+</resources>

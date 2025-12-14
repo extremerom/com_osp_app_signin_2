@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дастгоҳ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d дастгоҳ</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Азбаски ба дастгоҳи шумо шумораи аз ҳад зиёди рамзҳои санҷишӣ фиристода шуд, мо санҷиш бо дастгоҳҳои Galaxy-ро барои ҳисоби шумо мамнуъ кардем.
+
+Усули дигари санҷишро истифода баред ё кӯшишро баъд аз %d дақиқа такрор кунед."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Азбаски ба дастгоҳи шумо шумораи аз ҳад зиёди рамзҳои санҷишӣ фиристода шуд, мо санҷиш бо дастгоҳҳои Galaxy-ро барои ҳисоби шумо мамнуъ кардем.
+
+Усули дигари санҷишро истифода баред ё кӯшишро баъд аз %d дақиқа такрор кунед."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ва %2$d дастгоҳи дигар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ва %2$d дастгоҳи дигар</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ро давоми 30 рӯз танҳо %2$d бор даъват кардан мумкин аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s-ро давоми 30 рӯз танҳо %2$d бор даъват кардан мумкин аст.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ҳисобҳои кӯдаконаро танҳо барои шахсони аз %d хурдтар эҷод кардан мумкин аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ҳисобҳои кӯдаконаро танҳо барои шахсони аз %d хурдтар эҷод кардан мумкин аст.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Барои %2$s-ро истифода бурдан, шумо бояд накамтар аз %1$d сол дошта бошед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Барои %2$s-ро истифода бурдан, шумо бояд накамтар аз %1$d сол дошта бошед.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шахсони аз %d-сола хурдтар наметавонанд дар кишвар ё минтақаи шумо соҳиби ҳисоб шавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Шахсони аз %d-сола хурдтар наметавонанд дар кишвар ё минтақаи шумо соҳиби ҳисоб шавад.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Синну сол %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Синну сол %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пеш аз дархостро фиристодан, %d дақиқа интизор шавед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Пеш аз дархостро фиристодан, %d дақиқа интизор шавед.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d аломат дохил кардан мумкин нест.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Аз %d аломат дохил кардан мумкин нест.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ҷавоб бояд на камтар аз %d аломат дошта бошад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ҷавоб бояд на камтар аз %d аломат дошта бошад.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Акнун ки %d-сола шудед, метавонед ба Samsung account-и муқаррарӣ гузаред. Агар гузаред, қобилият пайдо мекунед, ки дилхоҳ барномаҳо ва дастгоҳҳоро бидуни иҷозати волидайни худ истифода баред, ва воситаҳои назорати волидайнӣ дигар татбиқ карда намешаванд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Акнун ки %d-сола шудед, метавонед ба Samsung account-и муқаррарӣ гузаред. Агар гузаред, қобилият пайдо мекунед, ки дилхоҳ барномаҳо ва дастгоҳҳоро бидуни иҷозати волидайни худ истифода баред, ва воситаҳои назорати волидайнӣ дигар татбиқ карда намешаванд.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Аз %d сол зиёдтар дорам</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Аз %d сол зиёдтар дорам</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Аз %d сол камтар дорам</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Аз %d сол камтар дорам</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ID-и мавҷуднабуда бениҳоят бисёр дохил карда шуд. Кӯшишро баъди %d дақиқа такрор кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ID-и мавҷуднабуда бениҳоят бисёр дохил карда шуд. Кӯшишро баъди %d дақиқа такрор кунед.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d узв</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d узв</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ба як гуруҳи оилавӣ зиёда аз %d нафар даъват кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ба як гуруҳи оилавӣ зиёда аз %d нафар даъват кардан ғайриимкон аст.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ба наздикӣ %2$d-сола меш-д</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ба наздикӣ %2$d-сола меш-д</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d нафар даъват карда шуд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d нафар даъват карда шуд</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ва %2$d рақами дигар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ва %2$d рақами дигар</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйдоди тафтишнашуда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d рӯйдоди тафтишнашуда</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ва %2$d ҳисоби дигар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ва %2$d ҳисоби дигар</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s шуморо ба гуруҳи оилавии худ даъват кард. Барои ҳамроҳ шудан, пайванди дохили паёми зеринро зарба занед. Агар ҳамроҳ шавед, номи шумо, почтаи электронӣ ва ID-и Samsung account-и шумо бо дигар узвҳои оила мубодила карда мешаванд. Муҳлати эътибори даъват %2$d рӯз аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s шуморо ба гуруҳи оилавии худ даъват кард. Барои ҳамроҳ шудан, пайванди дохили паёми зеринро зарба занед. Агар ҳамроҳ шавед, номи шумо, почтаи электронӣ ва ID-и Samsung account-и шумо бо дигар узвҳои оила мубодила карда мешаванд. Муҳлати эътибори даъват %2$d рӯз аст.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тавсия</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d тавсия</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Рамзи нодуруст бениҳоят бисёр дохил карда шуд. %d дақиқа интизор шуда, кӯшишро такрор кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Рамзи нодуруст бениҳоят бисёр дохил карда шуд. %d дақиқа интизор шуда, кӯшишро такрор кунед.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Рамзи нодуруст бениҳоят бисёр дохил карда шуд. %d сония интизор шуда, кӯшишро такрор кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Рамзи нодуруст бениҳоят бисёр дохил карда шуд. %d сония интизор шуда, кӯшишро такрор кунед.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Давомнокии хоб: %d соат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Давомнокии хоб: %d соат</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Давомнокии хоб: %d дақиқа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Давомнокии хоб: %d дақиқа</item>
+    </plurals>
+</resources>

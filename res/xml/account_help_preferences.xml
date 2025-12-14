@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/sa_body_help" android:key="Samsung_Account"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.samsungaccount.setting.ui.main.HelpPreference android:title="@string/sa_help_reset_password" android:selectable="true" android:key="find_password" />
+    <com.samsung.android.samsungaccount.setting.ui.main.HelpPreference android:title="@string/sa_opt_contact_us" android:selectable="true" android:key="contact_us" />
+    <com.samsung.android.samsungaccount.setting.ui.main.HelpPreference android:title="@string/sa_body_customer_support" android:selectable="true" android:key="support" app:isPreferenceVisible="false" />
+</androidx.preference.PreferenceScreen>

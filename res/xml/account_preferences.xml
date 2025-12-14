@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sa_body_samsung_account" android:key="com.osp.app.signin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/sa_tab_general" android:key="General"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <PreferenceScreen android:title="@string/sa_body_my_profile" android:selectable="true" android:key="account_profile">
+        <intent android:action="com.samsung.android.samsungaccount.action.OPEN_SASETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/sa_header_about" android:selectable="true" android:key="account_About">
+        <intent android:action="com.msc.action.samsungaccount.ACCOUNT_ABOUT_VIEW" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/sa_body_help" android:selectable="true" android:key="account_Help">
+        <intent android:action="com.msc.action.samsungaccount.ACCOUNT_HELP_PREFERENCE" />
+    </PreferenceScreen>
+</PreferenceScreen>

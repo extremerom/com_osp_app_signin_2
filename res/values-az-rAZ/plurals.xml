@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d cihaz</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d cihaz</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Cihazınıza dəfələrlə təsdiqləmə kodları göndərildiyindən hesabınız üçün Galaxy cihazı ilə təsdiqləmə metodu bloklandı.
+
+Başqa təsdiqləmə metodundan istifadə edin, yaxud %d dəqiqə sonra yenidən cəhd edin."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Cihazınıza dəfələrlə təsdiqləmə kodları göndərildiyindən hesabınız üçün Galaxy cihazı ilə təsdiqləmə metodu bloklandı.
+
+Başqa təsdiqləmə metodundan istifadə edin, yaxud %d dəqiqə sonra yenidən cəhd edin."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s və daha %2$d cihaz</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s və daha %2$d cihaz</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">30 gün ərzində %1$s adlı şəxsi ən çoxu %2$d dəfə dəvət edə bilərsiniz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">30 gün ərzində %1$s adlı şəxsi ən çoxu %2$d dəfə dəvət edə bilərsiniz.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uşaq hesabları yalnız %d yaşına çatmamış şəxslər üçün yaradıla bilər.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Uşaq hesabları yalnız %d yaşına çatmamış şəxslər üçün yaradıla bilər.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s istifadəsi üçün ən azı %1$d yaşınız olmalıdır.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s istifadəsi üçün ən azı %1$d yaşınız olmalıdır.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sizin ölkənizdə və ya regionunuzda %d yaşından aşağı şəxslər hesab aça bilməz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Sizin ölkənizdə və ya regionunuzda %d yaşından aşağı şəxslər hesab aça bilməz.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d yaş</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d yaş</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sorğu göndərməzdən əvvəl %d dəqiqə gözləyin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Sorğu göndərməzdən əvvəl %d dəqiqə gözləyin.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d simvoldan çox daxil etmək olmur.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d simvoldan çox daxil etmək olmur.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cavablarda ən azı %d simvol olmalıdır.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Cavablarda ən azı %d simvol olmalıdır.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Artıq %d yaşınız olduğu üçün adi Samsung account-a keçə bilərsiniz. Bunu etdiyiniz halda valideynlərinizin icazəsi olmadan bəyəndiyiniz proqram və cihazlardan istifadə edə biləcəksiniz və valideyn nəzarətləri artıq tətbiq olunmayacaq.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Artıq %d yaşınız olduğu üçün adi Samsung account-a keçə bilərsiniz. Bunu etdiyiniz halda valideynlərinizin icazəsi olmadan bəyəndiyiniz proqram və cihazlardan istifadə edə biləcəksiniz və valideyn nəzarətləri artıq tətbiq olunmayacaq.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d yaşım olub</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d yaşım olub</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d yaşım olmayıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d yaşım olmayıb</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dəfələrlə mövcud olmayan ID daxil edilib. %d dəqiqə sonra yenidən cəhd edin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dəfələrlə mövcud olmayan ID daxil edilib. %d dəqiqə sonra yenidən cəhd edin.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d üzv</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d üzv</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ailə qrupuna ən çoxu %d nəfər əlavə etmək olar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ailə qrupuna ən çoxu %d nəfər əlavə etmək olar.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s tezliklə %2$d yaşına çatır</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s tezliklə %2$d yaşına çatır</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nəfər dəvət edilib</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d şəxs dəvət edilib</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s və daha %2$d rəqəm</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s və daha %2$d rəqəm</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Seçimi ləğv edilmiş %d hadisə</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Seçimi ləğv edilmiş %d hadisə</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s və daha %2$d hesab</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s və daha %2$d hesab</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s sizi ailə qrupuna dəvət edib. Qoşulmaq üçün mesajdakı keçidin üzərinə vurun. Qoşuldunuzsa, adınız, e-poçt ünvanınız və Samsung account ID-niz digər ailə üzvləri ilə paylaşılacaq. Dəvətin etibarlılıq müddəti %2$d sonra bitir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s sizi ailə qrupuna dəvət edib. Qoşulmaq üçün mesajdakı keçidin üzərinə vurun. Qoşuldunuzsa, adınız, e-poçt ünvanınız və Samsung account ID-niz digər ailə üzvləri ilə paylaşılacaq. Dəvətin etibarlılıq müddəti %2$d sonra bitir.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d təklif</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d təklif</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dəfələrlə yanlış kod daxil edilib. %d dəqiqə gözləyin və yenidən cəhd edin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dəfələrlə yanlış kod daxil edilib. %d dəqiqə gözləyin və yenidən cəhd edin.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dəfələrlə yanlış kod daxil edilib. %d saniyə gözləyin və yenidən cəhd edin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dəfələrlə yanlış kod daxil edilib. %d saniyə gözləyin və yenidən cəhd edin.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yuxu vaxtı: %d saat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Yuxu vaxtı: %d saat</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yuxu vaxtı: %d dəqiqə</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Yuxu vaxtı: %d dəqiqə</item>
+    </plurals>
+</resources>

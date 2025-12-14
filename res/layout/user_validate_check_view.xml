@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/user_validate_check_view_0" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" app:titleTextAppearance="@style/Toolbar.TitleText" style="@style/ToolbarStyle" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="1.0">
+        <com.samsung.android.samsungaccount.utils.ui.CommonMarginListConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="100.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/resizable_width_layout" android:tag="binding_1" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="100.0">
+                    <include android:id="@id/biometrics_error_layout" layout="@layout/user_validate_check_biometrics_error_layout" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/description_text_color" android:id="@id/confirm_password_description" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/confirm_password_popup_default_margin" android:layout_marginEnd="@dimen/confirm_password_popup_default_margin" style="@style/FontRegular" />
+                    <View android:layout_width="match_parent" android:layout_height="20.0dp" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/confirm_password_margin_layout" android:tag="binding_3" android:background="@color/chunk_background" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/confirm_password_popup_default_margin" android:paddingEnd="@dimen/confirm_password_popup_default_margin">
+                        <include android:id="@id/login_id_pw" layout="@layout/user_validate_check_login_id_pw" />
+                        <include android:id="@id/link_layout" layout="@layout/user_validate_check_link_layout" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.samsung.android.samsungaccount.utils.ui.CommonMarginListConstraintLayout>
+    </ScrollView>
+    <com.samsung.android.samsungaccount.utils.ui.CommonMarginListConstraintLayout android:id="@id/bottom_bar_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.samsung.android.samsungaccount.utils.ui.BottomBar android:id="@id/bottomBar" android:layout_width="match_parent" android:layout_height="wrap_content" app:button_number="2" />
+    </com.samsung.android.samsungaccount.utils.ui.CommonMarginListConstraintLayout>
+</LinearLayout>

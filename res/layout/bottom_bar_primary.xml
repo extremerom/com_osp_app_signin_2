@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:id="@id/background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.samsungaccount.utils.ui.CustomScaleButton android:textColor="@color/contained_primary_button_text_color" android:gravity="center" android:id="@id/center_text" android:background="@drawable/raised_button_primary_background" android:layout_width="0.0dp" android:layout_marginTop="24.0dp" android:layout_marginBottom="24.0dp" android:stateListAnimator="?seslSmallTouchAnimator" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/sign_in_widget_width" app:maxFontLevel="large" style="@style/BottomBarButtonStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

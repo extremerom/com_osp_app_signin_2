@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:tag="layout/security_question_selection_layout_0" android:background="@drawable/bottom_sheet_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:background="@drawable/bottom_sheet_handler" android:layout_width="@dimen/bottom_sheet_handler_width" android:layout_height="@dimen/bottom_sheet_handler_height" android:layout_marginVertical="@dimen/bottom_sheet_handler_vertical_margin" />
+    <TextView android:textSize="@dimen/bottom_sheet_title_text_size" android:textColor="@color/dialog_title_text_color" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bottom_sheet_title_min_height" android:text="@string/sa_onboarding_select_security_question" android:paddingHorizontal="@dimen/bottom_sheet_title_vertical_padding" style="@style/FontBold" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/security_question_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:nestedScrollingEnabled="true" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

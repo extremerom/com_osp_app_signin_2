@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/setting_main_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" app:titleTextAppearance="@style/Toolbar.TitleText" style="@style/ToolbarStyle" />
+        <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:gravity="center" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="100.0" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:side_margin="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/scroll_area" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="100.0">
+                <androidx.core.widget.NestedScrollView android:id="@id/list_container" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="1.0" android:overScrollMode="ifContentScrolls">
+                    <LinearLayout android:orientation="vertical" android:id="@id/scroll_child_layout" android:tag="binding_1" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <include android:id="@id/profile_header" layout="@layout/setting_profile_header" />
+                        <Space android:id="@id/margin_between_profile_header_and_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="20.0dp" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/list_container_sub" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                                <FrameLayout android:layout_gravity="center" android:id="@id/tip_card_frame_layout" android:background="@color/chunk_background" android:layout_width="1.0px" android:layout_height="match_parent" android:layout_weight="100.0" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                                <FrameLayout android:layout_gravity="center" android:id="@id/frame_layout" android:background="@color/chunk_background" android:layout_width="1.0px" android:layout_height="match_parent" android:layout_weight="100.0" />
+                            </LinearLayout>
+                            <Button android:id="@id/sign_out_btn" android:tag="binding_2" android:layout_marginBottom="24.0dp" android:minWidth="270.0dp" android:text="@string/sa_sign_out" android:includeFontPadding="false" style="@style/ContainedButtonBodyArea" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+        </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>
+    </LinearLayout>
+    <View android:id="@id/bottom_corner" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

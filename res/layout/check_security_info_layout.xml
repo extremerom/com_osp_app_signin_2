@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/common_list_padding">
+            <TextView android:textSize="15.0dp" android:textColor="@color/description_text_color" android:id="@id/tvMsg" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_body_select_your_security_question_and_enter_your_answer" style="@style/FontRegular" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutSecuritySet" android:background="@color/chunk_background" android:paddingTop="24.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@id/divider_0" android:background="?android:listDivider" android:layout_width="match_parent" android:layout_height="@dimen/common_divider_height" />
+            <RadioGroup android:id="@id/rgSecurityQuestion" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/divider_1" android:background="?android:listDivider" android:layout_width="match_parent" android:layout_height="@dimen/common_divider_height" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dp" android:minHeight="@dimen/signin_layout_common_field_layout_height_1" android:paddingStart="@dimen/common_list_padding" android:paddingEnd="@dimen/common_list_padding">
+                <EditText android:gravity="center_vertical" android:id="@id/etSecurityAnswer" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/sa_body_security_answer" android:singleLine="true" android:imeOptions="flagNoFullscreen" android:layout_marginStart="0.0dp" style="@style/DefaultEditTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <com.samsung.android.samsungaccount.utils.ui.BottomBar android:id="@id/bottom_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:button_number="2" />
+    </LinearLayout>
+</ScrollView>

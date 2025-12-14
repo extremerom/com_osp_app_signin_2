@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<runtime-manifest
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <policy android:icon="@mipmap/ic_launcher_for_one_ui_seven" android:enabled="true" android:priority="3" minValue="70000" type="ONEUI" />
+        <policy android:label="@string/sa_body_samsung_account" android:enabled="true" android:priority="2" minValue="50100" type="ONEUI" />
+        <policy android:label="@string/sa_body_galaxy_account_galaxy_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="KDI" />
+        <policy android:label="@string/sa_body_galaxy_account_galaxy_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="DCM" />
+        <policy android:label="@string/sa_body_galaxy_account_galaxy_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="SBM" />
+        <policy android:label="@string/sa_body_galaxy_account_galaxy_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="XJP" />
+        <policy android:label="@string/sa_body_galaxy_account_galaxy_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="RKT" />
+        <policy android:label="@string/sa_body_galaxy_account_galaxy_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="UQM" />
+        <policy android:label="@string/sa_body_galaxy_account_galaxy_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="JCO" />
+        <policy android:label="@string/sa_body_galaxy_account_galaxy_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="SJP" />
+    </application>
+    <activity android:name="com.samsung.android.samsungaccount.authentication.ui.about.AccountAboutView">
+        <policy android:label="@string/sa_header_about_samsung_account" android:enabled="true" android:priority="2" minValue="50100" type="ONEUI" />
+        <policy android:label="@string/sa_header_about_galaxy_account_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="KDI" />
+        <policy android:label="@string/sa_header_about_galaxy_account_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="DCM" />
+        <policy android:label="@string/sa_header_about_galaxy_account_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="SBM" />
+        <policy android:label="@string/sa_header_about_galaxy_account_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="XJP" />
+        <policy android:label="@string/sa_header_about_galaxy_account_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="RKT" />
+        <policy android:label="@string/sa_header_about_galaxy_account_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="UQM" />
+        <policy android:label="@string/sa_header_about_galaxy_account_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="JCO" />
+        <policy android:label="@string/sa_header_about_galaxy_account_jpn" android:enabled="true" android:priority="1" type="SALESCODE" value="SJP" />
+    </activity>
+</runtime-manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/sa_personal_info_account_id" android:key="AccountId">
+        <com.samsung.android.samsungaccount.setting.ui.family.detail.FamilyGroupMemberIdPreference android:enabled="false" android:layout="@layout/pref_row_family_member_id" android:title="@string/sa_body_email" android:key="IdContent" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/sa_profile" android:key="Profile">
+        <androidx.preference.Preference android:enabled="false" android:title="@string/sa_body_name" android:key="Name" android:summary="@string/sa_body_add_your_name" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

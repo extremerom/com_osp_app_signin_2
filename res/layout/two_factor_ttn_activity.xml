@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout android:id="@id/top_view" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.samsung.android.samsungaccount.utils.ui.AppLogoView android:layout_gravity="center|top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_logo_margin_bottom" app:isSignInView="true" />
+                <TextView android:textSize="@dimen/sign_in_title_font" android:textColor="@color/page_title_main_page" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/account_view_main_title_margin_top" android:text="@string/sa_two_factor_ttn_title" android:textDirection="locale" style="@style/FontSemiBold" />
+                <TextView android:textSize="@dimen/sign_in_short_desc_font" android:textColor="@color/page_desc_main_page" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_short_desc_top_margin" android:layout_marginBottom="@dimen/help_basic_description_bottom_margin" android:text="@string/sa_header_two_step_verification" style="@style/FontRegular" />
+            </LinearLayout>
+            <RelativeLayout android:gravity="bottom" android:layout_gravity="center_horizontal" android:id="@id/container" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/proximity_cover_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/indicator_left_arrow" android:visibility="gone" android:layout_width="@dimen/proximity_indicator_dialog_arrow_icon_width_height" android:layout_height="@dimen/proximity_indicator_dialog_arrow_icon_width_height" android:src="@drawable/proximity_indicator_arrow_left_blue" android:scaleType="fitXY" />
+    <TextView android:textSize="15.0sp" android:background="@drawable/proximity_indicator_rounded_corner" android:layout_width="@dimen/proximity_indicator_dialog_width" android:layout_height="wrap_content" android:text="@string/sa_bio_iris_sensor_hand_cover_recognition" android:contentDescription="@null" />
+    <ImageView android:id="@id/indicator_right_arrow" android:visibility="gone" android:layout_width="@dimen/proximity_indicator_dialog_arrow_icon_width_height" android:layout_height="@dimen/proximity_indicator_dialog_arrow_icon_width_height" android:src="@drawable/proximity_indicator_arrow_right_blue" android:scaleType="fitXY" />
+</LinearLayout>

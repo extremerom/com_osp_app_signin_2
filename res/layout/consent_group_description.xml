@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/consent_group_description_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/consent_group_description_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/FontRegular" android:textSize="14.0sp" android:textColor="@color/description_text_color" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

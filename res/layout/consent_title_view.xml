@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/consent_title_view_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/main_title_font" android:textColor="@color/page_title_main_page" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_desc_top_margin" android:text="@string/sa_graduate_child_intro_title" android:textDirection="locale" android:textAlignment="center" style="@style/FontBold" />
+    <TextView android:textAppearance="@style/FontRegular" android:textSize="@dimen/main_desc_font" android:textColor="@color/description_text_color" android:textColorLink="@color/link_text_color" android:id="@id/description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="21.0dp" />
+</LinearLayout>

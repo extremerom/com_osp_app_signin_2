@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_setting_payments_history_0" android:background="@color/action_bar_background_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/payments_top_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <FrameLayout android:layout_gravity="center" android:id="@id/tip_frame_layout" android:background="@color/chunk_background" android:layout_width="1.0px" android:layout_height="match_parent" android:layout_weight="100.0" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/page_title_main_page" android:id="@id/intro_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:lineSpacingExtra="4.0dp" android:layout_marginHorizontal="26.0dp" style="@style/FontRegular" />
+    </LinearLayout>
+    <TextView android:textSize="17.0sp" android:textColor="@color/no_item_text" android:gravity="center" android:id="@id/no_payments_text" android:tag="binding_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginHorizontal="45.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/payments_top_layout" style="@style/FontRegular" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/payments_recycler_view" android:tag="binding_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginVertical="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/payments_top_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

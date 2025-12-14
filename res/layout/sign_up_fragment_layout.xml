@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/input_field_inner_scroll_view" android:tag="layout/sign_up_fragment_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/master_layout" android:tag="binding_1" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/security_answer_linearLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/text_field_with_label" />
+        <include android:id="@id/security_question_linearLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/text_field_with_label" />
+        <include android:id="@id/smsPhoneNumberLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/text_field_with_label" />
+        <include android:id="@id/zipCodeLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/text_field_with_label" />
+        <include android:id="@id/LastNameLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/text_field_with_label" />
+        <include android:id="@id/FirstNameLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/text_field_with_label" />
+        <include android:id="@id/signUpBirthDateButton" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/text_field_with_label" />
+        <include android:id="@id/etSignUpConfirmPassword" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/text_field_with_label" />
+        <include android:id="@id/etSignUpPassword" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/text_field_with_label" />
+        <include android:id="@id/etSignUpId" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" layout="@layout/text_field_with_label" />
+        <TextView android:textSize="@dimen/common_description_text_size" android:textColor="@color/sign_up_edit_text_hint" android:textColorLink="@color/sign_up_edit_text_hint" android:id="@id/choiceInfoText" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/onboarding_content_title_margin_bottom" android:textAlignment="center" style="@style/FontSemiBold" />
+    </LinearLayout>
+</ScrollView>

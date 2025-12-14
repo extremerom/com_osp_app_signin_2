@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dp" android:width="28.0dp" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/sign_in_icon_background" android:pathData="M14,21.618C11.716,21.618 9.681,20.559 8.357,18.907C8.935,16.322 11.24,14.39 14,14.39C16.758,14.39 19.063,16.322 19.641,18.907C18.316,20.559 16.283,21.618 14,21.618M13.98,7.212C15.455,7.212 16.652,8.409 16.652,9.884C16.652,11.359 15.455,12.555 13.98,12.555C12.504,12.555 11.309,11.359 11.309,9.884C11.309,8.409 12.504,7.212 13.98,7.212M14,3C7.924,3 3,7.924 3,14C3,20.075 7.924,25 14,25C20.076,25 25,20.075 25,14C25,7.924 20.076,3 14,3" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

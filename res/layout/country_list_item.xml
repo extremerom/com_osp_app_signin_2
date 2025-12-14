@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/top" android:tag="layout/country_list_item_0" android:background="@color/chunk_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:stateListAnimator="?seslSmallTouchAnimator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/default_text_color" android:id="@id/country_name" android:tag="binding_1" android:background="?android:selectableItemBackground" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" />
+    <View android:id="@id/divider" android:background="@color/list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/common_divider_height" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+</com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerLinearLayout>

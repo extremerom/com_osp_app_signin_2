@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout android:tag="layout/guardian_card_verify_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/verification_guide" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.samsung.android.samsungaccount.utils.ui.AppLogoView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/app_logo_margin_bottom" />
+        <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/main_title_font" android:textColor="@color/page_title_main_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_guardian_verification_title" android:textAlignment="center" style="@style/FontSemiBold" />
+                <TextView android:textSize="@dimen/main_short_desc_font" android:textColor="@color/page_desc_main_page" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_short_desc_top_margin" android:layout_marginBottom="@dimen/main_desc_top_margin" android:text="@string/sa_guardian_verification_description" android:textAlignment="center" style="@style/FontRegular" />
+                <FrameLayout android:id="@id/card_verification_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/common_description_text_size" android:textColor="@color/sa_child_guardian_verification_description" android:layout_gravity="center" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/sa_guardian_verification_you_confirm_that_you_are_the_parent_of_the_child" android:textAlignment="center" style="@style/FontRegular" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout>

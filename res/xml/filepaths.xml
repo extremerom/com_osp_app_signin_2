@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="SA_Profile" path="Android/data/com.osp.app.signin/cache" />
+</paths>

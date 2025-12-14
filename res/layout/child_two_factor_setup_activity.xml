@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top_view" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintWidth_max="@dimen/onboarding_body_area_width_max">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/start_guideline" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintGuide_percent="@dimen/onboarding_body_start_ratio" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/end_guideline" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintGuide_percent="@dimen/onboarding_body_end_ratio" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.core.widget.NestedScrollView android:id="@id/content_container" android:layout_width="0.0dp" android:layout_height="0.0dp" android:fillViewport="true" android:layout_marginHorizontal="@dimen/onboarding_start_end_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/end_guideline" app:layout_constraintStart_toStartOf="@id/start_guideline" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <include layout="@layout/app_logo_view" />
+                <TextView android:textSize="@dimen/main_title_font" android:textColor="@color/page_title_main_page" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_add_your_phone_number" style="@style/FontSemiBold" />
+                <TextView android:textSize="@dimen/main_short_desc_font" android:textColor="@color/page_desc_main_page" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_short_desc_top_margin" android:layout_marginBottom="50.0dp" android:text="@string/sa_header_two_step_verification" android:lineSpacingExtra="6.0dp" style="@style/FontRegular" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

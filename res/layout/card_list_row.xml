@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_item" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="63.0dp">
+        <TextView android:textSize="17.0sp" android:textColor="@color/default_text_color" android:id="@id/card_display" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginHorizontal="18.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/FontSemiBold" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:background="@color/list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/list_divider_height" android:layout_marginHorizontal="16.0dp" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchableItem title="@string/sa_body_help">
+    <Item intentAction="@string/config_samsung_account_help_action" key="find_password" screenTitle="@string/sa_body_help" targetClass="@string/config_samsung_account_help_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_help_reset_password" />
+    <Item intentAction="@string/config_samsung_account_help_action" key="contact_us" screenTitle="@string/sa_body_help" targetClass="@string/config_samsung_account_help_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_opt_contact_us" />
+    <Item intentAction="@string/config_samsung_account_help_action" key="support" screenTitle="@string/sa_body_help" targetClass="@string/config_samsung_account_help_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_body_customer_support" />
+</SearchableItem>

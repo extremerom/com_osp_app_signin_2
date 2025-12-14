@@ -1,0 +1,47 @@
+.class Landroidx/indexscroll/widget/SeslIndexScrollView$IndexerObserver$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/indexscroll/widget/SeslIndexScrollView$IndexerObserver;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$1:Landroidx/indexscroll/widget/SeslIndexScrollView$IndexerObserver;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/indexscroll/widget/SeslIndexScrollView$IndexerObserver;)V
+    .locals 0
+
+    iput-object p1, p0, Landroidx/indexscroll/widget/SeslIndexScrollView$IndexerObserver$1;->this$1:Landroidx/indexscroll/widget/SeslIndexScrollView$IndexerObserver;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 1
+
+    iget-object p0, p0, Landroidx/indexscroll/widget/SeslIndexScrollView$IndexerObserver$1;->this$1:Landroidx/indexscroll/widget/SeslIndexScrollView$IndexerObserver;
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Landroidx/indexscroll/widget/SeslIndexScrollView$IndexerObserver;->mDataInvalid:Z
+
+    return-void
+.end method

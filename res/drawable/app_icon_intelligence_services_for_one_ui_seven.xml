@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/intelligence_services_for_one_ui_seven_bg" />
+    <foreground android:drawable="@drawable/intelligence_services_for_one_ui_seven_fg" />
+</adaptive-icon>

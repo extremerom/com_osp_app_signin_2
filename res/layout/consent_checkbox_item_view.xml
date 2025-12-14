@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/consent_checkbox_item_view_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/childPadding" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="wrap_content" />
+    <com.samsung.android.samsungaccount.utils.ui.ChunkConsentLayout android:id="@id/chunk_item" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

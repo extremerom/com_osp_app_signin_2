@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ghléas</item>
+        <item quantity="two">%d ghléas</item>
+        <item quantity="few">%d ghléas</item>
+        <item quantity="many">%d ngléas</item>
+        <item quantity="other">%d gléas</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Seoladh an iomarca cóid fíoraithe chuig do ghléas, mar sin tá bac curtha againn ar fhíorú gléis Galaxy do do chuntas.
+
+Úsáid modh fíoraithe eile nó triail arís i gceann %d nóiméid."</item>
+        <item quantity="two">"Seoladh an iomarca cóid fíoraithe chuig do ghléas, mar sin tá bac curtha againn ar fhíorú gléis Galaxy do do chuntas.
+
+Úsáid modh fíoraithe eile nó triail arís i gceann %d nóiméad."</item>
+        <item quantity="few">"Seoladh an iomarca cóid fíoraithe chuig do ghléas, mar sin tá bac curtha againn ar fhíorú gléis Galaxy do do chuntas.
+
+Úsáid modh fíoraithe eile nó triail arís i gceann %d nóiméad."</item>
+        <item quantity="many">"Seoladh an iomarca cóid fíoraithe chuig do ghléas, mar sin tá bac curtha againn ar fhíorú gléis Galaxy do do chuntas.
+
+Úsáid modh fíoraithe eile nó triail arís i gceann %d nóiméad."</item>
+        <item quantity="other">"Seoladh an iomarca cóid fíoraithe chuig do ghléas, mar sin tá bac curtha againn ar fhíorú gléis Galaxy do do chuntas.
+
+Úsáid modh fíoraithe eile nó triail arís i gceann %d nóiméad."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s agus %2$d eile</item>
+        <item quantity="two">%1$s agus %2$d eile</item>
+        <item quantity="few">%1$s agus %2$d eile</item>
+        <item quantity="many">%1$s agus %2$d eile</item>
+        <item quantity="other">%1$s agus %2$d eile</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir cuireadh a thabhairt do %1$s níos mó ná %2$d uair laistigh de 30 lá.</item>
+        <item quantity="two">Ní féidir cuireadh a thabhairt do %1$s níos mó ná %2$d uair laistigh de 30 lá.</item>
+        <item quantity="few">Ní féidir cuireadh a thabhairt do %1$s níos mó ná %2$d huaire laistigh de 30 lá.</item>
+        <item quantity="many">Ní féidir cuireadh a thabhairt do %1$s níos mó ná %2$d n-uaire laistigh de 30 lá.</item>
+        <item quantity="other">Ní féidir cuireadh a thabhairt do %1$s níos mó ná %2$d uair laistigh de 30 lá.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní féidir cuntais linbh a chruthú ach amháin le haghaidh daoine faoi bhun %d d'aois."</item>
+        <item quantity="two">"Ní féidir cuntais linbh a chruthú ach amháin le haghaidh daoine faoi bhun %d d'aois."</item>
+        <item quantity="few">"Ní féidir cuntais linbh a chruthú ach amháin le haghaidh daoine faoi bhun %d d'aois."</item>
+        <item quantity="many">"Ní féidir cuntais linbh a chruthú ach amháin le haghaidh daoine faoi bhun %d d'aois."</item>
+        <item quantity="other">"Ní féidir cuntais linbh a chruthú ach amháin le haghaidh daoine faoi bhun %d d'aois."</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní foláir duit a bheith %1$d bhliain d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="two">"Ní foláir duit a bheith %1$d bhliain d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="few">"Ní foláir duit a bheith %1$d bliana d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="many">"Ní foláir duit a bheith %1$d mbliana d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="other">"Ní foláir duit a bheith %1$d bliain d'aois ar a laghad le %2$s a úsáid."</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní féidir cuntas a bheith ag daoine faoi bhun %d bhliain d'aois i do thír nó réigiún."</item>
+        <item quantity="two">"Ní féidir cuntas a bheith ag daoine faoi bhun %d bhliain d'aois i do thír nó réigiún."</item>
+        <item quantity="few">"Ní féidir cuntas a bheith ag daoine faoi bhun %d bliana d'aois i do thír nó réigiún."</item>
+        <item quantity="many">"Ní féidir cuntas a bheith ag daoine faoi bhun %d mbliana d'aois i do thír nó réigiún."</item>
+        <item quantity="other">"Ní féidir cuntas a bheith ag daoine faoi bhun %d bliain d'aois i do thír nó réigiún."</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aois %d</item>
+        <item quantity="two">Aois %d</item>
+        <item quantity="few">Aois %d</item>
+        <item quantity="many">Aois %d</item>
+        <item quantity="other">Aois %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fan %d nóiméad sula seoltar an t-iarratas.</item>
+        <item quantity="two">Fan %d nóiméad sula seoltar an t-iarratas.</item>
+        <item quantity="few">Fan %d nóiméad sula seoltar an t-iarratas.</item>
+        <item quantity="many">Fan %d nóiméad sula seoltar an t-iarratas.</item>
+        <item quantity="other">Fan %d nóiméad sula seoltar an t-iarratas.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní mór %d charachtar ar a laghad a bheith sna freagraí.</item>
+        <item quantity="two">Ní mór %d charachtar ar a laghad a bheith sna freagraí.</item>
+        <item quantity="few">Ní mór %d charachtar ar a laghad a bheith sna freagraí.</item>
+        <item quantity="many">Ní mór %d gcarachtar ar a laghad a bheith sna freagraí.</item>
+        <item quantity="other">Ní mór %d carachtar ar a laghad a bheith sna freagraí.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Anois go bhfuil tú %d bhliain d'aois, is féidir leat athrú chuig gnáth-Samsung account. Má dhéanann tú é sin, beidh tú in ann aon fheidhmchláir agus gléasanna is mian leat a úsáid gan cead a fháil ó do thuismitheoirí, agus ní bheidh feidhm ag rialúcháin tuismitheoirí a thuilleadh."</item>
+        <item quantity="two">"Anois go bhfuil tú %d bhliain d'aois, is féidir leat athrú chuig gnáth-Samsung account. Má dhéanann tú é sin, beidh tú in ann aon fheidhmchláir agus gléasanna is mian leat a úsáid gan cead a fháil ó do thuismitheoirí, agus ní bheidh feidhm ag rialúcháin tuismitheoirí a thuilleadh."</item>
+        <item quantity="few">"Anois go bhfuil tú %d bliana d'aois, is féidir leat athrú chuig gnáth-Samsung account. Má dhéanann tú é sin, beidh tú in ann aon fheidhmchláir agus gléasanna is mian leat a úsáid gan cead a fháil ó do thuismitheoirí, agus ní bheidh feidhm ag rialúcháin tuismitheoirí a thuilleadh."</item>
+        <item quantity="many">"Anois go bhfuil tú %d mbliana d'aois, is féidir leat athrú chuig gnáth-Samsung account. Má dhéanann tú é sin, beidh tú in ann aon fheidhmchláir agus gléasanna is mian leat a úsáid gan cead a fháil ó do thuismitheoirí, agus ní bheidh feidhm ag rialúcháin tuismitheoirí a thuilleadh."</item>
+        <item quantity="other">"Anois go bhfuil tú %d bliain d'aois, is féidir leat athrú chuig gnáth-Samsung account. Má dhéanann tú é sin, beidh tú in ann aon fheidhmchláir agus gléasanna is mian leat a úsáid gan cead a fháil ó do thuismitheoirí, agus ní bheidh feidhm ag rialúcháin tuismitheoirí a thuilleadh."</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Táimse os cionn %d</item>
+        <item quantity="two">Táimse os cionn %d</item>
+        <item quantity="few">Táimse os cionn %d</item>
+        <item quantity="many">Táimse os cionn %d</item>
+        <item quantity="other">Táimse os cionn %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Táimse faoi bhun %d</item>
+        <item quantity="two">Táimse faoi bhun %d</item>
+        <item quantity="few">Táimse faoi bhun %d</item>
+        <item quantity="many">Táimse faoi bhun %d</item>
+        <item quantity="other">Táimse faoi bhun %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá ID nach ann dó iontráilte an iomarca uaireanta. Triail arís i gceann %d nóiméid.</item>
+        <item quantity="two">Tá ID nach ann dó iontráilte an iomarca uaireanta. Triail arís i gceann %d nóiméad.</item>
+        <item quantity="few">Tá ID nach ann dó iontráilte an iomarca uaireanta. Triail arís i gceann %d nóiméad.</item>
+        <item quantity="many">Tá ID nach ann dó iontráilte an iomarca uaireanta. Triail arís i gceann %d nóiméad.</item>
+        <item quantity="other">Tá ID nach ann dó iontráilte an iomarca uaireanta. Triail arís i gceann %d nóiméad.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bhall</item>
+        <item quantity="two">%d bhall</item>
+        <item quantity="few">%d bhall</item>
+        <item quantity="many">%d mball</item>
+        <item quantity="other">%d ball</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir cuireadh chuig grúpa teaghlaigh a thabhairt do níos mó ná %d duine.</item>
+        <item quantity="two">Ní féidir cuireadh chuig grúpa teaghlaigh a thabhairt do níos mó ná %d dhuine.</item>
+        <item quantity="few">Ní féidir cuireadh chuig grúpa teaghlaigh a thabhairt do níos mó ná %d dhuine.</item>
+        <item quantity="many">Ní féidir cuireadh chuig grúpa teaghlaigh a thabhairt do níos mó ná %d nduine.</item>
+        <item quantity="other">Ní féidir cuireadh chuig grúpa teaghlaigh a thabhairt do níos mó ná %d duine.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Beidh %1$s ar aois %2$d go luath</item>
+        <item quantity="two">Beidh %1$s ar aois %2$d go luath</item>
+        <item quantity="few">Beidh %1$s ar aois %2$d go luath</item>
+        <item quantity="many">Beidh %1$s ar aois %2$d go luath</item>
+        <item quantity="other">Beidh %1$s ar aois %2$d go luath</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d duine dá bhfuil cuireadh tugtha</item>
+        <item quantity="two">%d dhuine dá bhfuil cuireadh tugtha</item>
+        <item quantity="few">%d dhuine dá bhfuil cuireadh tugtha</item>
+        <item quantity="many">%d nduine dá bhfuil cuireadh tugtha</item>
+        <item quantity="other">%d duine dá bhfuil cuireadh tugtha</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s agus %2$d uimhir eile</item>
+        <item quantity="two">%1$s agus %2$d uimhir eile</item>
+        <item quantity="few">%1$s agus %2$d uimhir eile</item>
+        <item quantity="many">%1$s agus %2$d n-uimhir eile</item>
+        <item quantity="other">%1$s agus %2$d uimhir eile</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imeacht nár seiceáladh</item>
+        <item quantity="two">%d imeacht nár seiceáladh</item>
+        <item quantity="few">%d imeacht nár seiceáladh</item>
+        <item quantity="many">%d n-imeacht nár seiceáladh</item>
+        <item quantity="other">%d imeacht nár seiceáladh</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s agus %2$d chuntas eile</item>
+        <item quantity="two">%1$s agus %2$d chuntas eile</item>
+        <item quantity="few">%1$s agus %2$d chuntas eile</item>
+        <item quantity="many">%1$s agus %2$d gcuntas eile</item>
+        <item quantity="other">%1$s agus %2$d cuntas eile</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Thug %1$s cuireadh duit chuig a ghrúpa teaghlaigh. Tapáil an nasc sa teachtaireacht thíos le dul isteach ann. Má théann tú isteach ann, comhroinnfear d'ainm, r-phost, agus ID do Samsung account le baill eile den teaghlach. Imeoidh an cuireadh as feidhm i gceann %2$d lae."</item>
+        <item quantity="two">"Thug %1$s cuireadh duit chuig a ghrúpa teaghlaigh. Tapáil an nasc sa teachtaireacht thíos le dul isteach ann. Má théann tú isteach ann, comhroinnfear d'ainm, r-phost, agus ID do Samsung account le baill eile den teaghlach. Imeoidh an cuireadh as feidhm i gceann %2$d lá."</item>
+        <item quantity="few">"Thug %1$s cuireadh duit chuig a ghrúpa teaghlaigh. Tapáil an nasc sa teachtaireacht thíos le dul isteach ann. Má théann tú isteach ann, comhroinnfear d'ainm, r-phost, agus ID do Samsung account le baill eile den teaghlach. Imeoidh an cuireadh as feidhm i gceann %2$d lá."</item>
+        <item quantity="many">"Thug %1$s cuireadh duit chuig a ghrúpa teaghlaigh. Tapáil an nasc sa teachtaireacht thíos le dul isteach ann. Má théann tú isteach ann, comhroinnfear d'ainm, r-phost, agus ID do Samsung account le baill eile den teaghlach. Imeoidh an cuireadh as feidhm i gceann %2$d lá."</item>
+        <item quantity="other">"Thug %1$s cuireadh duit chuig a ghrúpa teaghlaigh. Tapáil an nasc sa teachtaireacht thíos le dul isteach ann. Má théann tú isteach ann, comhroinnfear d'ainm, r-phost, agus ID do Samsung account le baill eile den teaghlach. Imeoidh an cuireadh as feidhm i gceann %2$d lá."</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mholadh</item>
+        <item quantity="two">%d mholadh</item>
+        <item quantity="few">%d mholadh</item>
+        <item quantity="many">%d moladh</item>
+        <item quantity="other">%d moladh</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d nóiméad, ansin triail arís.</item>
+        <item quantity="two">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d nóiméad, ansin triail arís.</item>
+        <item quantity="few">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d nóiméad, ansin triail arís.</item>
+        <item quantity="many">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d nóiméad, ansin triail arís.</item>
+        <item quantity="other">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d nóiméad, ansin triail arís.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d soicind, ansin triail arís.</item>
+        <item quantity="two">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d shoicind, ansin triail arís.</item>
+        <item quantity="few">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d shoicind, ansin triail arís.</item>
+        <item quantity="many">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d soicind, ansin triail arís.</item>
+        <item quantity="other">Tá an cód mícheart iontráilte an iomarca uaireanta. Fan %d soicind, ansin triail arís.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Am codlata: %d uair an chloig</item>
+        <item quantity="two">Am codlata: %d uair an chloig</item>
+        <item quantity="few">Am codlata: %d uair an chloig</item>
+        <item quantity="many">Am codlata: %d n-uair an chloig</item>
+        <item quantity="other">Am codlata: %d uair an chloig</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Am codlata: %d nóiméad</item>
+        <item quantity="two">Am codlata: %d nóiméad</item>
+        <item quantity="few">Am codlata: %d nóiméad</item>
+        <item quantity="many">Am codlata: %d nóiméad</item>
+        <item quantity="other">Am codlata: %d nóiméad</item>
+    </plurals>
+</resources>

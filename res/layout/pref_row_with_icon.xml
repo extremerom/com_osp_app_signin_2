@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ripple_setting_preference" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="69.75dp" android:paddingStart="@dimen/common_list_start_end_padding" android:paddingEnd="@dimen/common_list_start_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/default_text_color" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" style="@style/FontRegular" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <TextView android:textSize="13.0sp" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" style="@style/FontRegular" />
+        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="15.0dp" android:layout_height="15.0dp" android:layout_marginStart="7.0dp" />
+    </LinearLayout>
+</LinearLayout>

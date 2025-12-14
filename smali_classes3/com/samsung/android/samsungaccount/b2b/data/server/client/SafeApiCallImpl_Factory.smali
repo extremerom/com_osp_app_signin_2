@@ -1,0 +1,182 @@
+.class public final Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ldagger/internal/Factory;
+
+
+# annotations
+.annotation build Ldagger/internal/DaggerGenerated;
+.end annotation
+
+.annotation build Ldagger/internal/QualifierMetadata;
+    value = {
+        "dagger.hilt.android.qualifiers.ApplicationContext",
+        "com.samsung.android.samsungaccount.b2b.util.IoDispatcher"
+    }
+.end annotation
+
+.annotation build Ldagger/internal/ScopeMetadata;
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ldagger/internal/Factory<",
+        "Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final contextProvider:Ljavax/inject/Provider;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljavax/inject/Provider<",
+            "Landroid/content/Context;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final ioDispatcherProvider:Ljavax/inject/Provider;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljavax/inject/Provider<",
+            "Lkotlinx/coroutines/CoroutineDispatcher;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final tokenRepositoryProvider:Ljavax/inject/Provider;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljavax/inject/Provider<",
+            "Lcom/samsung/android/samsungaccount/b2b/domain/repository/TokenRepository;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljavax/inject/Provider<",
+            "Landroid/content/Context;",
+            ">;",
+            "Ljavax/inject/Provider<",
+            "Lkotlinx/coroutines/CoroutineDispatcher;",
+            ">;",
+            "Ljavax/inject/Provider<",
+            "Lcom/samsung/android/samsungaccount/b2b/domain/repository/TokenRepository;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;->contextProvider:Ljavax/inject/Provider;
+
+    iput-object p2, p0, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;->ioDispatcherProvider:Ljavax/inject/Provider;
+
+    iput-object p3, p0, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;->tokenRepositoryProvider:Ljavax/inject/Provider;
+
+    return-void
+.end method
+
+.method public static create(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljavax/inject/Provider<",
+            "Landroid/content/Context;",
+            ">;",
+            "Ljavax/inject/Provider<",
+            "Lkotlinx/coroutines/CoroutineDispatcher;",
+            ">;",
+            "Ljavax/inject/Provider<",
+            "Lcom/samsung/android/samsungaccount/b2b/domain/repository/TokenRepository;",
+            ">;)",
+            "Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;
+
+    invoke-direct {v0, p0, p1, p2}, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+
+    return-object v0
+.end method
+
+.method public static newInstance(Landroid/content/Context;Lkotlinx/coroutines/CoroutineDispatcher;Ldagger/Lazy;)Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lkotlinx/coroutines/CoroutineDispatcher;",
+            "Ldagger/Lazy<",
+            "Lcom/samsung/android/samsungaccount/b2b/domain/repository/TokenRepository;",
+            ">;)",
+            "Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl;
+
+    invoke-direct {v0, p0, p1, p2}, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl;-><init>(Landroid/content/Context;Lkotlinx/coroutines/CoroutineDispatcher;Ldagger/Lazy;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public get()Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl;
+    .locals 2
+
+    iget-object v0, p0, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;->contextProvider:Ljavax/inject/Provider;
+
+    invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/content/Context;
+
+    iget-object v1, p0, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;->ioDispatcherProvider:Ljavax/inject/Provider;
+
+    invoke-interface {v1}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lkotlinx/coroutines/CoroutineDispatcher;
+
+    iget-object p0, p0, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;->tokenRepositoryProvider:Ljavax/inject/Provider;
+
+    invoke-static {p0}, Ldagger/internal/DoubleCheck;->lazy(Ljavax/inject/Provider;)Ldagger/Lazy;
+
+    move-result-object p0
+
+    invoke-static {v0, v1, p0}, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;->newInstance(Landroid/content/Context;Lkotlinx/coroutines/CoroutineDispatcher;Ldagger/Lazy;)Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public bridge synthetic get()Ljava/lang/Object;
+    .locals 0
+
+    invoke-virtual {p0}, Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl_Factory;->get()Lcom/samsung/android/samsungaccount/b2b/data/server/client/SafeApiCallImpl;
+
+    move-result-object p0
+
+    return-object p0
+.end method

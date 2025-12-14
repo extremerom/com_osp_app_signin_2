@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/passkey_intro_layout_0" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:id="@id/guide_image" android:layout_width="@dimen/onboarding_body_area_width" android:layout_height="wrap_content" android:layout_marginBottom="24.0dp" android:src="@drawable/passkey_illust" android:adjustViewBounds="true" android:maxWidth="@dimen/passkey_illust_width_max" android:minWidth="@dimen/onboarding_body_area_width_min" />
+        <TextView android:textSize="@dimen/main_desc_font" android:textColor="@color/page_title_main_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/sa_passkey_intro_description" style="@style/FontRegular" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/primary_dark_color" android:textColorLink="@color/primary_dark_color" android:id="@id/learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sa_passkey_learn_more_about_passkey" style="@style/FontSemiBold" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_link_main_page" android:textColorLink="@color/text_link_main_page" android:layout_gravity="center_horizontal" android:id="@id/create_later" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/sa_passkey_setup_passkey_later" style="@style/FontSemiBold" />
+        <Button android:textSize="17.0sp" android:textColor="@color/contained_primary_button_text_color" android:layout_gravity="center_horizontal" android:id="@id/create" android:background="@drawable/raised_button_primary_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:minWidth="270.0dp" android:minHeight="@dimen/contained_button_body_area_min_height" android:text="@string/sa_passkey_create" android:layout_marginVertical="@dimen/onboarding_button_top_bottom_margin" style="@style/BottomBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

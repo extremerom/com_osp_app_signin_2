@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:tag="layout/device_detail_view_0" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:fitsSystemWindows="true" app:expanded="false" style="@style/AppBarLayoutStyle">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:fitsSystemWindows="true" style="@style/ExpandedAppbarLayoutStyle">
+            <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" app:layout_collapseMode="pin" app:titleTextAppearance="@style/Toolbar.TitleText" style="@style/ToolbarStyle" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerNestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="ifContentScrolls" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:side_margin="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/scroll_area" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="100.0">
+            <LinearLayout android:gravity="center" android:id="@id/device_detail_info_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                <FrameLayout android:layout_gravity="center" android:id="@id/device_detail_info" android:background="@color/list_background" android:layout_width="1.0px" android:layout_height="wrap_content" android:layout_weight="100.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                <FrameLayout android:layout_gravity="center" android:id="@id/cs_support" android:background="@color/chunk_background" android:layout_width="1.0px" android:layout_height="wrap_content" android:layout_weight="100.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerNestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

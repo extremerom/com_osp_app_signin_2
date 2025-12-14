@@ -1,0 +1,76 @@
+.class Lcom/samsung/android/sdk/scloud/decorator/notification/SamsungCloudNotification$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/samsung/android/sdk/scloud/listeners/ResponseListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/samsung/android/sdk/scloud/decorator/notification/SamsungCloudNotification;->checkChanges(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/samsung/android/sdk/scloud/listeners/ResponseListener<",
+        "Ljava/lang/String;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/samsung/android/sdk/scloud/decorator/notification/SamsungCloudNotification;
+
+.field final synthetic val$result:[Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lcom/samsung/android/sdk/scloud/decorator/notification/SamsungCloudNotification;[Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/samsung/android/sdk/scloud/decorator/notification/SamsungCloudNotification$1;->this$0:Lcom/samsung/android/sdk/scloud/decorator/notification/SamsungCloudNotification;
+
+    iput-object p2, p0, Lcom/samsung/android/sdk/scloud/decorator/notification/SamsungCloudNotification$1;->val$result:[Ljava/lang/String;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onError(JLandroid/content/ContentValues;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public bridge synthetic onResponse(Ljava/lang/Object;)V
+    .locals 0
+
+    check-cast p1, Ljava/lang/String;
+
+    invoke-virtual {p0, p1}, Lcom/samsung/android/sdk/scloud/decorator/notification/SamsungCloudNotification$1;->onResponse(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public onResponse(Ljava/lang/String;)V
+    .locals 1
+
+    iget-object p0, p0, Lcom/samsung/android/sdk/scloud/decorator/notification/SamsungCloudNotification$1;->val$result:[Ljava/lang/String;
+
+    const/4 v0, 0x0
+
+    aput-object p1, p0, v0
+
+    return-void
+.end method

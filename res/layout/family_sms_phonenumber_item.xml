@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/family_sms_phonenumber_item_0" android:background="@drawable/ripple_mask" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="40.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="@color/page_title_main_page" android:ellipsize="end" android:id="@id/phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="ltr" android:layout_marginStart="18.0dp" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/page_title_main_page" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dp" />
+</LinearLayout>

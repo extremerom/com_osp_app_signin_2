@@ -1,0 +1,24 @@
+.class public Lhilt_aggregated_deps/_com_samsung_android_samsungaccount_profile_aidl_AIDLMobileServiceProfileBinder_AIDLMobileServiceProfileBinderEntryPoint;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Ldagger/hilt/processor/internal/aggregateddeps/AggregatedDeps;
+    components = {
+        "dagger.hilt.components.SingletonComponent"
+    }
+    entryPoints = {
+        "com.samsung.android.samsungaccount.profile.aidl.AIDLMobileServiceProfileBinder.AIDLMobileServiceProfileBinderEntryPoint"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

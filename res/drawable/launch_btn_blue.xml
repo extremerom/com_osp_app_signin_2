@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/contained_button_body_area_corner_radius" />
+            <solid android:color="@color/signin_widget_next_button" />
+        </shape>
+    </item>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

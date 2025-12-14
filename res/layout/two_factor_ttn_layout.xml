@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/two_factor_ttn_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/main_desc_font" android:textColor="@color/page_title_main_page" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sa_two_factor_ttn_description" android:textAlignment="center" style="@style/FontRegular" />
+        <TextView android:textSize="32.0sp" android:textColor="@color/page_title_main_page" android:layout_gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dp" android:layout_marginBottom="16.0dp" style="@style/FontRegular" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp">
+            <com.samsung.android.samsungaccount.utils.ui.ChunkDefaultLayout android:id="@id/set_trust_device_container" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/two_factor_set_trust_device_max_width" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/contained_primary_button_text_color" android:layout_gravity="center_horizontal" android:id="@id/confirm" android:background="@drawable/raised_button_primary_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:minWidth="270.0dp" android:text="@string/sa_two_factor_ttn_confirm" style="@style/BottomBarButtonStyle" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:minHeight="40.0dp">
+            <TextView android:textSize="14.0sp" android:textColor="@color/text_link_main_page" android:textColorLink="@color/text_link_main_page" android:gravity="center" android:id="@id/set_other_way" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sa_two_factor_ttn_verify_me_another_way" style="@style/FontSemiBold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

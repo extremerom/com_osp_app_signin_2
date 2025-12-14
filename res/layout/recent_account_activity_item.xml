@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:tag="layout/recent_account_activity_item_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/chunk_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/common_list_start_end_padding">
+        <ImageView android:id="@id/icon_image" android:tag="binding_1" android:layout_width="@dimen/list_thumbnail_size" android:layout_height="@dimen/list_thumbnail_size" android:layout_marginEnd="@dimen/common_list_padding" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/recent_account_activity_item_padding_top_and_bottom" android:paddingBottom="@dimen/recent_account_activity_item_padding_top_and_bottom" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/list_main_text" android:textColor="@color/default_text_color" android:ellipsize="end" android:id="@id/title" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:textDirection="locale" />
+            <TextView android:textSize="@dimen/list_secondary_text" android:textColor="@color/secondary_text_color" android:ellipsize="end" android:id="@id/description" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

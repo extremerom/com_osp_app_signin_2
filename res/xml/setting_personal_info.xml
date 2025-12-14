@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/sa_main_personal_information"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/sa_personal_info_account_id" android:key="Id">
+        <androidx.preference.Preference android:title="@string/sa_body_email" android:key="EmailId" android:summary="@string/sa_personal_info_email_id_summary" />
+        <com.samsung.android.samsungaccount.setting.ui.personalinfo.AccessiblePreference android:layout="@layout/pref_row_with_icon" android:title="@string/sa_header_phone_number" android:key="PhonenumberId" android:summary="@string/sa_personal_info_phone_id_summary" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/sa_personal_info_accounts_you_can_sign_in_with" android:key="Services">
+        <com.samsung.android.samsungaccount.setting.ui.personalinfo.LinkingInfoPreference android:layout="@layout/pref_row_linking_info" android:title="@string/sa_all_google" android:key="google" />
+        <com.samsung.android.samsungaccount.setting.ui.personalinfo.LinkingInfoPreference android:layout="@layout/pref_row_linking_info" android:title="@string/sa_all_wechat" android:key="wechat" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/sa_main_personal_information" android:key="AccountInfo">
+        <androidx.preference.Preference android:title="@string/sa_body_name" android:key="Name" android:summary="@string/sa_body_add_your_name" />
+        <androidx.preference.Preference android:title="@string/sa_body_date_of_birth_old" android:key="Birthday" android:summary="@string/sa_body_add_your_date_of_birth" />
+        <androidx.preference.Preference android:title="@string/sa_header_phone_number" android:key="PhoneNumber" />
+        <androidx.preference.Preference android:title="@string/header_nickname" android:key="Nickname" />
+        <androidx.preference.Preference android:title="@string/sa_body_status_message" android:key="StatusMessage" />
+        <androidx.preference.Preference android:title="@string/sa_personal_info_work" android:key="Work" />
+        <androidx.preference.Preference android:title="@string/sa_body_language" android:key="Language" android:summary="@string/select_the_language_description" />
+        <androidx.preference.Preference android:enabled="false" android:title="@string/sa_header_country_or_region" android:key="Country" />
+        <androidx.preference.Preference android:title="@string/sa_personal_info_zip_code" android:key="ZipCode" />
+        <androidx.preference.Preference android:title="@string/sa_personal_info_postal_code" android:key="PostalCode" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

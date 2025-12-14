@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/country_list_activity_0" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" app:title="@string/sa_header_country_or_region" app:titleTextAppearance="@style/Toolbar.TitleText" style="@style/ToolbarStyle" />
+    <com.samsung.android.samsungaccount.utils.ui.CommonMarginListConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/search_view_container" android:background="@drawable/search_field_frame" android:layout_width="match_parent" android:layout_height="44.0dp" android:layout_marginVertical="6.0dp" app:layout_constraintBottom_toTopOf="@id/list_view_container" app:layout_constraintTop_toTopOf="parent">
+            <androidx.appcompat.widget.SearchView android:textColor="@color/edit_text_view_input_text" android:textColorHint="@color/edit_text_view_hint" android:gravity="start|center" android:id="@id/search_view" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="100.0" android:inputType="textAutoComplete" android:imeOptions="actionSearch|flagNoExtractUi" android:queryHint="0000" android:textDirection="anyRtl" app:background="@color/color_white" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/list_view_container" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/search_view_container">
+            <com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="insideInset" android:id="@id/list_view" android:scrollY="-10.0dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" />
+            </com.samsung.android.samsungaccount.utils.ui.roundedcorner.view.RoundedCornerConstraintLayout>
+            <LinearLayout android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="100.0">
+                <androidx.indexscroll.widget.SeslIndexScrollView android:id="@id/index_scroll_view" android:focusable="false" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="100.0" android:importantForAccessibility="no" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.samsung.android.samsungaccount.utils.ui.CommonMarginListConstraintLayout>
+</LinearLayout>

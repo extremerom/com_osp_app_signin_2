@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:tag="layout/activity_hidden_menu_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" app:titleTextAppearance="@style/Toolbar.TitleText" style="@style/ToolbarStyle" />
+    <fragment android:name="com.samsung.android.samsungaccount.presentation.hiddenmenu.HiddenMenuFragment" android:id="@id/hidden_menu_setting_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar" />
+    <Button android:id="@id/hidden_menu_apply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dp" android:layout_marginBottom="80.0dp" android:text="Apply" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <Button android:id="@id/hidden_menu_clear_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dp" android:layout_marginBottom="30.0dp" android:text="Clear all" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

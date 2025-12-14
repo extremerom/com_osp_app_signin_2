@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ອຸປະກອນ %d ເຄື່ອງ</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ລະຫັດການກວດສອບໄດ້ຖືກສົ່ງຫາອຸປະກອນຂອງທ່ານຫຼາຍຄັ້ງເກີນໄປ, ດັ່ງນັ້ນ ພວກເຮົາຈຶ່ງບລັອກການກວດສອບອຸປະກອນ Galaxy ຂອງທ່ານສຳລັບບັນຊີຂອງທ່ານ.
+
+ໃຊ້ວິທີການກວດສອບແບບອື່ນ ຫຼື ລອງໃໝ່ອີກໃນ %d ນາທີ."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ແລະອີກ %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດເຊີນ %1$s ໄດ້ຫຼາຍກວ່າ %2$d ຄັ້ງໃນ 30 ວັນ.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ສາມາດສ້າງບັນຊີເດັກສຳລັບຜູ້ຄົນທີ່ມີອາຍຸຕ່ຳກວ່າ %d ປີເທົ່ານັ້ນ.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ທ່ານຈຳເປັນຕ້ອງມີອາຍຸຢ່າງໜ້ອຍ %1$d ປີ ເພື່ອໃຊ້ %2$s.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຜູ້ຄົນທີ່ຕ່ຳກວ່າ %d ບໍ່ສາມາດມີບັນຊີໃນປະເທດ ຫຼື ພາກພື້ນຂອງທ່ານ.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ອາຍຸ %d ປີ</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ລໍຖ້າ %d ນາທີກ່ອນຈຶ່ງສົ່ງຄຳຂໍ.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດປ້ອນຕົວອັກສອນເຂົ້າໄດ້ຫຼາຍກວ່າ %d ຕົວ.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຄຳຕອບຈະຕ້ອງມີຢ່າງໜ້ອຍ %d ຕົວ.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຕອນນີ້ ທ່ານອາຍຸຮອດ %d ແລ້ວ, ທ່ານສາມາດສັບປ່ຽນເປັນ Samsung account ປົກກະຕິໄດ້. ຖ້າທ່ານເຮັດແບບນັ້ນ, ທ່ານຈະສາມາດໃຊ້ແອັບ ແລະ ອຸປະກອນທີ່ທ່ານຕ້ອງການໄດ້ໂດຍບໍ່ຕ້ອງໄດ້ຮັບການອະນຸຍາດຈາກພໍ່ແມ່ຂອງທ່ານ ແລະ ການຄວບຄຸມໂດຍພໍ່ແມ່ຈະບໍ່ມີຜົນນຳໃຊ້ໄດ້ອີກຕໍ່ໄປ.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຂ້ອຍອາຍຸເກີນ %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ຂ້ອຍອາຍຸຕ່ຳກວ່າ %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ID ທີ່ບໍ່ມີຢູ່ໄດ້ຖືກປ້ອນເຂົ້າຫຼາຍຄັ້ງເກີນໄປ. ລອງໃໝ່ອີກໃນ %d ນາທີ.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ສະມາຊິກ %d ຄົນ</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ບໍ່ສາມາດເຊີນໄດ້ຫຼາຍກວ່າ %d ຄົນໃສ່ກຸ່ມຄອບຄົວ.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ຈະມີອາຍຸຮອດ %2$d ໃນໄວໆນີ້</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເຊີນ %d ຄົນແລ້ວ</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ແລະ %2$d ເບີໂທອື່ນໆ</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ເຫດການທີ່ບໍ່ໝາຍເອົາ</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ແລະ %2$d ບັນຊີອື່ນໆ</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s ໄດ້ເຊີນທ່ານເຂົ້າຮ່ວມກຸ່ມຄອບຄົວຂອງພວກເຂົາແລ້ວ. ແຕະລິ້ງໃນຂໍ້ຄວາມລຸ່ມນີ້ເພື່ອເຂົ້າຮ່ວມ. ຖ້າທ່ານເຂົ້າຮ່ວມ, ຊື່, ອີເມລ໌ ແລະ Samsung account ID ຂອງທ່ານຈະຖືກແຊຣ໌ກັບສະມາຊິກຄົນອື່ນຂອງຄອບຄົວ. ຄຳເຊີນຈະໝົດອາຍຸໃນ %2$d ວັນ.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ຄຳແນະນຳ</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ໄດ້ມີການປ້ອນລະຫັດທີ່ບໍ່ຖືກຕ້ອງເຂົ້າຫຼາຍຄັ້ງເກີນໄປ. ລໍຖ້າ %d ນາທີ, ຈາກນັ້ນລອງໃໝ່ອີກ.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ໄດ້ມີການປ້ອນລະຫັດທີ່ບໍ່ຖືກຕ້ອງເຂົ້າຫຼາຍຄັ້ງເກີນໄປ. ລໍຖ້າ %d ວິນາທີ, ຈາກນັ້ນລອງໃໝ່ອີກ.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເວລານອນຫຼັບ: %d ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ເວລານອນຫຼັບ: %d ນາທີ</item>
+    </plurals>
+</resources>

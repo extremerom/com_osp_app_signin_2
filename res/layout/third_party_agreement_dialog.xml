@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/third_party_agreement_description_first" android:layout_marginTop="@dimen/third_party_agreement_dialog_description_top_margin" android:layout_marginBottom="@dimen/third_party_agreement_dialog_third_description_bottom_margin" style="@style/third_party_agreement_dialog_description_style" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/third_party_agreement_dialog_start_end_padding" android:paddingEnd="@dimen/third_party_agreement_dialog_start_end_padding">
+                <ImageView android:id="@id/third_party_agreement_link_layout" android:paddingTop="7.0dp" android:paddingBottom="7.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sa_account_link" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/third_party_agreement_sa_info_icon" android:layout_width="54.0dp" android:layout_height="54.0dp" android:src="@drawable/sa_account_app_icon" android:layout_toStartOf="@id/third_party_agreement_link_layout" />
+                <ImageView android:id="@id/third_party_agreement_app_info_icon" android:layout_width="54.0dp" android:layout_height="54.0dp" android:layout_toEndOf="@id/third_party_agreement_link_layout" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_below="@id/third_party_agreement_link_layout">
+                    <TextView android:textColor="@color/information_text_color" android:gravity="center_horizontal" android:text="@string/sa_body_samsung_account" style="@style/third_party_agreement_app_info_text_style" />
+                    <TextView android:textColor="@color/information_text_color" android:gravity="center_horizontal" android:id="@id/third_party_agreement_app_info_text" style="@style/third_party_agreement_app_info_text_style" />
+                </LinearLayout>
+            </RelativeLayout>
+            <TextView android:id="@id/will_be_able_to_text" android:layout_marginTop="@dimen/third_party_agreement_dialog_will_be_able_to_top_margin" android:layout_marginBottom="@dimen/third_party_agreement_dialog_will_be_able_to_bottom_margin" style="@style/third_party_agreement_dialog_description_style" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/read_your_randomly_user_id_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/third_party_agreement_dialog_dot_layout" />
+                <TextView android:id="@id/read_your_randomly_user_id_text" style="@style/third_party_agreement_scope_info_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/see_your_email_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/third_party_agreement_dialog_dot_layout" />
+                <TextView android:id="@id/see_your_email_text" style="@style/third_party_agreement_scope_info_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/see_your_profile_info_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/third_party_agreement_dialog_dot_layout" />
+                <TextView android:id="@id/see_your_profile_info_text" style="@style/third_party_agreement_scope_info_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/see_your_birth_date_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/third_party_agreement_dialog_dot_layout" />
+                <TextView android:id="@id/see_your_birth_date_info_text" style="@style/third_party_agreement_scope_info_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/third_party_agreement_dialog_agreement_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:paddingStart="@dimen/third_party_agreement_dialog_start_end_padding" android:paddingEnd="@dimen/third_party_agreement_dialog_start_end_padding">
+                <LinearLayout android:orientation="horizontal" android:id="@id/third_party_agreement_dialog_privacy_policy_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/third_party_agreement_dialog_privacy_policy_checkbox" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_marginEnd="5.0dp" />
+                    <TextView android:id="@id/third_party_agreement_dialog_privacy_policy_text" style="@style/third_party_agreement_tnc_text_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/third_party_agreement_dialog_terms_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <CheckBox android:layout_gravity="center_vertical" android:id="@id/third_party_agreement_dialog_terms_checkbox" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_marginEnd="5.0dp" />
+                    <TextView android:id="@id/third_party_agreement_dialog_terms_text" style="@style/third_party_agreement_tnc_text_style" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.samsung.android.samsungaccount.utils.ui.BottomBar android:id="@id/third_party_agreement_bottom_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" app:button_number="2" />
+</LinearLayout>

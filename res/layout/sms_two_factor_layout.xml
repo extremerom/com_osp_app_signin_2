@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:tag="layout/sms_two_factor_layout_0" android:background="@color/onboarding_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+            <com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthLinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/app_logo_view" />
+                <TextView android:textSize="@dimen/auth_onboarding_title_text_size" android:textColor="@color/page_title_main_page" android:gravity="center" android:id="@id/title_main" android:tag="binding_2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" style="@style/FontBold" />
+                <LinearLayout android:orientation="vertical" android:id="@id/sms_verification_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/auth_onboarding_sub_title_text_size" android:textColor="@color/page_desc_main_page" android:gravity="center" android:id="@id/sub_title" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/auth_onboarding_sub_title_top_margin" android:layout_marginBottom="@dimen/auth_onboarding_sub_title_bottom_margin" android:lineSpacingExtra="6.0dp" style="@style/FontRegular" />
+                        <TextView android:textSize="@dimen/main_desc_font" android:textColor="@color/page_title_main_page" android:gravity="center" android:id="@id/title_description" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="36.0dp" android:minHeight="56.0dp" android:lineSpacingExtra="6.0dp" style="@style/FontRegular" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/sms_content_layout_for_corner" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <Button android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/btn_country" android:tag="binding_6" android:focusable="true" android:layout_width="wrap_content" android:layout_marginBottom="26.0dp" android:minWidth="@dimen/help_basic_button_width" android:minHeight="40.0dp" android:layout_marginHorizontal="26.0dp" style="@style/ContainedButtonListArea" />
+                        <include android:id="@id/phone_number_container" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/sms_verification_phone_number_input_layout" />
+                        <com.samsung.android.samsungaccount.utils.ui.vi.VerificationCodeInputLayout android:id="@id/code_container" android:tag="binding_7" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <androidx.constraintlayout.widget.ConstraintLayout android:tag="binding_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginBottom="40.0dp">
+                                <com.samsung.android.samsungaccount.utils.ui.ChunkDefaultLayout android:id="@id/set_trust_device_container" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/two_factor_set_trust_device_max_width" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                            <TextView android:textSize="14.0sp" android:textColorLink="@color/text_link_main_page" android:layout_gravity="center" android:id="@id/btn_help" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:text="@string/sa_2factor_help_link_text" android:textAlignment="center" style="@style/FontSemiBold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <Button android:textSize="15.0sp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/button_receive_sms" android:tag="binding_10" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginBottom="24.0dp" android:minWidth="@dimen/help_basic_button_width" android:minHeight="40.0dp" android:text="@string/sms_verification_send" android:layout_marginHorizontal="26.0dp" style="@style/ContainedButtonListArea" />
+                </LinearLayout>
+            </com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthLinearLayout>
+            <Space android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            <com.samsung.android.samsungaccount.utils.ui.BottomBar android:id="@id/bottom_bar" android:tag="binding_11" android:layout_width="match_parent" android:layout_height="wrap_content" app:button_number="1" app:button_type="basic" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

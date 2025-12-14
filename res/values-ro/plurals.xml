@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dispozitiv</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dispozitive</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dispozitive</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Au fost trimise prea multe coduri de verificare către dispozitivul dvs.; prin urmare, am blocat verificarea prin dispozitivul Galaxy pentru contul dvs.
+
+Utilizați o altă metodă de verificare sau încercați din nou peste %d minut."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Au fost trimise prea multe coduri de verificare către dispozitivul dvs.; prin urmare, am blocat verificarea prin dispozitivul Galaxy pentru contul dvs.
+
+Utilizați o altă metodă de verificare sau încercați din nou peste %d minute."</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Au fost trimise prea multe coduri de verificare către dispozitivul dvs.; prin urmare, am blocat verificarea prin dispozitivul Galaxy pentru contul dvs.
+
+Utilizați o altă metodă de verificare sau încercați din nou peste %d minute."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s și încă %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s și încă %2$d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s și încă %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu puteți invita utilizatorul %1$s mai mult de %2$d dată în 30 de zile.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu puteți invita utilizatorul %1$s de mai mult de %2$d ori în 30 de zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu puteți invita utilizatorul %1$s de mai mult de %2$d ori în 30 de zile.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Conturile de copii pot fi create doar pentru persoanele cu vârsta sub %d an.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Conturile de copii pot fi create doar pentru persoanele cu vârsta sub %d ani.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Conturile de copii pot fi create doar pentru persoanele cu vârsta sub %d ani.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Este necesar să aveți cel puțin %1$d an pentru a utiliza %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Este necesar să aveți cel puțin %1$d ani pentru a utiliza %2$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Este necesar să aveți cel puțin %1$d ani pentru a utiliza %2$s.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Persoanele sub %d an nu pot avea cont în țara sau regiunea dvs.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Persoanele sub %d ani nu pot avea cont în țara sau regiunea dvs.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Persoanele sub %d ani nu pot avea cont în țara sau regiunea dvs.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vârstă %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vârstă %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vârstă %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Așteptați %d minut înainte de a trimite cererea.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Așteptați %d minute înainte de a trimite cererea.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Așteptați %d minute înainte de a trimite cererea.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Răspunsurile trebuie să conțină minimum %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Răspunsurile trebuie să conțină minimum %d caractere.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Răspunsurile trebuie să conțină minimum %d caractere.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum că ați împlinit %d an, puteți trece la un Samsung account obișnuit. Dacă faceți acest lucru, veți putea utiliza orice aplicații și dispozitive dorite fără a fi nevoie de permisiunea părinților, iar funcțiile de control parental nu vor mai fi aplicate.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum că ați împlinit %d ani, puteți trece la un Samsung account obișnuit. Dacă faceți acest lucru, veți putea utiliza orice aplicații și dispozitive dorite fără a fi nevoie de permisiunea părinților, iar funcțiile de control parental nu vor mai fi aplicate.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Acum că ați împlinit %d ani, puteți trece la un Samsung account obișnuit. Dacă faceți acest lucru, veți putea utiliza orice aplicații și dispozitive dorite fără a fi nevoie de permisiunea părinților, iar funcțiile de control parental nu vor mai fi aplicate.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Am vârsta peste %d an</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Am vârsta peste %d ani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Am vârsta peste %d ani</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Am vârsta sub %d an</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Am vârsta sub %d ani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Am vârsta sub %d ani</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Un ID inexistent a fost introdus de prea multe ori. Încercați din nou peste %d minut.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Un ID inexistent a fost introdus de prea multe ori. Încercați din nou peste %d minute.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Un ID inexistent a fost introdus de prea multe ori. Încercați din nou peste %d minute.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d membru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d membri</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d membri</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu puteți invita mai mult de %d persoană la un grup de familie.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu puteți invita mai mult de %d persoane la un grup de familie.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu puteți invita mai mult de %d persoane la un grup de familie.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s împlinește %2$d an</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s împlinește %2$d ani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s împlinește %2$d ani</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d persoană invitată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d persoane invitate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d persoane invitate</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s și încă %2$d număr</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s și încă %2$d numere</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s și încă %2$d numere</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d eveniment neverificat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d evenimente neverificate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d evenimente neverificate</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s și încă %2$d cont</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s și încă %2$d conturi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s și încă %2$d conturi</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s v-a invitat în grupul familiei sale. Atingeți linkul din mesajul de mai jos pentru a vă alătura. Dacă vă alăturați, numele, adresa de e-mail și ID-ul contului dumneavoastră Samsung account vor fi partajate cu ceilalți membri ai familiei. Invitația expiră în %2$d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s v-a invitat în grupul familiei sale. Atingeți linkul din mesajul de mai jos pentru a vă alătura. Dacă vă alăturați, numele, adresa de e-mail și ID-ul contului dumneavoastră Samsung account vor fi partajate cu ceilalți membri ai familiei. Invitația expiră în %2$d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s v-a invitat în grupul familiei sale. Atingeți linkul din mesajul de mai jos pentru a vă alătura. Dacă vă alăturați, numele, adresa de e-mail și ID-ul contului dumneavoastră Samsung account vor fi partajate cu ceilalți membri ai familiei. Invitația expiră în %2$d zile.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sugestie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sugestii</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sugestii</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ați introdus un cod greșit de prea multe ori. Așteptați un minut, apoi încercați din nou.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ați introdus un cod greșit de prea multe ori. Așteptați %d minute, apoi încercați din nou.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ați introdus un cod greșit de prea multe ori. Așteptați %d minute, apoi încercați din nou.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ați introdus un cod greșit de prea multe ori. Așteptați o secundă, apoi încercați din nou.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ați introdus un cod greșit de prea multe ori. Așteptați %d secunde, apoi încercați din nou.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ați introdus un cod greșit de prea multe ori. Așteptați %d secunde, apoi încercați din nou.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durată somn: %d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Durată somn: %d ore</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Durată somn: %d ore</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Durată somn: %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Durată somn: %d minute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Durată somn: %d minute</item>
+    </plurals>
+</resources>

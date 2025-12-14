@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_view" android:tag="layout/preference_setting_tip_card_0" android:background="@color/chunk_background" android:paddingTop="20.0dp" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:layout_marginEnd="?android:listPreferredItemPaddingEnd">
+        <ImageView android:id="@id/title_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dp" />
+        <TextView android:textAppearance="@style/FontRegular" android:textSize="@dimen/tip_card_title_text_size" android:textColor="@color/dialog_body_text_color" android:layout_gravity="center_vertical" android:id="@id/card_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/tip_card_description_text_size" android:textColor="@color/dialog_body_text_color" android:id="@id/card_description" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:lineSpacingExtra="@dimen/tip_card_description_line_space" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:layout_marginEnd="?android:listPreferredItemPaddingEnd" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="20.0dp" android:minHeight="32.0dp" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:layout_marginEnd="?android:listPreferredItemPaddingStart">
+        <TextView android:id="@id/card_action_1_button" android:layout_marginEnd="@dimen/tip_card_button_margin" style="@style/TipCardButtonStyle" />
+        <TextView android:id="@id/card_action_2_button" android:layout_marginStart="@dimen/tip_card_button_margin" style="@style/TipCardButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zariadenie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zariadenia</item>
+        <item quantity="many">%d zariadenia</item>
+        <item quantity="other">%d zariadení</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+        <item quantity="other">%d nových upozornení</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Do vášho zariadenia bolo odoslaných príliš veľa overovacích kódov, preto sme pre vaše konto zablokovali overovanie prostredníctvom zariadenia Galaxy.
+
+Použite iný spôsob overenia alebo to skúste znova za %d minútu."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"Do vášho zariadenia bolo odoslaných príliš veľa overovacích kódov, preto sme pre vaše konto zablokovali overovanie prostredníctvom zariadenia Galaxy.
+
+Použite iný spôsob overenia alebo to skúste znova za %d minúty."</item>
+        <item quantity="many">"Do vášho zariadenia bolo odoslaných príliš veľa overovacích kódov, preto sme pre vaše konto zablokovali overovanie prostredníctvom zariadenia Galaxy.
+
+Použite iný spôsob overenia alebo to skúste znova za %d minúty."</item>
+        <item quantity="other">"Do vášho zariadenia bolo odoslaných príliš veľa overovacích kódov, preto sme pre vaše konto zablokovali overovanie prostredníctvom zariadenia Galaxy.
+
+Použite iný spôsob overenia alebo to skúste znova za %d minút."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s a ešte %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s a ešte %2$d</item>
+        <item quantity="many">%1$s a ešte %2$d</item>
+        <item quantity="other">%1$s a ešte %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s sa nedá pozvať viac než %2$d-krát za 30 dní.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s sa nedá pozvať viac než %2$d-krát za 30 dní.</item>
+        <item quantity="many">%1$s sa nedá pozvať viac než %2$d-krát za 30 dní.</item>
+        <item quantity="other">%1$s sa nedá pozvať viac než %2$d-krát za 30 dní.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Detské kontá je možné vytvoriť iba pre ľudí mladších než %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Detské kontá je možné vytvoriť iba pre ľudí mladších než %d roky.</item>
+        <item quantity="many">Detské kontá je možné vytvoriť iba pre ľudí mladších než %d roka.</item>
+        <item quantity="other">Detské kontá je možné vytvoriť iba pre ľudí mladších než %d rokov.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ak chcete používať aplikáciu %2$s, musíte mať aspoň %1$d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ak chcete používať aplikáciu %2$s, musíte mať aspoň %1$d roky.</item>
+        <item quantity="many">Ak chcete používať aplikáciu %2$s, musíte mať aspoň %1$d roka.</item>
+        <item quantity="other">Ak chcete používať aplikáciu %2$s, musíte mať aspoň %1$d rokov.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Osoby mladšie než %d rok nemôžu mať konto vo vašej krajine alebo oblasti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Osoby mladšie než %d roky nemôžu mať konto vo vašej krajine alebo oblasti.</item>
+        <item quantity="many">Osoby mladšie než %d roka nemôžu mať konto vo vašej krajine alebo oblasti.</item>
+        <item quantity="other">Osoby mladšie než %d rokov nemôžu mať konto vo vašej krajine alebo oblasti.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vek %d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vek %d roky</item>
+        <item quantity="many">Vek %d roka</item>
+        <item quantity="other">Vek %d rokov</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pred odoslaním žiadosti počkajte %d minútu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pred odoslaním žiadosti počkajte %d minúty.</item>
+        <item quantity="many">Pred odoslaním žiadosti počkajte %d minúty.</item>
+        <item quantity="other">Pred odoslaním žiadosti počkajte %d minút.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa zadať viac než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa zadať viac než %d znaky.</item>
+        <item quantity="many">Nedá sa zadať viac než %d znaku.</item>
+        <item quantity="other">Nedá sa zadať viac než %d znakov.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odpovede musia obsahovať aspoň %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odpovede musia obsahovať aspoň %d znaky.</item>
+        <item quantity="many">Odpovede musia obsahovať aspoň %d znaku.</item>
+        <item quantity="other">Odpovede musia obsahovať aspoň %d znakov.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teraz, keď už máte %d rok, môžete prejsť na štandardné konto Samsung. Ak to urobíte, budete môcť používať ľubovoľné aplikácie a zariadenia, ktoré sa vám páčia, bez povolenia od vašich rodičov a rodičovská kontrola sa už nebude používať.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Teraz, keď už máte %d roky, môžete prejsť na štandardné konto Samsung. Ak to urobíte, budete môcť používať ľubovoľné aplikácie a zariadenia, ktoré sa vám páčia, bez povolenia od vašich rodičov a rodičovská kontrola sa už nebude používať.</item>
+        <item quantity="many">Teraz, keď už máte %d roka, môžete prejsť na štandardné konto Samsung. Ak to urobíte, budete môcť používať ľubovoľné aplikácie a zariadenia, ktoré sa vám páčia, bez povolenia od vašich rodičov a rodičovská kontrola sa už nebude používať.</item>
+        <item quantity="other">Teraz, keď už máte %d rokov, môžete prejsť na štandardné konto Samsung. Ak to urobíte, budete môcť používať ľubovoľné aplikácie a zariadenia, ktoré sa vám páčia, bez povolenia od vašich rodičov a rodičovská kontrola sa už nebude používať.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mám viac než %d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mám viac než %d roky</item>
+        <item quantity="many">Mám viac než %d roka</item>
+        <item quantity="other">Mám viac než %d rokov</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mám menej než %d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mám menej než %d roky</item>
+        <item quantity="many">Mám menej než %d roka</item>
+        <item quantity="other">Mám menej než %d rokov</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Príliš veľakrát bol zadaný neexistujúci identifikátor. Skúste to znova o %d minútu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Príliš veľakrát bol zadaný neexistujúci identifikátor. Skúste to znova o %d minúty.</item>
+        <item quantity="many">Príliš veľakrát bol zadaný neexistujúci identifikátor. Skúste to znova o %d minúty.</item>
+        <item quantity="other">Príliš veľakrát bol zadaný neexistujúci identifikátor. Skúste to znova o %d minút.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d člen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d členovia</item>
+        <item quantity="many">%d člena</item>
+        <item quantity="other">%d členov</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do rodinnej skupiny nie je možné pozvať viac než %d osobu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do rodinnej skupiny nie je možné pozvať viac než %d osoby.</item>
+        <item quantity="many">Do rodinnej skupiny nie je možné pozvať viac než %d osoby.</item>
+        <item quantity="other">Do rodinnej skupiny nie je možné pozvať viac než %d osôb.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s bude mať čoskoro %2$d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s bude mať čoskoro %2$d roky</item>
+        <item quantity="many">%1$s bude mať čoskoro %2$d roka</item>
+        <item quantity="other">%1$s bude mať čoskoro %2$d rokov</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bola pozvaná %d osoba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Boli pozvané %d osoby</item>
+        <item quantity="many">Bolo pozvanej %d osoby</item>
+        <item quantity="other">Bolo pozvaných %d osôb</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s a %2$d ďalšie číslo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s a %2$d ďalšie čísla</item>
+        <item quantity="many">%1$s a %2$d ďalšieho čísla</item>
+        <item quantity="other">%1$s a %2$d ďalších čísel</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d neskontrolovaná udalosť</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d neskontrolované udalosti</item>
+        <item quantity="many">%d neskontrolovanej udalosti</item>
+        <item quantity="other">%d neskontrolovaných udalostí</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s a %2$d ďalšie konto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s a %2$d ďalšie kontá</item>
+        <item quantity="many">%1$s a %2$d ďalšieho konta</item>
+        <item quantity="other">%1$s a %2$d ďalších kont</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s vás pozýva do svojej rodinnej skupiny. Pripojte sa ťuknutím na prepojenie v správe nižšie. Ak sa pripojíte, vaše meno, e-mailová adresa a identifikátor konta Samsung sa budú zdieľať s ostatnými členmi rodiny. Platnosť pozvania uplynie o %2$d deň.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s vás pozýva do svojej rodinnej skupiny. Pripojte sa ťuknutím na prepojenie v správe nižšie. Ak sa pripojíte, vaše meno, e-mailová adresa a identifikátor konta Samsung sa budú zdieľať s ostatnými členmi rodiny. Platnosť pozvania uplynie o %2$d dni.</item>
+        <item quantity="many">%1$s vás pozýva do svojej rodinnej skupiny. Pripojte sa ťuknutím na prepojenie v správe nižšie. Ak sa pripojíte, vaše meno, e-mailová adresa a identifikátor konta Samsung sa budú zdieľať s ostatnými členmi rodiny. Platnosť pozvania uplynie o %2$d dňa.</item>
+        <item quantity="other">%1$s vás pozýva do svojej rodinnej skupiny. Pripojte sa ťuknutím na prepojenie v správe nižšie. Ak sa pripojíte, vaše meno, e-mailová adresa a identifikátor konta Samsung sa budú zdieľať s ostatnými členmi rodiny. Platnosť pozvania uplynie o %2$d dní.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d návrh</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d návrhy</item>
+        <item quantity="many">%d návrhu</item>
+        <item quantity="other">%d návrhov</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Príliš veľakrát ste zadali nesprávny kód. Počkajte %d minútu a potom to skúste znova.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Príliš veľakrát ste zadali nesprávny kód. Počkajte %d minúty a potom to skúste znova.</item>
+        <item quantity="many">Príliš veľakrát ste zadali nesprávny kód. Počkajte %d minúty a potom to skúste znova.</item>
+        <item quantity="other">Príliš veľakrát ste zadali nesprávny kód. Počkajte %d minút a potom to skúste znova.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Príliš veľakrát ste zadali nesprávny kód. Počkajte %d sekundu a potom to skúste znova.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Príliš veľakrát ste zadali nesprávny kód. Počkajte %d sekundy a potom to skúste znova.</item>
+        <item quantity="many">Príliš veľakrát ste zadali nesprávny kód. Počkajte %d sekundy a potom to skúste znova.</item>
+        <item quantity="other">Príliš veľakrát ste zadali nesprávny kód. Počkajte %d sekúnd a potom to skúste znova.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Doba spánku: %d hodina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Doba spánku: %d hodiny</item>
+        <item quantity="many">Doba spánku: %d hodiny</item>
+        <item quantity="other">Doba spánku: %d hodín</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Doba spánku: %d minúta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Doba spánku: %d minúty</item>
+        <item quantity="many">Doba spánku: %d minúty</item>
+        <item quantity="other">Doba spánku: %d minút</item>
+    </plurals>
+</resources>

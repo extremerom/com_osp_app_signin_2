@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/account_btn_bg_color_light"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:insetTop="3.0dp" android:insetBottom="3.0dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="2.0dp" />
+                <solid android:color="@color/dialog_background" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

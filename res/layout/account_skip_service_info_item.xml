@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/account_skip_service_info_item_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:minHeight="46.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginStart="6.0dp" android:layout_marginEnd="11.0dp" />
+    <TextView android:textSize="@dimen/skip_guide_app_info_text_size" android:textColor="@color/page_title_main_page" android:layout_gravity="center_vertical" android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" style="@style/FontRegular" />
+</LinearLayout>

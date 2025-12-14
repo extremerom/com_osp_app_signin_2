@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout android:orientation="vertical" android:tag="layout/nice_two_item_selectable_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/first_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/BottomSheetTitle" />
+    <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/first_button" android:checked="false" app:layout_constraintBottom_toTopOf="@id/second_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/NiceRadioButtonOnSelectorStyle" />
+    <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/second_button" android:checked="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/first_button" style="@style/NiceRadioButtonOnSelectorStyle" />
+</com.samsung.android.samsungaccount.utils.ui.CommonMarginAuthConstraintLayout>

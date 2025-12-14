@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="144.0dp" android:width="144.0dp" android:viewportWidth="144.0" android:viewportHeight="144.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_samsung_account__0" android:pathData="M127.13,16C113.93,2.7 94.13,0 72,0C49.87,0 30.07,2.7 16.87,16C6.34,26.6 -0,43.93 -0,72C-0,100.07 6.34,117.4 16.87,128C30.08,141.3 49.87,144 72,144C94.13,144 113.92,141.3 127.13,128C137.66,117.4 144,100.07 144,72C144,43.93 137.66,26.6 127.13,16Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffff" android:pathData="M72,28C47.7,28 28,47.7 28,72C28,96.3 47.7,116 72,116C96.3,116 116,96.3 116,72C116,47.7 96.3,28 72,28" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#2149c9" android:pathData="M72,102C81.71,102 90.37,97.31 96,89.99C93.54,78.56 83.73,70 72,70C60.27,70 50.46,78.56 48,89.99C53.63,97.31 62.29,102 72,102" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#000000" android:pathData="M72,102C81.71,102 90.37,97.31 96,89.99C93.54,78.56 83.73,70 72,70C60.27,70 50.46,78.56 48,89.99C53.63,97.31 62.29,102 72,102" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.15" android:fillType="evenOdd" />
+    <path android:fillColor="#79a3ff" android:pathData="M84,54C84,60.63 78.63,66 72,66C65.37,66 60,60.63 60,54C60,47.37 65.37,42 72,42C78.63,42 84,47.37 84,54" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

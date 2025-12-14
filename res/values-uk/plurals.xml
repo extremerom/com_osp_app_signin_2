@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d пристрій</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d пристрої</item>
+        <item quantity="many">%d пристроїв</item>
+        <item quantity="other">%d пристрою</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+        <item quantity="other">%d нового сповіщення</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"На ваш пристрій надіслано забагато кодів перевірки. Для вашого облікового запису заблоковано перевірку за допомогою пристрою Galaxy.
+
+Скористайтеся іншим способом перевірки або спробуйте ще раз за %d хвилину."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">"На ваш пристрій надіслано забагато кодів перевірки. Для вашого облікового запису заблоковано перевірку за допомогою пристрою Galaxy.
+
+Скористайтеся іншим способом перевірки або спробуйте ще раз за %d хвилини."</item>
+        <item quantity="many">"На ваш пристрій надіслано забагато кодів перевірки. Для вашого облікового запису заблоковано перевірку за допомогою пристрою Galaxy.
+
+Скористайтеся іншим способом перевірки або спробуйте ще раз за %d хвилин."</item>
+        <item quantity="other">"На ваш пристрій надіслано забагато кодів перевірки. Для вашого облікового запису заблоковано перевірку за допомогою пристрою Galaxy.
+
+Скористайтеся іншим способом перевірки або спробуйте ще раз за %d хвилини."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s та ще %2$d пристрій</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s та ще %2$d пристрої</item>
+        <item quantity="many">%1$s та ще %2$d пристроїв</item>
+        <item quantity="other">%1$s та ще %2$d пристрою</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо запросити користувача %1$s більше ніж %2$d раз протягом 30 днів.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо запросити користувача %1$s більше ніж %2$d рази протягом 30 днів.</item>
+        <item quantity="many">Неможливо запросити користувача %1$s більше ніж %2$d разів протягом 30 днів.</item>
+        <item quantity="other">Неможливо запросити користувача %1$s більше ніж %2$d раза протягом 30 днів.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Облікові записи дитини можна створювати для користувачів віком до %d року.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Облікові записи дитини можна створювати для користувачів віком до %d років.</item>
+        <item quantity="many">Облікові записи дитини можна створювати для користувачів віком до %d років.</item>
+        <item quantity="other">Облікові записи дитини можна створювати для користувачів віком до %d року.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Використовувати %2$s можуть лише особи, яким виповнилося %1$d рік.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Використовувати %2$s можуть лише особи, яким виповнилося %1$d роки.</item>
+        <item quantity="many">Використовувати %2$s можуть лише особи, яким виповнилося %1$d років.</item>
+        <item quantity="other">Використовувати %2$s можуть лише особи, яким виповнилося %1$d року.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Люди, яким не виповнилося %d, не можуть мати обліковий запис у вашій країні або регіоні.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Люди, яким не виповнилося %d, не можуть мати обліковий запис у вашій країні або регіоні.</item>
+        <item quantity="many">Люди, яким не виповнилося %d, не можуть мати обліковий запис у вашій країні або регіоні.</item>
+        <item quantity="other">Люди, яким не виповнилося %d, не можуть мати обліковий запис у вашій країні або регіоні.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вік: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вік: %d</item>
+        <item quantity="many">Вік: %d</item>
+        <item quantity="other">Вік: %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перед надсиланням запиту має минути не менше %d хвилини.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перед надсиланням запиту має минути не менше %d хвилин.</item>
+        <item quantity="many">Перед надсиланням запиту має минути не менше %d хвилин.</item>
+        <item quantity="other">Перед надсиланням запиту має минути не менше %d хвилини.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо ввести більше %d символу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо ввести більше %d символів.</item>
+        <item quantity="many">Неможливо ввести більше %d символів.</item>
+        <item quantity="other">Неможливо ввести більше %d символу.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Відповідь має містити принаймні %d символ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Відповідь має містити принаймні %d символи.</item>
+        <item quantity="many">Відповідь має містити принаймні %d символів.</item>
+        <item quantity="other">Відповідь має містити принаймні %d символу.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Оскільки вам виповнилося %d, ви можете перейти на звичайну версію Samsung account. Після переходу ви зможете користуватися програмами та пристроями без дозволу батьків, а засоби батьківського контролю стануть неактивними.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Оскільки вам виповнилося %d, ви можете перейти на звичайну версію Samsung account. Після переходу ви зможете користуватися програмами та пристроями без дозволу батьків, а засоби батьківського контролю стануть неактивними.</item>
+        <item quantity="many">Оскільки вам виповнилося %d, ви можете перейти на звичайну версію Samsung account. Після переходу ви зможете користуватися програмами та пристроями без дозволу батьків, а засоби батьківського контролю стануть неактивними.</item>
+        <item quantity="other">Оскільки вам виповнилося %d, ви можете перейти на звичайну версію Samsung account. Після переходу ви зможете користуватися програмами та пристроями без дозволу батьків, а засоби батьківського контролю стануть неактивними.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Мені більше %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Мені більше %d</item>
+        <item quantity="many">Мені більше %d</item>
+        <item quantity="other">Мені більше %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Мені менше %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Мені менше %d</item>
+        <item quantity="many">Мені менше %d</item>
+        <item quantity="other">Мені менше %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ви ввели неіснуючий ідентифікатор забагато разів. Спробуйте знову через %d хвилину.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ви ввели неіснуючий ідентифікатор забагато разів. Спробуйте знову через %d хвилини.</item>
+        <item quantity="many">Ви ввели неіснуючий ідентифікатор забагато разів. Спробуйте знову через %d хвилин.</item>
+        <item quantity="other">Ви ввели неіснуючий ідентифікатор забагато разів. Спробуйте знову через %d хвилини.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d учасник</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d учасники</item>
+        <item quantity="many">%d учасників</item>
+        <item quantity="other">%d учасника</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо запросити до сімейної групи більше %d користувача.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо запросити до сімейної групи більше %d користувачів.</item>
+        <item quantity="many">Неможливо запросити до сімейної групи більше %d користувачів.</item>
+        <item quantity="other">Неможливо запросити до сімейної групи більше %d користувача.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s: скоро виповнюється %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s: скоро виповнюється %2$d</item>
+        <item quantity="many">%1$s: скоро виповнюється %2$d</item>
+        <item quantity="other">%1$s: скоро виповнюється %2$d</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d особу запрошено</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d особи запрошено</item>
+        <item quantity="many">%d осіб запрошено</item>
+        <item quantity="other">%d особи запрошено</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s і ще %2$d номер</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s і ще %2$d номери</item>
+        <item quantity="many">%1$s і ще %2$d номерів</item>
+        <item quantity="other">%1$s і ще %2$d номера</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d нерозглянута подія</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d нерозглянуті події</item>
+        <item quantity="many">%d нерозглянутих подій</item>
+        <item quantity="other">%d нерозглянутої події</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s і ще %2$d обліковий запис</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s і ще %2$d облікових записи</item>
+        <item quantity="many">%1$s і ще %2$d облікових записів</item>
+        <item quantity="other">%1$s і ще %2$d облікового запису</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Користувач %1$s запросив вас до своєї сімейної групи. Торкніться посилання в повідомленні нижче, щоб приєднатися. Після приєднання ваше ім’я, адреса електронної пошти й ідентифікатор Samsung account будуть доступні всім учасникам групи. Термін дії запрошення: %2$d день.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Користувач %1$s запросив вас до своєї сімейної групи. Торкніться посилання в повідомленні нижче, щоб приєднатися. Після приєднання ваше ім’я, адреса електронної пошти й ідентифікатор Samsung account будуть доступні всім учасникам групи. Термін дії запрошення: %2$d дні.</item>
+        <item quantity="many">Користувач %1$s запросив вас до своєї сімейної групи. Торкніться посилання в повідомленні нижче, щоб приєднатися. Після приєднання ваше ім’я, адреса електронної пошти й ідентифікатор Samsung account будуть доступні всім учасникам групи. Термін дії запрошення: %2$d днів.</item>
+        <item quantity="other">Користувач %1$s запросив вас до своєї сімейної групи. Торкніться посилання в повідомленні нижче, щоб приєднатися. Після приєднання ваше ім’я, адреса електронної пошти й ідентифікатор Samsung account будуть доступні всім учасникам групи. Термін дії запрошення: %2$d дня.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рекомендація</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d рекомендації</item>
+        <item quantity="many">%d рекомендацій</item>
+        <item quantity="other">%d рекомендації</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неправильний код уведено забагато разів. Зачекайте %d хвилину та спробуйте ще раз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неправильний код уведено забагато разів. Зачекайте %d хвилини та спробуйте ще раз.</item>
+        <item quantity="many">Неправильний код уведено забагато разів. Зачекайте %d хвилин та спробуйте ще раз.</item>
+        <item quantity="other">Неправильний код уведено забагато разів. Зачекайте %d хвилини та спробуйте ще раз.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неправильний код уведено забагато разів. Зачекайте %d секунду та спробуйте ще раз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неправильний код уведено забагато разів. Зачекайте %d секунди та спробуйте ще раз.</item>
+        <item quantity="many">Неправильний код уведено забагато разів. Зачекайте %d секунд та спробуйте ще раз.</item>
+        <item quantity="other">Неправильний код уведено забагато разів. Зачекайте %d секунди та спробуйте ще раз.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d година</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d години</item>
+        <item quantity="many">Час сну: %d годин</item>
+        <item quantity="other">Час сну: %d години</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d хвилина</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d хвилини</item>
+        <item quantity="many">Час сну: %d хвилин</item>
+        <item quantity="other">Час сну: %d хвилини</item>
+    </plurals>
+</resources>

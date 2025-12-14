@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@mipmap/ic_launcher_round" android:shortcutId="SS-01" android:shortcutShortLabel="@string/sa_finish_setting_up_title" android:shortcutLongLabel="@string/sa_finish_setting_up_summary">
+        <intent android:action="com.samsung.android.samsungaccount.action.OPEN_SASETTINGS" />
+        <extra android:name="buttonType" android:value="GOTO" />
+        <extra android:name="buttonLabel" android:value="@string/sa_sign_in_button" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,45 @@
+.class Lcom/samsung/android/sdk/scloud/network/base/NetworkImpl$5;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/samsung/android/sdk/scloud/network/base/NetworkImpl$ConnectionSetter;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/samsung/android/sdk/scloud/network/base/NetworkImpl;->head(Lcom/samsung/android/sdk/scloud/network/HttpRequest;Lcom/samsung/android/sdk/scloud/network/Network$ErrorListener;Lcom/samsung/android/sdk/scloud/network/Network$StreamListener;Lcom/samsung/android/sdk/scloud/network/Network$TransferListener;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/samsung/android/sdk/scloud/network/base/NetworkImpl;
+
+
+# direct methods
+.method public constructor <init>(Lcom/samsung/android/sdk/scloud/network/base/NetworkImpl;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/samsung/android/sdk/scloud/network/base/NetworkImpl$5;->this$0:Lcom/samsung/android/sdk/scloud/network/base/NetworkImpl;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public setup(Ljava/net/HttpURLConnection;)V
+    .locals 0
+
+    const-string p0, "HEAD"
+
+    invoke-virtual {p1, p0}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+
+    return-void
+.end method

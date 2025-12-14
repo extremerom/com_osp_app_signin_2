@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="200.0dp" android:width="200.0dp" android:viewportWidth="1024.0" android:viewportHeight="1024.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$sesame_icon__0" android:pathData="M176,0L848,0A176,176 0,0 1,1024 176L1024,848A176,176 0,0 1,848 1024L176,1024A176,176 0,0 1,0 848L0,176A176,176 0,0 1,176 0z" />
+    <path android:fillColor="#00000000" android:pathData="M769.2,452.1L370.6,451.7C339.7,451.7 310,464 288.1,485.8C266.3,507.7 254,537.3 254,568.2V798.7C254,807.5 257.5,816 263.8,822.2C270,828.5 278.5,832 287.3,832H652.9C683.9,832 713.5,819.7 735.4,797.9C757.3,776 769.5,746.4 769.5,715.5L770,459.6V423.9C769.8,376.5 755.1,330.4 728,291.6C700.9,252.8 662.6,223.1 618.2,206.6C573.8,190.1 525.5,187.5 479.5,199.2C433.6,210.8 392.4,236.2 361.2,271.8" android:strokeColor="#ffffff" android:strokeWidth="32.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:fillColor="#00000000" android:pathData="M512,692C539.6,692 562,669.6 562,642C562,614.4 539.6,592 512,592C484.4,592 462,614.4 462,642C462,669.6 484.4,692 512,692Z" android:strokeColor="#ffffff" android:strokeWidth="32.0" />
+</vector>

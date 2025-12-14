@@ -1,0 +1,23 @@
+.class public interface abstract Lcom/samsung/android/samsungaccount/authentication/ui/signin/helpmenu/AccountHelpMenuPopUpActivity_GeneratedInjector;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Ldagger/hilt/InstallIn;
+    value = {
+        Ldagger/hilt/android/components/ActivityComponent;
+    }
+.end annotation
+
+.annotation build Ldagger/hilt/codegen/OriginatingElement;
+    topLevelClass = Lcom/samsung/android/samsungaccount/authentication/ui/signin/helpmenu/AccountHelpMenuPopUpActivity;
+.end annotation
+
+.annotation build Ldagger/hilt/internal/GeneratedEntryPoint;
+.end annotation
+
+
+# virtual methods
+.method public abstract injectAccountHelpMenuPopUpActivity(Lcom/samsung/android/samsungaccount/authentication/ui/signin/helpmenu/AccountHelpMenuPopUpActivity;)V
+.end method

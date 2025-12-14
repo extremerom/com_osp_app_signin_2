@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@anim/paging_interpolator" android:showBackdrop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@android:anim/linear_interpolator" android:duration="@integer/paging_alpha_duration" android:startOffset="@integer/paging_alpha_start_offset" android:fromAlpha="0.0" android:toAlpha="1.0" />
+    <translate android:duration="@integer/paging_translate_duration" android:fromXDelta="33.000004%" android:toXDelta="0.0%" />
+</set>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:id="@id/topView" android:tag="layout-sw751dp-land/account_view_layout_suw_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dp">
+        <com.samsung.android.samsungaccount.authentication.ui.qrsignin.QrSignInWidget android:id="@id/tablet_qr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.samsung.android.samsungaccount.authentication.ui.signin.SignInInputWidget android:id="@id/inputWidget" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" app:analytic_back="1008" app:analytic_focus_pw="1202" app:analytic_id_button="1201" app:analytic_input_page="1082" app:analytic_next="1006" app:analytic_page="1081" app:analytic_pwless_signin="1011" app:analytic_qr_signin="1019" app:analytic_reset_pw="1010" app:analytic_show_pw="1203" app:analytic_signin="1007" app:analytic_signin_google="1017" app:analytic_signin_wechat="1018" />
+        <com.samsung.android.samsungaccount.utils.ui.CustomScaleTextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/helpMenuLink" android:layout_marginTop="@dimen/sign_in_help_menu_margin_top" android:text="@string/sa_help_menu_title" app:maxFontLevel="large" style="@style/TextLinkSignIn" />
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

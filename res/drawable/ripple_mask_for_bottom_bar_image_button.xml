@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/ripple_mask_for_bottom_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@android:id/mask">
+        <inset android:insetTop="@dimen/inset_for_bottom_bar" android:insetBottom="@dimen/inset_for_bottom_bar">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/color_black" />
+                <corners android:radius="@dimen/radius_for_bottom_bar" />
+            </shape>
+        </inset>
+    </item>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

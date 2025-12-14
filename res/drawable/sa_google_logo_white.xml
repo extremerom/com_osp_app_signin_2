@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/simple_sign_in_logo_size" android:width="@dimen/simple_sign_in_logo_size">
+        <shape android:shape="oval">
+            <solid android:color="@color/sesl_background_color_light" />
+        </shape>
+    </item>
+    <item android:height="@dimen/simple_sign_in_logo_size" android:width="@dimen/simple_sign_in_logo_size" android:drawable="@drawable/sa_google_logo" />
+</layer-list>

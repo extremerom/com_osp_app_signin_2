@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/dialog_body_text_color" android:id="@id/dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="16.0dp" android:layout_marginHorizontal="@dimen/default_padding_start_end" style="@style/FontRegular" />
+    <ListView android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_items" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:listSelector="@drawable/contained_button_body_area_background" android:divider="@android:color/transparent" android:dividerHeight="16.0dp" android:layout_marginHorizontal="@dimen/default_padding_start_end" />
+</LinearLayout>

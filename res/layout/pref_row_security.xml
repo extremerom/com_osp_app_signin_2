@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ripple_setting_preference" android:paddingTop="14.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_1line_height" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/default_text_color" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" style="@style/TextAppearance.ListItem" />
+        <TextView android:textColor="@color/secondary_text_color" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" style="@style/TextAppearance.ListItemSecondary" />
+    </LinearLayout>
+    <ImageView android:id="@id/security_status_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:antialias="true" />
+</LinearLayout>

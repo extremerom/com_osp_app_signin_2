@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:id="@id/parent_layout" android:tag="layout/tnc_secondary_suw_layout_0" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:layout_marginEnd="?android:listPreferredItemPaddingEnd" style="@style/SetupWizardTheme">
+        <androidx.core.widget.NestedScrollView android:id="@id/tnc_scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/agree_all_area" android:layout_alignParentTop="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tnc_scroll_child" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/content_area" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textAppearance="@style/FontRegular" android:textSize="14.0sp" android:textColor="@color/help_secondary_title_description_color" android:textColorLink="@color/link_text_color" android:id="@id/tnc_title_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:text="@string/sa_tnc_secondary_description_chn" android:textAlignment="center" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/runestone_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <TextView android:textSize="14.0sp" android:textColor="@color/help_secondary_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sa_privacy_customization_service_title" style="@style/FontRegular" />
+                            <TextView android:textSize="12.0sp" android:textColor="@color/help_secondary_description_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sa_tnc_secondary_runestone_description_chn" style="@style/FontRegular" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/runestone_checkbox_list" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                            <include android:id="@id/row_runestone_personal_info" layout="@layout/tnc_secondary_checkbox_row" />
+                            <include android:id="@id/row_runestone_sensitive_info" layout="@layout/tnc_secondary_checkbox_row" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/social_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                            <TextView android:textSize="14.0sp" android:textColor="@color/help_secondary_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sa_tnc_secondary_social_header_chn" style="@style/FontRegular" />
+                            <TextView android:textSize="12.0sp" android:textColor="@color/help_secondary_description_color" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FontRegular" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/social_checkbox_list" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="8.0dp">
+                            <include android:id="@id/row_social_personal_info" layout="@layout/tnc_secondary_checkbox_row" />
+                            <include android:id="@id/row_social_sensitive_info" layout="@layout/tnc_secondary_checkbox_row" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@id/agree_all_area" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:src="@drawable/dotted_line" android:contentDescription="@null" android:layerType="software" />
+            <include android:id="@id/row_agree_all" layout="@layout/tnc_secondary_checkbox_row" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.google.android.setupdesign.GlifLayout>

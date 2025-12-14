@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="account_view_main_title_horizontal_margin">120.0dp</dimen>
+    <dimen name="child_account_common_horizontal_margin">120.0dp</dimen>
+    <dimen name="common_horizontal_padding">120.0dp</dimen>
+    <dimen name="contained_button_max_width_percent">0.6</dimen>
+    <dimen name="onboarding_body_area_width_max">450.0dp</dimen>
+    <dimen name="onboarding_body_area_width_min">415.0dp</dimen>
+    <dimen name="onboarding_body_end_ratio">1.0</dimen>
+    <dimen name="onboarding_body_start_ratio">0.0</dimen>
+    <dimen name="onboarding_start_end_margin">100.0dp</dimen>
+    <dimen name="onboarding_title_bottom_margin_ratio">0.08</dimen>
+    <dimen name="onboarding_title_top_margin_ratio">0.14</dimen>
+    <dimen name="sign_in_title_font">30.0dp</dimen>
+    <dimen name="sign_in_title_font_digital_legacy">34.0dp</dimen>
+    <dimen name="tnc_min_width">360.0dp</dimen>
+    <dimen name="two_button_margin_end">24.0dp</dimen>
+</resources>

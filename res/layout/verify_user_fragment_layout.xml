@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:paddingTop="@dimen/common_description_with_action_bar_margin_top" android:paddingBottom="28.0dp" android:focusable="false" android:layout_marginBottom="20.0dp" android:text="@string/sa_linking_one_time_permission_description" android:paddingStart="@dimen/common_description_spacing" android:paddingEnd="@dimen/common_description_spacing" style="@style/BasicDescription" />
+            <LinearLayout android:orientation="vertical" android:id="@id/roundingArea" android:background="@color/chunk_background" android:paddingTop="20.0dp" android:paddingBottom="25.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="150.0dp" android:paddingStart="@dimen/common_list_start_end_padding" android:paddingEnd="@dimen/common_list_start_end_padding" android:layout_marginHorizontal="@dimen/common_list_spacing">
+                <TextView android:textSize="19.0sp" android:textColor="@color/default_text_color" android:layout_gravity="center" android:id="@id/email_id" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FontRegular" />
+                <Button android:id="@id/get_one_time_permission_button" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" android:text="@string/sa_linking_one_time_permission_button" style="@style/RaisedButton" />
+            </LinearLayout>
+            <TextView android:id="@id/set_password_description" android:paddingTop="12.0dp" android:paddingBottom="8.0dp" android:focusable="false" android:layout_marginTop="14.0dp" android:layout_marginBottom="20.0dp" android:text="@string/sa_linking_set_password_description_with_link" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" style="@style/BasicDescription" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

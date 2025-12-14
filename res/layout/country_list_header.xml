@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0sp" android:textColor="#858585" android:id="@id/tv_head" android:tag="layout/country_list_header_0" android:background="@color/list_background" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:listSeparatorTextViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

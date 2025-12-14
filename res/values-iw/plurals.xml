@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d מכשיר</item>
+        <item quantity="two">%d מכשירים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מכשירים</item>
+        <item quantity="other">%d מכשירים</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d התראות חדשות</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="other">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"נשלחו יותר מדי קודי אימות למכשיר שלך, לכן חסמנו בחשבונך את האפשרות לאימות מכשיר Galaxy.
+
+השתמש בשיטת אימות אחרת או נסה שוב בעוד דקה %d."</item>
+        <item quantity="two">"נשלחו יותר מדי קודי אימות למכשיר שלך, לכן חסמנו בחשבונך את האפשרות לאימות מכשיר Galaxy.
+
+השתמש בשיטת אימות אחרת או נסה שוב בעוד %d דקות."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"נשלחו יותר מדי קודי אימות למכשיר שלך, לכן חסמנו בחשבונך את האפשרות לאימות מכשיר Galaxy.
+
+השתמש בשיטת אימות אחרת או נסה שוב בעוד %d דקות."</item>
+        <item quantity="other">"נשלחו יותר מדי קודי אימות למכשיר שלך, לכן חסמנו בחשבונך את האפשרות לאימות מכשיר Galaxy.
+
+השתמש בשיטת אימות אחרת או נסה שוב בעוד %d דקות."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ו-%2$d נוסף</item>
+        <item quantity="two">%1$s ו-%2$d נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s ו-%2$d נוספים</item>
+        <item quantity="other">%1$s ו-%2$d נוספים</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להזמין את %1$s יותר מפעם %2$d ב-30 יום.</item>
+        <item quantity="two">לא ניתן להזמין את %1$s יותר מ-%2$d פעמים ב-30 יום.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להזמין את %1$s יותר מ-%2$d פעמים ב-30 יום.</item>
+        <item quantity="other">לא ניתן להזמין את %1$s יותר מ-%2$d פעמים ב-30 יום.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן ליצור חשבון לילד רק עבור אנשים מתחת לגיל %d.</item>
+        <item quantity="two">ניתן ליצור חשבון לילד רק עבור אנשים מתחת לגיל %d.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן ליצור חשבון לילד רק עבור אנשים מתחת לגיל %d.</item>
+        <item quantity="other">ניתן ליצור חשבון לילד רק עבור אנשים מתחת לגיל %d.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+        <item quantity="two">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+        <item quantity="other">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אנשים שגילם פחות מ-%d אינם יכולים להחזיק בחשבון במדינה או באזור שלך.</item>
+        <item quantity="two">אנשים שגילם פחות מ-%d אינם יכולים להחזיק בחשבון במדינה או באזור שלך.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">אנשים שגילם פחות מ-%d אינם יכולים להחזיק בחשבון במדינה או באזור שלך.</item>
+        <item quantity="other">אנשים שגילם פחות מ-%d אינם יכולים להחזיק בחשבון במדינה או באזור שלך.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">גיל %d</item>
+        <item quantity="two">גיל %d</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">גיל %d</item>
+        <item quantity="other">גיל %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">המתן במשך דקה אחת (%d) לפני שליחת הבקשה.</item>
+        <item quantity="two">המתן במשך %d דקות לפני שליחת הבקשה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">המתן במשך %d דקות לפני שליחת הבקשה.</item>
+        <item quantity="other">המתן במשך %d דקות לפני שליחת הבקשה.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להזין לכל היותר %d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="other">ניתן להזין לכל היותר %d תווים.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התשובות חייבות להכיל לפחות תו %d.</item>
+        <item quantity="two">התשובות חייבות להכיל לפחות %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">התשובות חייבות להכיל לפחות %d תווים.</item>
+        <item quantity="other">התשובות חייבות להכיל לפחות %d תווים.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כעת, שמלאו לך %d שנים, אתה יכול לעבור ל-Samsung Account רגיל. אם תעשה זאת, תוכל להשתמש בכל היישומים והמכשירים שתרצה ללא אישור מההורים שלך, ובקרות ההורים לא יחולו עוד.</item>
+        <item quantity="two">כעת, שמלאו לך %d שנים, אתה יכול לעבור ל-Samsung Account רגיל. אם תעשה זאת, תוכל להשתמש בכל היישומים והמכשירים שתרצה ללא אישור מההורים שלך, ובקרות ההורים לא יחולו עוד.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כעת, שמלאו לך %d שנים, אתה יכול לעבור ל-Samsung Account רגיל. אם תעשה זאת, תוכל להשתמש בכל היישומים והמכשירים שתרצה ללא אישור מההורים שלך, ובקרות ההורים לא יחולו עוד.</item>
+        <item quantity="other">כעת, שמלאו לך %d שנים, אתה יכול לעבור ל-Samsung Account רגיל. אם תעשה זאת, תוכל להשתמש בכל היישומים והמכשירים שתרצה ללא אישור מההורים שלך, ובקרות ההורים לא יחולו עוד.</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אני מעל גיל %d</item>
+        <item quantity="two">אני מעל גיל %d</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">אני מעל גיל %d</item>
+        <item quantity="other">אני מעל גיל %d</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אני מתחת לגיל %d</item>
+        <item quantity="two">אני מתחת לגיל %d</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">אני מתחת לגיל %d</item>
+        <item quantity="other">אני מתחת לגיל %d</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מזהה לא קיים הוזן יותר מדי פעמים. נסה שוב בעוד דקה %d.</item>
+        <item quantity="two">מזהה לא קיים הוזן יותר מדי פעמים. נסה שוב בעוד %d דקות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">מזהה לא קיים הוזן יותר מדי פעמים. נסה שוב בעוד %d דקות.</item>
+        <item quantity="other">מזהה לא קיים הוזן יותר מדי פעמים. נסה שוב בעוד %d דקות.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חבר %d</item>
+        <item quantity="two">%d חברים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d חברים</item>
+        <item quantity="other">%d חברים</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להזמין יותר מאדם אחד (%d) לקבוצת משפחה.</item>
+        <item quantity="two">לא ניתן להזמין יותר מ-%d אנשים לקבוצת משפחה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להזמין יותר מ-%d אנשים לקבוצת משפחה.</item>
+        <item quantity="other">לא ניתן להזמין יותר מ-%d אנשים לקבוצת משפחה.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s מפעיל את %2$d בקרוב</item>
+        <item quantity="two">%1$s מפעיל את %2$d בקרוב</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s מפעיל את %2$d בקרוב</item>
+        <item quantity="other">%1$s מפעיל את %2$d בקרוב</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אדם %d הוזמן</item>
+        <item quantity="two">%d אנשים הוזמנו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשים הוזמנו</item>
+        <item quantity="other">%d אנשים הוזמנו</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s עוד מספר %2$d נוסף</item>
+        <item quantity="two">%1$s עוד %2$d מספרים נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s עוד %2$d מספרים נוספים</item>
+        <item quantity="other">%1$s עוד %2$d מספרים נוספים</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אירוע %d שלא נבדק</item>
+        <item quantity="two">%d אירועים שלא נבדקו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אירועים שלא נבדקו</item>
+        <item quantity="other">%d אירועים שלא נבדקו</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s וחשבון %2$d אחר</item>
+        <item quantity="two">%1$s ו-%2$d חשבונות אחרים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s ו-%2$d חשבונות אחרים</item>
+        <item quantity="other">%1$s ו-%2$d חשבונות אחרים</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הוזמנת על-ידי %1$s להצטרף לקבוצה המשפחתית של אותו אדם. הקש על הקישור בהודעה הבאה כדי להצטרף. אם תצטרף, השם, הדוא\"ל ומזהה Samsung Account שלך ישותפו עם בני המשפחה האחרים. תוקף ההזמנה יפוג בעוד יום %2$d.</item>
+        <item quantity="two">הוזמנת על-ידי %1$s להצטרף לקבוצה המשפחתית של אותו אדם. הקש על הקישור בהודעה הבאה כדי להצטרף. אם תצטרף, השם, הדוא\"ל ומזהה Samsung Account שלך ישותפו עם בני המשפחה האחרים. תוקף ההזמנה יפוג בעוד %2$d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הוזמנת על-ידי %1$s להצטרף לקבוצה המשפחתית של אותו אדם. הקש על הקישור בהודעה הבאה כדי להצטרף. אם תצטרף, השם, הדוא\"ל ומזהה Samsung Account שלך ישותפו עם בני המשפחה האחרים. תוקף ההזמנה יפוג בעוד %2$d ימים.</item>
+        <item quantity="other">הוזמנת על-ידי %1$s להצטרף לקבוצה המשפחתית של אותו אדם. הקש על הקישור בהודעה הבאה כדי להצטרף. אם תצטרף, השם, הדוא\"ל ומזהה Samsung Account שלך ישותפו עם בני המשפחה האחרים. תוקף ההזמנה יפוג בעוד %2$d ימים.</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הצעה %d</item>
+        <item quantity="two">%d הצעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הצעות</item>
+        <item quantity="other">%d הצעות</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הקוד השגוי הוזן יותר מדי פעמים. המתן דקה %d ונסה שוב.</item>
+        <item quantity="two">הקוד השגוי הוזן יותר מדי פעמים. המתן %d דקות ונסה שוב.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הקוד השגוי הוזן יותר מדי פעמים. המתן %d דקות ונסה שוב.</item>
+        <item quantity="other">הקוד השגוי הוזן יותר מדי פעמים. המתן %d דקות ונסה שוב.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הקוד השגוי הוזן יותר מדי פעמים. המתן שנייה %d ונסה שוב.</item>
+        <item quantity="two">הקוד השגוי הוזן יותר מדי פעמים. המתן %d שניות ונסה שוב.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הקוד השגוי הוזן יותר מדי פעמים. המתן %d שניות ונסה שוב.</item>
+        <item quantity="other">הקוד השגוי הוזן יותר מדי פעמים. המתן %d שניות ונסה שוב.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זמן שינה: שעה %d</item>
+        <item quantity="two">זמן שינה: %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זמן שינה: %d שעות</item>
+        <item quantity="other">זמן שינה: %d שעות</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זמן שינה: דקה %d</item>
+        <item quantity="two">זמן שינה: %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זמן שינה: %d דקות</item>
+        <item quantity="other">זמן שינה: %d דקות</item>
+    </plurals>
+</resources>

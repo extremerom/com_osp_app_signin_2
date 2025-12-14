@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/btn_notice" android:title="@string/sa_opt_notices" />
+    <item android:id="@id/btn_sync" android:title="@string/sa_opt_sync_settings" />
+    <item android:id="@id/btn_help" android:title="@string/sa_body_help" />
+    <item android:id="@id/btn_about" android:title="@string/sa_opt_about_samsung_account" />
+    <item android:icon="@drawable/ic_qr_code_generator" android:id="@id/btn_settings_qr_code" android:visible="false" android:title="@string/sa_create_qr" app:iconTint="@color/action_bar_title_text_color" app:showAsAction="always" />
+    <item android:icon="@drawable/tw_ic_ab_search_mtrl" android:id="@id/btn_settings_search" android:title="@string/sa_body_search" app:iconTint="@color/action_bar_title_text_color" app:showAsAction="always" />
+</menu>

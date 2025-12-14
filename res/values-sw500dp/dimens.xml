@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_height">56.0dp</dimen>
+    <dimen name="common_field_layout_height_1">60.0dp</dimen>
+    <dimen name="confirm_password_email_tv_height">53.0dp</dimen>
+    <dimen name="popup_margin">36.0dp</dimen>
+</resources>

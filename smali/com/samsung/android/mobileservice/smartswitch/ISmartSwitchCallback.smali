@@ -1,0 +1,31 @@
+.class public interface abstract Lcom/samsung/android/mobileservice/smartswitch/ISmartSwitchCallback;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/IInterface;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/samsung/android/mobileservice/smartswitch/ISmartSwitchCallback$_Parcel;,
+        Lcom/samsung/android/mobileservice/smartswitch/ISmartSwitchCallback$Stub;,
+        Lcom/samsung/android/mobileservice/smartswitch/ISmartSwitchCallback$Default;
+    }
+.end annotation
+
+
+# static fields
+.field public static final DESCRIPTOR:Ljava/lang/String; = "com.samsung.android.mobileservice.smartswitch.ISmartSwitchCallback"
+
+
+# virtual methods
+.method public abstract onReceiveAuthTokenResult(ZLandroid/os/Bundle;)V
+.end method
+
+.method public abstract onReceiveCertificateResult(ZLandroid/os/Bundle;)V
+.end method
+
+.method public abstract onReviceSendAuthTokenResult(ZLandroid/os/Bundle;)V
+.end method

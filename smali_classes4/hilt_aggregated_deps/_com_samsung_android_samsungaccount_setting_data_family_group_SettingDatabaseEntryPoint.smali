@@ -1,0 +1,24 @@
+.class public Lhilt_aggregated_deps/_com_samsung_android_samsungaccount_setting_data_family_group_SettingDatabaseEntryPoint;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Ldagger/hilt/processor/internal/aggregateddeps/AggregatedDeps;
+    components = {
+        "dagger.hilt.components.SingletonComponent"
+    }
+    entryPoints = {
+        "com.samsung.android.samsungaccount.setting.data.family.group.SettingDatabaseEntryPoint"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

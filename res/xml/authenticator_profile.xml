@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/sa_body_samsung_account" android:icon="@mipmap/ic_launcher" android:accountType="com.osp.app.signin" android:smallIcon="@mipmap/ic_launcher" android:accountPreferences="@xml/account_preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

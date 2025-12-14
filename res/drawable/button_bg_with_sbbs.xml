@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ripple_softkey" />
+    <item>
+        <inset android:insetLeft="3.0dp" android:insetRight="3.0dp" android:insetTop="6.0dp" android:insetBottom="6.0dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="2.0dp" />
+                <solid android:color="#48ffffff" />
+                <stroke android:width="2.0px" android:color="#4d000000" />
+            </shape>
+        </inset>
+    </item>
+</layer-list>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/sa_security_and_privacy_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/sa_security_and_privacy_security" android:key="Security" android:order="100">
+        <com.samsung.android.samsungaccount.setting.ui.SecurityStatusPreference android:layout="@layout/pref_row_security" android:title="@string/sa_body_password" android:key="Password" android:order="100" />
+        <com.samsung.android.samsungaccount.setting.ui.SecurityStatusPreference android:layout="@layout/pref_row_security" android:title="@string/sa_setting_security_recent_account_activity" android:key="RecentAccountActivity" android:order="200" />
+        <com.samsung.android.samsungaccount.setting.ui.SecurityStatusPreference android:layout="@layout/pref_row_security" android:title="@string/sa_body_two_step_verification" android:key="TwoStepVerification" android:order="300" />
+        <com.samsung.android.samsungaccount.setting.ui.SecurityStatusPreference android:layout="@layout/pref_row_security" android:title="@string/sa_passkey" android:key="Passkey" android:order="310" />
+        <com.samsung.android.samsungaccount.setting.ui.SecurityStatusPreference android:layout="@layout/pref_row_security" android:title="@string/sa_security_and_privacy_account_recovery_methods" android:key="AccountRecoveryMethods" android:order="400" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/sa_main_privacy" android:key="Privacy" android:order="200">
+        <androidx.preference.Preference android:title="@string/sa_tnc_privacy_notice" android:key="PrivacyNotice" android:order="100" />
+        <androidx.preference.Preference android:title="@string/sa_privacy_samsung_privacy_title" android:key="SamsungPrivacyWebSite" android:order="200" />
+        <androidx.preference.Preference android:title="@string/sa_permission_menu_title" android:key="Permissions" android:order="300" />
+        <androidx.preference.Preference android:title="@string/sa_privacy_customization_service_title" android:key="CustomizationService" android:order="400" />
+        <androidx.preference.Preference android:title="@string/sa_digital_legacy" android:key="DigitalLegacy" android:order="410" />
+        <com.samsung.android.samsungaccount.setting.ui.personalinfo.LocationInfoPreference android:layout="@layout/pref_row_with_switch" android:title="@string/sa_setting_location_info" android:key="LocationInformation" android:order="900" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/sa_user_agreements" android:key="UserAgreements" android:order="1000" />
+    <androidx.preference.PreferenceCategory android:title="" android:order="10000" />
+</androidx.preference.PreferenceScreen>

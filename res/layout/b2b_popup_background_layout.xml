@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:tag="layout/b2b_popup_background_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="center" android:id="@id/progress_for_launch" android:background="@drawable/circle_progress_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.AppCompat.Light.ProgressBar.Large" />
+</FrameLayout>

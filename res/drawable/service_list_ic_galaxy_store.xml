@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dp" android:width="36.0dp" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/service_list_icon_color" android:pathData="M23.775,13.202L23.775,13.202C23.775,9.988 21.269,7.31 18.109,7.203C14.731,7.096 12.007,9.774 12.007,12.988L12.007,13.202L8.52,13.202C7.757,13.202 7.103,13.845 7.212,14.702L8.411,25.415C8.629,27.879 10.808,29.7 13.314,29.7L22.686,29.7C25.192,29.7 27.262,27.879 27.589,25.415L28.788,14.702C28.897,13.952 28.243,13.202 27.48,13.202L23.775,13.202ZM21.269,13.202L14.513,13.202L14.513,12.988C14.513,11.167 16.039,9.667 17.891,9.667C19.744,9.667 21.269,11.167 21.269,12.988L21.269,13.202Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

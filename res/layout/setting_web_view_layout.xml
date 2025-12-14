@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/setting_web_view_layout_0" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/web_view" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <LinearLayout android:id="@id/close_button_background" android:background="@color/color_white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/action_bar_height">
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_black" android:gravity="center" android:id="@id/close_button" android:background="@drawable/bottom_bar_ripple_webview_only" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/sa_body_close" style="@style/FontRegular" />
+        </LinearLayout>
+        <include android:id="@id/network_error_layout" android:visibility="gone" layout="@layout/check_network_layout" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/progress_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.AppCompat.Light.ProgressBar.Large" />
+    </LinearLayout>
+</FrameLayout>

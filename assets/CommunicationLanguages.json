@@ -1,0 +1,434 @@
+[
+  {
+    "languageCode3": "ASM",
+    "languageCode2": "AS",
+    "locale": "as-IN",
+    "language": "অসমীয়া"
+  },
+  {
+    "languageCode3": "AZE",
+    "languageCode2": "AZ",
+    "locale": "az-RU",
+    "language": "azərbaycandili"
+  },
+  {
+    "languageCode3": "BUL",
+    "languageCode2": "BG",
+    "locale": "bg-BG",
+    "language": "българскиезик"
+  },
+  {
+    "languageCode3": "BEN",
+    "languageCode2": "BN",
+    "locale": "bn-BD",
+    "language": "বাংলা"
+  },
+  {
+    "languageCode3": "CAT",
+    "languageCode2": "CA",
+    "locale": "ca-AD",
+    "language": "català"
+  },
+  {
+    "languageCode3": "CES",
+    "languageCode2": "CS",
+    "locale": "cs-CZ",
+    "language": "čeština"
+  },
+  {
+    "languageCode3": "DAN",
+    "languageCode2": "DA",
+    "locale": "da-DK",
+    "language": "dansk"
+  },
+  {
+    "languageCode3": "DEU",
+    "languageCode2": "DE",
+    "locale": "de-DE",
+    "language": "Deutsch"
+  },
+  {
+    "languageCode3": "ELL",
+    "languageCode2": "EL",
+    "locale": "el-GR",
+    "language": "ελληνικά"
+  },
+  {
+    "languageCode3": "ENG",
+    "languageCode2": "EN",
+    "locale": "en-US",
+    "language": "English"
+  },
+  {
+    "languageCode3": "SPA",
+    "languageCode2": "ES",
+    "locale": "es-ES",
+    "language": "Español(European)"
+  },
+  {
+    "languageCode3": "EST",
+    "languageCode2": "ET",
+    "locale": "et-EE",
+    "language": "eesti"
+  },
+  {
+    "languageCode3": "EUS",
+    "languageCode2": "EU",
+    "locale": "eu-ES",
+    "language": "euskara"
+  },
+  {
+    "languageCode3": "FAS",
+    "languageCode2": "FA",
+    "locale": "fa-IR",
+    "language": "فارسی"
+  },
+  {
+    "languageCode3": "FIN",
+    "languageCode2": "FI",
+    "locale": "fi-FI",
+    "language": "suomi"
+  },
+  {
+    "languageCode3": "FRA",
+    "languageCode2": "FR",
+    "locale": "fr-FR",
+    "language": "français(European)"
+  },
+  {
+    "languageCode3": "GUJ",
+    "languageCode2": "GU",
+    "locale": "gu-IN",
+    "language": "ગુજરાતી"
+  },
+  {
+    "languageCode3": "GLE",
+    "languageCode2": "GA",
+    "locale": "ga-IE",
+    "language": "Gaeilge"
+  },
+  {
+    "languageCode3": "GLG",
+    "languageCode2": "GL",
+    "locale": "gl-ES",
+    "language": "Galego"
+  },
+  {
+    "languageCode3": "HIN",
+    "languageCode2": "HI",
+    "locale": "hi-IN",
+    "language": "हिन्दी"
+  },
+  {
+    "languageCode3": "HRV",
+    "languageCode2": "HR",
+    "locale": "hr-HR",
+    "language": "Croatian"
+  },
+  {
+    "languageCode3": "HUN",
+    "languageCode2": "HU",
+    "locale": "hu-HU",
+    "language": "Magyar"
+  },
+  {
+    "languageCode3": "HYE",
+    "languageCode2": "HY",
+    "locale": "hy-AM",
+    "language": "Հայերեն"
+  },
+  {
+    "languageCode3": "IND",
+    "languageCode2": "ID",
+    "locale": "id-ID",
+    "language": "BahasaIndonesia"
+  },
+  {
+    "languageCode3": "ISL",
+    "languageCode2": "IS",
+    "locale": "is-IS",
+    "language": "Íslenska"
+  },
+  {
+    "languageCode3": "ITA",
+    "languageCode2": "IT",
+    "locale": "it-IT",
+    "language": "Italiano"
+  },
+  {
+    "languageCode3": "HEB",
+    "languageCode2": "HE",
+    "locale": "he-IL",
+    "language": "עברית"
+  },
+  {
+    "languageCode3": "JPN",
+    "languageCode2": "JA",
+    "locale": "ja-JP",
+    "language": "日本語 (にほんご)"
+  },
+  {
+    "languageCode3": "KAT",
+    "languageCode2": "KA",
+    "locale": "ka-GE",
+    "language": "ქართული"
+  },
+  {
+    "languageCode3": "KAZ",
+    "languageCode2": "KK",
+    "locale": "kk-KZ",
+    "language": "қазақтілі"
+  },
+  {
+    "languageCode3": "KHM",
+    "languageCode2": "KM",
+    "locale": "km-TH",
+    "language": "ខ្មែរ"
+  },
+  {
+    "languageCode3": "KAN",
+    "languageCode2": "KN",
+    "locale": "kn-IN",
+    "language": "ಕನ್ನಡ"
+  },
+  {
+    "languageCode3": "KIR",
+    "languageCode2": "KY",
+    "locale": "ky-AF",
+    "language": "Кыргызча"
+  },
+  {
+    "languageCode3": "LAO",
+    "languageCode2": "LO",
+    "locale": "lo-TH",
+    "language": "ພາສາລາວ"
+  },
+  {
+    "languageCode3": "LIT",
+    "languageCode2": "LT",
+    "locale": "lt-LT",
+    "language": "lietuviųkalba"
+  },
+  {
+    "languageCode3": "LAV",
+    "languageCode2": "LV",
+    "locale": "lv-LV",
+    "language": "LatviešuValoda"
+  },
+  {
+    "languageCode3": "MKD",
+    "languageCode2": "MK",
+    "locale": "mk-MK",
+    "language": "македонскијазик"
+  },
+  {
+    "languageCode3": "MAL",
+    "languageCode2": "ML",
+    "locale": "ml-IN",
+    "language": "മലയാളം"
+  },
+  {
+    "languageCode3": "MON",
+    "languageCode2": "MN",
+    "locale": "mn-MN",
+    "language": "Монголхэл"
+  },
+  {
+    "languageCode3": "MAR",
+    "languageCode2": "MR",
+    "locale": "mr-IN",
+    "language": "मराठी"
+  },
+  {
+    "languageCode3": "MSA",
+    "languageCode2": "MS",
+    "locale": "ms-MY",
+    "language": "BahasaMelayu"
+  },
+  {
+    "languageCode3": "ARA",
+    "languageCode2": "AR",
+    "locale": "ar-AE",
+    "language": "العربية"
+  },
+  {
+    "languageCode3": "MYA",
+    "languageCode2": "MY",
+    "locale": "my-MM",
+    "language": "ဗမာစာ"
+  },
+  {
+    "languageCode3": "NEP",
+    "languageCode2": "NE",
+    "locale": "ne-NP",
+    "language": "नेपाली"
+  },
+  {
+    "languageCode3": "NLD",
+    "languageCode2": "NL",
+    "locale": "nl-NL",
+    "language": "Nederlands"
+  },
+  {
+    "languageCode3": "NOR",
+    "languageCode2": "NO",
+    "locale": "no-NO",
+    "language": "Norsk"
+  },
+  {
+    "languageCode3": "ORI",
+    "languageCode2": "OR",
+    "locale": "or-IN",
+    "language": "ଓଡ଼ିଆ"
+  },
+  {
+    "languageCode3": "PAN",
+    "languageCode2": "PA",
+    "locale": "pa-PK",
+    "language": "ਪੰਜਾਬੀ"
+  },
+  {
+    "languageCode3": "POL",
+    "languageCode2": "PL",
+    "locale": "pl-PL",
+    "language": "Polski"
+  },
+  {
+    "languageCode3": "POR",
+    "languageCode2": "PT",
+    "locale": "pt-PT",
+    "language": "Português(European)"
+  },
+  {
+    "languageCode3": "RON",
+    "languageCode2": "RO",
+    "locale": "ro-RO",
+    "language": "Română"
+  },
+  {
+    "languageCode3": "RUS",
+    "languageCode2": "RU",
+    "locale": "ru-RU",
+    "language": "Русский"
+  },
+  {
+    "languageCode3": "SIN",
+    "languageCode2": "SI",
+    "locale": "si-PK",
+    "language": "සිංහල"
+  },
+  {
+    "languageCode3": "SLK",
+    "languageCode2": "SK",
+    "locale": "sk-SK",
+    "language": "Slovenčina"
+  },
+  {
+    "languageCode3": "SLV",
+    "languageCode2": "SL",
+    "locale": "sl-SI",
+    "language": "SlovenskiJezik"
+  },
+  {
+    "languageCode3": "SQI",
+    "languageCode2": "SQ",
+    "locale": "sq-AL",
+    "language": "Shqip"
+  },
+  {
+    "languageCode3": "SRP",
+    "languageCode2": "SR",
+    "locale": "sr-RS",
+    "language": "српскијезик"
+  },
+  {
+    "languageCode3": "SWE",
+    "languageCode2": "SV",
+    "locale": "sv-SE",
+    "language": "Svenska"
+  },
+  {
+    "languageCode3": "TAM",
+    "languageCode2": "TA",
+    "locale": "ta-IN",
+    "language": "தமிழ்"
+  },
+  {
+    "languageCode3": "TEL",
+    "languageCode2": "TE",
+    "locale": "te-IN",
+    "language": "తెలుగు"
+  },
+  {
+    "languageCode3": "TGK",
+    "languageCode2": "TG",
+    "locale": "tg-TJ",
+    "language": "тоҷикӣ"
+  },
+  {
+    "languageCode3": "THA",
+    "languageCode2": "TH",
+    "locale": "th-TH",
+    "language": "ไทย"
+  },
+  {
+    "languageCode3": "TUK",
+    "languageCode2": "TK",
+    "locale": "tk-TM",
+    "language": "Türkmen"
+  },
+  {
+    "languageCode3": "TGL",
+    "languageCode2": "TL",
+    "locale": "tl-PH",
+    "language": "WikangTagalog"
+  },
+  {
+    "languageCode3": "TUR",
+    "languageCode2": "TR",
+    "locale": "tr-TR",
+    "language": "Türkçe"
+  },
+  {
+    "languageCode3": "UKR",
+    "languageCode2": "UK",
+    "locale": "uk-UA",
+    "language": "Українська"
+  },
+  {
+    "languageCode3": "URD",
+    "languageCode2": "UR",
+    "locale": "ur-PK",
+    "language": "اردو"
+  },
+  {
+    "languageCode3": "UZB",
+    "languageCode2": "UZ",
+    "locale": "uz-UZ",
+    "language": "Oʻzbek"
+  },
+  {
+    "languageCode3": "VIE",
+    "languageCode2": "VI",
+    "locale": "vi-VN",
+    "language": "TiếngViệt"
+  },
+  {
+    "languageCode3": "ZHO",
+    "languageCode2": "ZH",
+    "locale": "zh-CN",
+    "language": "中文(简体)"
+  },
+  {
+    "languageCode3": "KOR",
+    "languageCode2": "KO",
+    "locale": "ko-KR",
+    "language": "한국어"
+  },
+  {
+    "languageCode3": "ZHH",
+    "languageCode2": "ZHT",
+    "locale": "zh-HK",
+    "language": "中文(繁体)"
+  }
+]

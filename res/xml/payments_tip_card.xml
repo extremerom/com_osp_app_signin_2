@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.samsungaccount.setting.ui.main.TipCardPreference android:layout="@layout/preference_setting_tip_card" android:key="PaymentsTipCard" app:action_1_button_text="@string/button_not_now" app:action_2_button_text="@string/sa_add_samsung_care_plus" app:description="@string/sa_setting_payments_tip_description" />
+</androidx.preference.PreferenceScreen>

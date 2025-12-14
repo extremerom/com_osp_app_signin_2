@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:height="@dimen/common_list_icon_size" android:width="@dimen/common_list_icon_size" android:drawable="@drawable/passkey_icon_circle_bg"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <item android:gravity="center" android:height="26.0dp" android:width="26.0dp" android:drawable="@drawable/passkey_icon_image"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</layer-list>

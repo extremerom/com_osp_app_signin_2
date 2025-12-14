@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b2b_two_step_verification_device_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d түзмөк</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d түзмөк</item>
+    </plurals>
+    <plurals name="sa_2factor_push_blocked_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Түзмөгүңүзгө ырастоо коду көп жөнөтүлгөндүктөн, аккаунтуңузда текст билдирүү жана чалуу аркылуу Galaxy түзмөгүн ырастоо бөгөттөлдү.
+
+Башка ырастоо ыкмасын колдонуңуз же %d мүнөттөн кийин кайра аракет кылыңыз."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Түзмөгүңүзгө ырастоо коду көп жөнөтүлгөндүктөн, аккаунтуңузда текст билдирүү жана чалуу аркылуу Galaxy түзмөгүн ырастоо бөгөттөлдү.
+
+Башка ырастоо ыкмасын колдонуңуз же %d мүнөттөн кийин кайра аракет кылыңыз."</item>
+    </plurals>
+    <plurals name="sa_2factor_push_device_more">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s жана башка %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s жана башка %2$d</item>
+    </plurals>
+    <plurals name="sa_cant_invite_more_than_times_in_30_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сиз %1$s 30 күндүн ичинде %2$d жолудан ашык чакыра албайсыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Сиз %1$s 30 күндүн ичинде %2$d жолудан ашык чакыра аласыз.</item>
+    </plurals>
+    <plurals name="sa_check_your_birthdate_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Балдардын аккаунттары %d жашка чейинкилер үчүн гана түзүлүшү мүмкүн.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Балдардын аккаунттары %d жашка чейинкилер үчүн гана түзүлүшү мүмкүн.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_in_limited_form_factor_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s колдонуу үчүн кеминде %1$d жашта болууңуз керек.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s колдонуу үчүн кеминде %1$d жашта болууңуз керек.</item>
+    </plurals>
+    <plurals name="sa_child_account_sign_up_fail_popup_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сиздин өлкөдө же аймакта %d жашка чейинкилер аккаунт түзө алышпайт.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Сиздин өлкөдө же аймакта %d жашка чейинкилер аккаунт түзө алышпайт.</item>
+    </plurals>
+    <plurals name="sa_child_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Жашы: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Жашы: %d</item>
+    </plurals>
+    <plurals name="sa_child_re_agreement_ask_limit">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сурам жөнөтүүдөн мурун %d мүнөт күтө туруңуз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Сурам жөнөтүүдөн мурун %d мүнөт күтө туруңуз.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_max_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тамгадан көп киргизилбеши керек.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d тамгадан көп киргизилбеши керек.</item>
+    </plurals>
+    <plurals name="sa_create_account_security_answer_error_min_characters">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Жооптордо кеминде %d белги болушу керек.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Жооптордо кеминде %d белги болушу керек.</item>
+    </plurals>
+    <plurals name="sa_graduate_child_intro_description_with_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d чыккандан кийин, кадимки Samsung account'уна которула аласыз. Эгер андай болсо, сиз каалаган колдонмолорду жана түзмөктөрдү ата-энеңдин уруксатысыз колдоно аласың жана ата-эненин көзөмөлү мындан ары колдонулбайт."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d чыккандан кийин, кадимки Samsung account'уна которула аласыз. Эгер андай болсо, сиз каалаган колдонмолорду жана түзмөктөрдү ата-энеңдин уруксатысыз колдоно аласың жана ата-эненин көзөмөлү мындан ары колдонулбайт."</item>
+    </plurals>
+    <plurals name="sa_help_menu_over_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Жашым %d жогору</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Жашым %d жогору</item>
+    </plurals>
+    <plurals name="sa_help_menu_under_age">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Жашым %d төмөн</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Жашым %d төмөн</item>
+    </plurals>
+    <plurals name="sa_id_validation_blocked_popup_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Болбогон ID бир нече жолу киргизилди. %d мүнөттөн кийин кайра аракет кылыңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Болбогон ID бир нече жолу киргизилди. %d мүнөттөн кийин кайра аракет кылыңыз.</item>
+    </plurals>
+    <plurals name="sa_members">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мүчө</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d мүчө</item>
+    </plurals>
+    <plurals name="sa_notify_maximum_family_invitation">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Үй-бүлөлүк топко %d ашык адамды чакырууга болбойт.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Үй-бүлөлүк топко %d ашык адамды чакырууга болбойт.</item>
+    </plurals>
+    <plurals name="sa_organizer_thirty_day_advance_notice_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s жакында %2$d жашка чыгат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s жакында %2$d жашка чыгат</item>
+    </plurals>
+    <plurals name="sa_people_invited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d киши чакырылды</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d киши чакырылды</item>
+    </plurals>
+    <plurals name="sa_personal_info_phone_numbers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s жана башка %2$d номер</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s жана башка %2$d номер</item>
+    </plurals>
+    <plurals name="sa_recent_account_activity_unchecked_events">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Белгиленбеген %d иш-чара</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Белгиленбеген %d иш-чара</item>
+    </plurals>
+    <plurals name="sa_registered_linked_accounts">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s жана башка %2$d аккаунт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s жана башка %2$d аккаунт</item>
+    </plurals>
+    <plurals name="sa_sms_invitation_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%1$s сизди үй-бүлөлүк тобуна чакырды. Кошулуу үчүн төмөнкү билдирүүдөгү шилтемени басыңыз. Эгер кошулсаңыз, атыңыз, электрондук почтаңыз жана Samsung account'уңуздун ID'си үй-бүлөнүн башка мүчөлөрү менен бөлүшүлөт. Чакыруунун мөөнөтү %2$d күндөн кийин бүтөт."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%1$s сизди үй-бүлөлүк тобуна чакырды. Кошулуу үчүн төмөнкү билдирүүдөгү шилтемени басыңыз. Эгер кошулсаңыз, атыңыз, электрондук почтаңыз жана Samsung account'уңуздун ID'си үй-бүлөнүн башка мүчөлөрү менен бөлүшүлөт. Чакыруунун мөөнөтү %2$d күндөн кийин бүтөт."</item>
+    </plurals>
+    <plurals name="sa_the_number_of_security_suggestions">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сунуш</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d сунуш</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_min">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Туура эмес код көп жолу киргизилди. %d мүнөт күтүп, кайра аракет кылыңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Туура эмес код көп жолу киргизилди. %d мүнөт күтүп, кайра аракет кылыңыз.</item>
+    </plurals>
+    <plurals name="sa_wrong_code_too_many_times_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Туура эмес код көп жолу киргизилди. %d секунда күтүп, кайра аракет кылыңыз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Туура эмес код көп жолу киргизилди. %d секунда күтүп, кайра аракет кылыңыз.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Уйку убактысы: %d саат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Уйку убактысы: %d саат</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Уйку убактысы: %d мүнөт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Уйку убактысы: %d мүнөт</item>
+    </plurals>
+</resources>

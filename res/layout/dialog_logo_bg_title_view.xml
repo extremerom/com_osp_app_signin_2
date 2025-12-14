@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="24.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.samsungaccount.utils.ui.AppLogoPopupView android:layout_gravity="center" android:paddingBottom="8.0dp" android:layout_width="125.0dp" android:layout_height="wrap_content" android:src="@drawable/txt_logo" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/dialog_title_text_color" android:layout_gravity="start" android:id="@id/custom_title" android:paddingBottom="12.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" style="@style/FontSemiBold" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/optional_consent_divider" android:tag="layout/consent_group_divider_0" android:background="@color/consent_list_divider_color" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_marginBottom="@dimen/consent_group_divider_margin_bottom" android:contentDescription="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

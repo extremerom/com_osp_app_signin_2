@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sa_body_samsung_account" android:key="com.osp.app.signin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <DropDownPreference android:entries="@array/server_list" android:title="Server" android:key="@string/hidden_mode_server_name" android:defaultValue="NONE" android:entryValues="@array/server_list" />
+        <Preference android:title="Mcc" android:key="@string/hidden_mode_mcc" android:summary="NONE" />
+        <DropDownPreference android:entries="@array/country_code_entries" android:title="Country code" android:key="@string/hidden_mode_country_code" android:defaultValue="NONE" android:entryValues="@array/country_code_entryValues" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="TNC">
+        <Preference android:title="Clear consent cache(local, server)" android:key="@string/clear_consent_cache_all" />
+        <Preference android:title="Clear consent cache(local only)" android:key="@string/clear_consent_cache_local_only" />
+        <Preference android:title="Start consent check" android:key="@string/start_consent_check" />
+        <SwitchPreferenceCompat android:title="Show toast if agreement value changed" android:key="@string/agreement_toast_mode" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="Write agreement history" android:key="@string/agreement_history_write_mode" />
+        <Preference android:title="Show agreement history" android:key="@string/show_agreement_history" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Feature" android:key="@string/test_feature_category">
+        <SwitchPreferenceCompat android:title="Family service" android:key="@string/family_service" />
+        <SwitchPreferenceCompat android:title="Invalid SIM test" android:key="@string/invalid_sim_test" android:summary="Phone number: 0000000000000" />
+        <SwitchPreferenceCompat android:title="Dynamic consent" android:key="@string/dynamic_consent_setting" />
+        <SwitchPreferenceCompat android:title="Device list" android:key="@string/device_list" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="ServerTest" android:key="test_server_category">
+        <Preference android:title="Test server" android:key="@string/test_server" />
+        <Preference android:title="Make Signature Info DB" android:key="@string/make_signature_info_db" />
+        <Preference android:title="Make an accessToken downgraded" android:key="@string/downgrade_access_token" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="UI" android:key="@string/test_ui_category">
+        <SwitchPreferenceCompat android:title="Disable secure screen" android:key="@string/disable_secure_screen" android:summary="Only user binary" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="Disable theft protection" android:key="@string/disable_theft_protection" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="Enable B2B feature" android:key="@string/b2b_feature_enabled" android:defaultValue="true" />
+        <Preference android:title="Kill Samsung Account" android:key="@string/kill_process" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Setting Customization" android:key="@string/test_customized_string_for_settings">
+        <EditTextPreference android:title="Model code" android:key="@string/test_model_code" />
+        <EditTextPreference android:title="Target id" android:key="@string/target_id" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

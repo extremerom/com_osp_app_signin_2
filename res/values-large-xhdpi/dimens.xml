@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_popup_width">578.0dp</dimen>
+    <dimen name="common_view_margin">36.0dp</dimen>
+    <dimen name="common_view_padding">36.0dp</dimen>
+</resources>

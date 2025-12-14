@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/nice_with_label_editable_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/edit_field_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/nice_text_field_with_label" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sud_color_on_surface">@android:color/system_on_surface_dark</color>
+    <color name="sud_color_surface_container_highest">@android:color/system_surface_container_highest_dark</color>
+</resources>

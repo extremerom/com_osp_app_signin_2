@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sa_payments_and_benefits" android:key="@string/payment_and_benefits_key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/sa_main_payment" android:key="Payments" android:order="100">
+        <androidx.preference.Preference android:title="@string/sa_main_payment_methods" android:key="PaymentMethod" android:order="101" />
+        <androidx.preference.Preference android:title="@string/sa_main_purchase_history" android:key="PaymentHistory" android:order="102" />
+        <androidx.preference.Preference android:title="@string/sa_main_subscription_history" android:key="SubscriptionHistory" android:order="103" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sa_main_benefits" android:key="Benefits" android:order="200" />
+    <Preference android:title="@string/sa_benefits_membership_benefits" android:key="MembershipBenefits" android:order="300">
+        <intent android:targetPackage="com.osp.app.signin" android:action="com.samsung.android.mobileservice.action.ACTION_WEBVIEW_WITHOUT_PASSWORD" android:targetClass="com.samsung.android.samsungaccount.setting.ui.SettingWebView">
+            <extra android:name="uri" android:value="setting_benefit" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/sa_benefits_samsung_rewards" android:key="SamsungRewards" android:order="400" />
+    <PreferenceCategory android:title="" android:order="10000" />
+</PreferenceScreen>

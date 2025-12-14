@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:tag="layout/search_result_item_0" android:background="@color/chunk_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/place_list_item_text_padding_top_bottom" android:paddingBottom="@dimen/place_list_item_text_padding_top_bottom" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:textColor="@color/default_text_color" android:ellipsize="end" android:id="@id/item_keyword" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/secondary_text_color" android:ellipsize="end" android:id="@id/item_address" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:gravity="bottom" android:tag="binding_4" android:background="@color/list_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/list_divider_height" android:layout_marginStart="@dimen/list_divider_padding" android:layout_marginEnd="@dimen/list_divider_padding" />
+</LinearLayout>

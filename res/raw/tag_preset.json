@@ -1,0 +1,9 @@
+{
+  "com.osp.app.signin.globalsearch.GlobalSearchProvider": [
+    {
+      "com.samsung.android.settings.intelligence.TAG_BACKUP": [
+        "SamsungCloud"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/b2b_open_source_license_layout_0" android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.samsungaccount.authentication.ui.tnc.view.layout.TncScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/description_text_color" android:gravity="start" android:id="@id/open_license_data" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="false" android:paddingHorizontal="24.0dp" android:paddingVertical="@dimen/common_open_text_padding" />
+    </com.samsung.android.samsungaccount.authentication.ui.tnc.view.layout.TncScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

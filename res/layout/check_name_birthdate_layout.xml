@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_view_size" android:textColor="@color/default_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="16.0dp" android:text="@string/sa_enter_your_name_and_date_of_birth" android:layout_marginStart="34.0dp" android:layout_marginEnd="34.0dp" style="@style/FontRegular" />
+        <LinearLayout android:orientation="vertical" android:id="@id/content_layout_for_corner" android:background="@color/chunk_background" android:paddingTop="24.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/signin_layout_common_field_layout_height_1" android:paddingStart="34.0dp" android:paddingEnd="34.0dp">
+                <EditText android:gravity="center_vertical" android:id="@id/etFirstName" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="38.0dp" android:hint="@string/sa_body_first_name" android:maxLength="50" android:inputType="textCapWords" android:privateImeOptions="disableGifKeyboard=true;disableSticker=true;disableLiveMessage=true;" android:textDirection="locale" style="@style/DefaultEditTextStyle" />
+                <requestFocus />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/signin_layout_common_field_layout_height_1" android:paddingStart="34.0dp" android:paddingEnd="34.0dp">
+                <EditText android:gravity="center_vertical" android:id="@id/etLastName" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="38.0dp" android:hint="@string/sa_body_last_name" android:maxLength="50" android:inputType="textCapWords" android:privateImeOptions="disableGifKeyboard=true;disableSticker=true;disableLiveMessage=true;" android:nextFocusForward="@id/etSignUpPassword" android:textDirection="locale" style="@style/DefaultEditTextStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dp" android:minHeight="@dimen/common_field_layout_height_1" android:paddingStart="34.0dp" android:paddingEnd="34.0dp">
+                <Button android:textSize="@dimen/contained_button_list_area_text_size" android:textColor="@color/default_text_color" android:id="@id/birthDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dp" android:minHeight="@dimen/contained_button_list_area_min_height" android:text="@string/sa_body_date_of_birth" style="@style/FontRegular" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <com.samsung.android.samsungaccount.utils.ui.BottomBar android:id="@id/bottom_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:button_number="2" />
+    </LinearLayout>
+</ScrollView>

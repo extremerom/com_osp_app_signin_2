@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/sa_body_samsung_account" android:key="@string/setting_main_key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:order="0" />
+    <com.samsung.android.samsungaccount.setting.ui.SettingMainMenuPreference android:layout="@layout/pref_row_main" android:title="@string/sa_enter_profile_information_header" android:key="PersonalInformation" android:order="100" />
+    <com.samsung.android.samsungaccount.setting.ui.SettingMainMenuPreference android:layout="@layout/pref_row_main" android:title="@string/sa_main_places" android:key="Places" android:order="110" />
+    <com.samsung.android.samsungaccount.setting.ui.SettingMainMenuPreference android:layout="@layout/pref_row_main" android:title="@string/sa_payments_and_benefits" android:key="PaymentsAndBenefits" android:order="200" />
+    <com.samsung.android.samsungaccount.setting.ui.main.SettingFamilyPreference android:layout="@layout/pref_row_family" android:title="@string/sa_family" android:key="Family" android:order="300" />
+    <androidx.preference.PreferenceCategory android:order="400">
+        <com.samsung.android.samsungaccount.setting.ui.main.SettingSecurityPreference android:layout="@layout/pref_row_main_security" android:title="@string/sa_security_and_privacy_title" android:key="SecurityAndPrivacy" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:order="500">
+        <com.samsung.android.samsungaccount.setting.ui.main.SettingDevicePreference android:layout="@layout/pref_row_device" android:title="@string/sa_main_devices" android:key="Devices" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/sa_main_apps_and_features" android:key="AppsAndFeatures" android:order="600" />
+    <com.samsung.android.samsungaccount.setting.ui.IconPreference android:icon="@drawable/ic_samsung_cloud" android:layout="@layout/pref_row_main_with_icon" android:title="@string/sa_header_samsung_cloud" android:key="SamsungCloud" android:order="700" />
+    <com.samsung.android.samsungaccount.setting.ui.IconPreference android:icon="@drawable/ic_intelligence_services" android:layout="@layout/pref_row_main_with_icon" android:title="@string/sa_galaxy_ai" android:key="GalaxyAi" android:order="800" />
+    <androidx.preference.PreferenceCategory android:key="ServiceAppsCategory" android:order="900" />
+    <com.samsung.android.samsungaccount.setting.ui.IconPreference android:icon="@drawable/ic_settings_dashboard_sharing" android:layout="@layout/pref_row_main_with_icon" android:title="@string/sa_main_sharing_with_galaxy_users" android:key="Sharing" android:order="1000" />
+    <com.samsung.android.samsungaccount.setting.ui.IconPreference android:icon="@drawable/ic_samsung_pass" android:layout="@layout/pref_row_main_with_icon" android:title="@string/sa_header_samsung_pass_m_application_name" android:key="SamsungPass" android:order="1100" />
+    <com.samsung.android.samsungaccount.setting.ui.IconPreference android:icon="@drawable/ic_fmm" android:layout="@layout/pref_row_main_with_icon" android:title="@string/sa_body_find_my_mobile" android:key="FindMyMobile" android:order="1200" />
+    <com.samsung.android.samsungaccount.setting.ui.IconPreference android:icon="@drawable/ic_samsung_find" android:layout="@layout/pref_row_main_with_icon" android:title="@string/sa_samsung_find" android:key="SamsungFind" android:order="1300" />
+    <com.samsung.android.samsungaccount.setting.ui.IconPreference android:icon="@drawable/ic_settings_dashboard_samsung_services" android:layout="@layout/pref_row_main_with_icon" android:title="@string/sa_main_samsung_apps_and_services" android:key="SamsungAppsAndServices" android:order="1400" />
+    <androidx.preference.PreferenceCategory android:key="AccountLinkingCategory" android:order="1500" />
+    <com.samsung.android.samsungaccount.setting.ui.IconPreference android:icon="@drawable/ic_settings_dashboard_account_linking" android:layout="@layout/pref_row_main_with_icon" android:title="@string/sa_linked_accounts" android:key="LinkedAccounts" android:order="1600" />
+    <androidx.preference.PreferenceCategory android:title="" android:order="10000" />
+</androidx.preference.PreferenceScreen>

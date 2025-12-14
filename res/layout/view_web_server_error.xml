@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/server_error" android:background="@color/carta_primary_color_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="19.0sp" android:textStyle="bold" android:textColor="@color/carta_default_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dp" android:layout_marginRight="80.0dp" android:text="@string/carta_web_common_server_error" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/carta_default_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="45.5dp" android:layout_marginTop="12.0dp" android:layout_marginRight="45.5dp" android:text="@string/carta_web_common_server_error_details" />
+    </LinearLayout>
+</FrameLayout>

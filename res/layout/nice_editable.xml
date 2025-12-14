@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/nice_editable_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:paddingBottom="0.0dp" app:layout_constraintBottom_toTopOf="@id/edit_field_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/NiceAuthTitleStyle" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/edit_field_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:hintAnimationEnabled="false" app:hintEnabled="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/editable" android:imeOptions="flagNoFullscreen" style="@style/NiceAuthEditTextStyle" />
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

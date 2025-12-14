@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchableItem title="@string/sa_payments_and_benefits">
+    <androidx.preference.PreferenceCategory key="Payments">
+        <Item intentAction="@string/config_samsung_account_payments_and_benefits_action" key="PaymentMethod" screenTitle="@string/sa_body_galaxy_account_galaxy_jpn" targetClass="@string/config_samsung_account_payments_and_benefits_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_main_payment_methods" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory key="Benefits">
+        <Item intentAction="@string/config_samsung_account_payments_and_benefits_action" key="MembershipBenefits" screenTitle="@string/sa_body_galaxy_account_galaxy_jpn" targetClass="@string/config_samsung_account_payments_and_benefits_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_benefits_membership_benefits" />
+        <Item intentAction="@string/config_samsung_account_payments_and_benefits_action" key="SamsungRewards" screenTitle="@string/sa_body_galaxy_account_galaxy_jpn" targetClass="@string/config_samsung_account_payments_and_benefits_class" targetPackage="@string/config_samsung_account_package" title="@string/sa_benefits_samsung_rewards_jpn" />
+    </androidx.preference.PreferenceCategory>
+</SearchableItem>
