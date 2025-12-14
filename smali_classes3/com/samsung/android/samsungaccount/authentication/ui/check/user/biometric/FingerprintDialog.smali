@@ -888,10 +888,13 @@
 
     iput-boolean v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mIsFingerprintCanceled:Z
 
-    iget-object p0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mFingerprintApi:Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;
+    iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mFingerprintApi:Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;
 
-    invoke-virtual {p0}, Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;->cancelAuthentication()V
+    if-eqz v0, :cond_0
 
+    invoke-virtual {v0}, Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;->cancelAuthentication()V
+
+    :cond_0
     const-string p0, "FingerprintDialog"
 
     const-string v0, "===== cancel identify!! ====="
@@ -906,13 +909,24 @@
 
     iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mContext:Landroid/content/Context;
 
+    const-string v1, "FingerprintDialog"
+
+    if-eqz v0, :cond_1
+
+    instance-of v0, v0, Landroid/app/Activity;
+
+    if-nez v0, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mContext:Landroid/content/Context;
+
     check-cast v0, Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v0
-
-    const-string v1, "FingerprintDialog"
 
     if-nez v0, :cond_1
 
@@ -925,6 +939,8 @@
     move-result v0
 
     if-eqz v0, :cond_0
+
+    goto :goto_0
 
     goto :goto_0
 
