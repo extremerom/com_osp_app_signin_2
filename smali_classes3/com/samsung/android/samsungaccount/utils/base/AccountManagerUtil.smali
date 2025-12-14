@@ -988,7 +988,7 @@
 
 # virtual methods
 .method public addSamsungAccount(Ljava/lang/String;Z)Z
-    .locals 5
+    .locals 6
     .param p1    # Ljava/lang/String;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -1028,11 +1028,20 @@
 
     if-lez v4, :cond_2
 
-    const/4 v4, 0x0
+    array-length v4, v2
 
-    aget-object v2, v2, v4
+    add-int/lit8 v4, v4, -0x1
 
-    invoke-virtual {v0, v2}, Landroid/accounts/AccountManager;->removeAccountExplicitly(Landroid/accounts/Account;)Z
+    :goto_1
+    if-ltz v4, :cond_2
+
+    aget-object v5, v2, v4
+
+    invoke-virtual {v0, v5}, Landroid/accounts/AccountManager;->removeAccountExplicitly(Landroid/accounts/Account;)Z
+
+    add-int/lit8 v4, v4, -0x1
+
+    goto :goto_1
 
     :cond_2
     new-instance v2, Landroid/accounts/Account;
