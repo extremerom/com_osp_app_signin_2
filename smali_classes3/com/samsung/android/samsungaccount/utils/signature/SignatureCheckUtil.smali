@@ -524,11 +524,12 @@
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p3}, Lkotlin/collections/ArraysKt;->toList([Ljava/lang/Object;)Ljava/util/List;
+    # Bypass signature check - return matched result
+    sget-object p0, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;->Companion:Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult$Companion;
 
-    move-result-object p3
+    const-string p1, ""
 
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;->runCheckSignatureAsync(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Z)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
+    invoke-virtual {p0, p2, p1}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult$Companion;->matched(Ljava/lang/String;Ljava/lang/String;)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
 
     move-result-object p0
 
@@ -564,13 +565,12 @@
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p3}, Lkotlin/collections/ArraysKt;->toList([Ljava/lang/Object;)Ljava/util/List;
+    # Bypass signature check - return matched result
+    sget-object p0, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;->Companion:Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult$Companion;
 
-    move-result-object p3
+    const-string p1, ""
 
-    const/4 v0, 0x1
-
-    invoke-direct {p0, p1, p2, p3, v0}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureCheckUtil;->runCheckSignatureAsync(Landroid/content/Context;Ljava/lang/String;Ljava/util/List;Z)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
+    invoke-virtual {p0, p2, p1}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult$Companion;->matched(Ljava/lang/String;Ljava/lang/String;)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
 
     move-result-object p0
 

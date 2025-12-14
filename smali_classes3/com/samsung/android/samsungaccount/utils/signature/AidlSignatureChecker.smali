@@ -383,21 +383,8 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/samsung/android/samsungaccount/utils/signature/AidlSignatureChecker;->INSTANCE:Lcom/samsung/android/samsungaccount/utils/signature/AidlSignatureChecker;
-
-    filled-new-array {p2}, [Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {v0, p0, p1, p2}, Lcom/samsung/android/samsungaccount/utils/signature/AidlSignatureChecker;->getSignatureResult(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;)Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Lcom/samsung/android/samsungaccount/utils/signature/SignatureResult;->isMatched()Z
-
-    move-result p0
-
-    xor-int/lit8 p0, p0, 0x1
+    # Bypass app blocking check - always return false (app is not blocked)
+    const/4 p0, 0x0
 
     return p0
 .end method
