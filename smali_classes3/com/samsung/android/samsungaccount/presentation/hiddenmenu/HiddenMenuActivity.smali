@@ -614,6 +614,8 @@
 
     invoke-virtual {p1, p0, v0}, Lcom/samsung/android/samsungaccount/utils/property/TestPropertyFileUtil;->writePropertyFile(Landroid/content/Context;Lcom/samsung/android/samsungaccount/utils/property/TestProperty;)Z
 
+    invoke-static {p0}, Lcom/samsung/android/samsungaccount/utils/property/TestPropertyManager;->readProperty(Landroid/content/Context;)V
+
     invoke-virtual {p0}, Landroid/app/Activity;->finishAffinity()V
 
     const/4 p0, 0x0
