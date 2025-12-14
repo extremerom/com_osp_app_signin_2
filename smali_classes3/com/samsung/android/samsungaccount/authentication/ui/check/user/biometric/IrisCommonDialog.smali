@@ -1247,8 +1247,11 @@
 
     iget-object p0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/IrisCommonDialog;->mFingerprintApi:Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;
 
+    if-eqz p0, :cond_3
+
     invoke-virtual {p0}, Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;->cancelAuthentication()V
 
+    :cond_3
     goto :goto_0
 
     :cond_0
@@ -1286,6 +1289,8 @@
     if-eqz v0, :cond_2
 
     iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/IrisCommonDialog;->mFingerprintApi:Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;
+
+    if-eqz v0, :cond_2
 
     invoke-virtual {v0}, Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;->cancelAuthentication()V
 

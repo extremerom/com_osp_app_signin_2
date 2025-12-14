@@ -882,16 +882,19 @@
 
 # virtual methods
 .method public cancelFingerprintIdentify()V
-    .locals 1
+    .locals 2
 
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mIsFingerprintCanceled:Z
 
-    iget-object p0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mFingerprintApi:Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;
+    iget-object v1, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mFingerprintApi:Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;
 
-    invoke-virtual {p0}, Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;->cancelAuthentication()V
+    if-eqz v1, :cond_0
 
+    invoke-virtual {v1}, Lcom/samsung/android/samsungaccount/authentication/util/biometric/api/FingerprintApi;->cancelAuthentication()V
+
+    :cond_0
     const-string p0, "FingerprintDialog"
 
     const-string v0, "===== cancel identify!! ====="
@@ -906,15 +909,26 @@
 
     iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mContext:Landroid/content/Context;
 
+    const-string v1, "FingerprintDialog"
+
+    if-eqz v0, :cond_5
+
+    instance-of v0, v0, Landroid/app/Activity;
+
+    if-nez v0, :cond_0
+
+    goto :goto_2
+
+    :cond_0
+    iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mContext:Landroid/content/Context;
+
     check-cast v0, Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v0
 
-    const-string v1, "FingerprintDialog"
-
-    if-nez v0, :cond_1
+    if-nez v0, :cond_5
 
     iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mContext:Landroid/content/Context;
 
@@ -924,11 +938,11 @@
 
     move-result v0
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_1
 
-    goto :goto_0
+    goto :goto_2
 
-    :cond_0
+    :cond_1
     invoke-super {p0}, Landroid/app/Dialog;->dismiss()V
 
     const-string v0, "dismiss"
@@ -939,34 +953,73 @@
 
     iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mRefreshHandler:Landroid/os/Handler;
 
+    if-eqz v0, :cond_2
+
     iget-object v1, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mRefreshRunnable:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
+    :cond_2
+    :try_start_0
     iget-object v0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mContext:Landroid/content/Context;
 
+    if-eqz v0, :cond_4
+
+    instance-of v1, v0, Landroid/app/Activity;
+
+    if-nez v1, :cond_3
+
+    goto :goto_0
+
+    :cond_3
     check-cast v0, Landroid/app/Activity;
 
     invoke-virtual {v0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
 
+    if-eqz v0, :cond_4
+
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object v0
+
+    if-eqz v0, :cond_4
 
     invoke-virtual {v0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     move-result-object v0
 
-    iget-object p0, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mOnGlobalLayoutListener:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
+    if-eqz v0, :cond_4
 
-    invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+    iget-object v1, p0, Lcom/samsung/android/samsungaccount/authentication/ui/check/user/biometric/FingerprintDialog;->mOnGlobalLayoutListener:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
 
+    if-eqz v1, :cond_4
+
+    invoke-virtual {v0, v1}, Landroid/view/ViewTreeObserver;->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_1
+
+    :catch_0
+    move-exception v0
+
+    const-string v1, "FingerprintDialog"
+
+    invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, Lcom/samsung/android/samsungaccount/utils/log/SALog;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    :cond_4
+    :goto_0
+    :goto_1
     return-void
 
-    :cond_1
-    :goto_0
+    :cond_5
+    :goto_2
     const-string p0, "dismiss - Activity is Finishing or Destroyed"
 
     invoke-static {v1, p0}, Lcom/samsung/android/samsungaccount/utils/log/SALog;->i(Ljava/lang/String;Ljava/lang/String;)V
