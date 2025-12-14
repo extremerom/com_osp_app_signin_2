@@ -1028,8 +1028,6 @@
 
     if-lez v4, :cond_2
 
-    array-length v4, v2
-
     add-int/lit8 v4, v4, -0x1
 
     :goto_1
